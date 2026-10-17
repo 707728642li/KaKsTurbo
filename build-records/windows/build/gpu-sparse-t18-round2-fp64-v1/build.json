@@ -1,0 +1,21 @@
+{
+  "template_sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8",
+  "source_sha256": "cac233d0a6bf3c355425eb43697db2073692ab6ca0176f9e5da1c87d103430f3",
+  "CSR_sha256": "235089287479e1a9d391972e41d293e572c3627bb7472e64ca77dffc555f5eca",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "schema": "kaksforge.sparse_t18_FP64_build_round2/1",
+  "ptx_sha256": "f7b843091f796e79d65b74941374fec7f9becedd13d6674e4102d0e7e8ca08c6",
+  "precision": "FP64 inputs/output/accumulation",
+  "arithmetic": "Explicit double __fma_rn in ascending retained k; only structural zero primal terms skipped",
+  "undirected_edges": 263,
+  "CSR_entries": 587,
+  "CUDA_context_created_by_compilation": false,
+  "fast_math": false,
+  "dense_gradients_support_masked": false
+}

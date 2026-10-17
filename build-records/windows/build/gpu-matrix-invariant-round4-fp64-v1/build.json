@@ -1,0 +1,38 @@
+{
+  "source_template_sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d",
+  "generated_source_sha256": "1bf033f0b5222bb05bcf017a8e76e85eabbfad03696d0bcae721491c7cea2f27",
+  "original_template_sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb",
+  "reverse_source_sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "schema": "kaksforge.matrix_row_invariant_FP64_build_round4/1",
+  "ptx_sha256": "5169a13b8ae5b41062f5e1b4d435d2a4e28404185e970473e6ae15e7c61039bc",
+  "static_contract": {
+    "passed": true,
+    "numerical_changes": [
+      "width=32 for every row count",
+      "shift=0 and head=0 for every row ordinal"
+    ],
+    "all_other_source_statements_unchanged": true,
+    "original_forward_template_sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb",
+    "new_forward_template_sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d",
+    "existing_reverse_source_sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae",
+    "full_unmasked_mean_rate": true,
+    "all263_edges": true,
+    "FP64": true,
+    "formula_optimizer_bounds_convergence_models_unchanged": true,
+    "partition_or_row_bit_parity_requires_GPU_gate": true
+  },
+  "precision": "FP64; no fastmath or TF32; fmad=false",
+  "reduction": "263 edges fixed row0/x32/vector4 schedule independent of rows and ordinal",
+  "reverse": "Existing fixed-tree MatrixContractRuntime; no changes or masking",
+  "CUDA_context_created_by_compilation": false,
+  "optimizer_or_MA_changed": false,
+  "module_lifetime": "process-owned",
+  "actual_GPU_bitparity_and_HP28_required": true
+}

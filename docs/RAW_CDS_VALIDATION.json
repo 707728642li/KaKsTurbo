@@ -1,0 +1,130 @@
+{
+  "schema": "kaksturbo.raw_cds_tutorial_qualification/1",
+  "PASS": true,
+  "tested_platform": {
+    "os": "Ubuntu 22.04.5 LTS",
+    "architecture": "x86_64",
+    "glibc": "2.35"
+  },
+  "tools": {
+    "python": "3.11.17",
+    "mafft": "7.526",
+    "pal2nal_bioconda": "14.1",
+    "gnu_parallel": "20260722"
+  },
+  "core_version": "1.1.0rc9",
+  "source_script_sha256": "5c4b57b885d209c29ceb6a1a945e36c660d9adbc3d2e2eaa08e988e82c6eb2a8",
+  "unit_tests": 14,
+  "unit_tests_passed": 14,
+  "checks": [
+    {
+      "name": "unit_tests",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "align_parallel",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "align_serial",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "prepare",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "validate",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "fit_cpu",
+      "exit_code": 0,
+      "expected": 0,
+      "PASS": true
+    },
+    {
+      "name": "wrong_peptide",
+      "exit_code": 2,
+      "expected": 2,
+      "PASS": true
+    },
+    {
+      "name": "empty_tool_output",
+      "exit_code": 2,
+      "expected": 2,
+      "PASS": true
+    },
+    {
+      "name": "metadata_rejection",
+      "exit_code": 2,
+      "expected": 2,
+      "PASS": true
+    }
+  ],
+  "directed_requests": 4,
+  "identity_order_and_metadata_preserved": true,
+  "serial_parallel_axt_and_metadata_identical": true,
+  "source_inputs_unchanged": true,
+  "success_work_removed": true,
+  "failed_work_retained": true,
+  "finite_Ka_Ks": 3,
+  "NA_Ka_Ks": 1,
+  "models_per_pair": 14,
+  "precision": "FP64",
+  "quality_summary": {
+    "schema": "kaksturbo.quality_summary/1",
+    "version": "1.1.0rc9",
+    "pairs": {
+      "total": 4,
+      "finite_Ka_Ks": 3,
+      "NA_Ka_Ks": 1,
+      "iteration_capped": 0,
+      "cap_diagnostic_unknown": 0,
+      "boundary": 3,
+      "boundary_diagnostic_unknown": 1
+    },
+    "models": {
+      "total": 56,
+      "finite_endpoint": 42,
+      "unavailable_endpoint": 0,
+      "endpoint_unknown": 14,
+      "coordinate_gate_passed": 42,
+      "coordinate_gate_failed": 0,
+      "coordinate_gate_unknown": 14,
+      "iteration_capped": 0,
+      "cap_unknown": 14,
+      "boundary": 42,
+      "boundary_unknown": 14,
+      "gradient_within_1e_minus_8": 42,
+      "gradient_above_1e_minus_8": 0,
+      "gradient_unknown": 14
+    },
+    "model_count_per_pair": 14,
+    "gradient_threshold": 1e-08,
+    "scope": "Descriptive diagnostics from saved result.tsv and models.jsonl; no fitting performed",
+    "limitations": [
+      "Finite Ka/Ks and a passed coordinate gate do not establish optimizer convergence.",
+      "The projected normalized gradient threshold is 1e-8 at the saved endpoint; missing diagnostics remain unknown.",
+      "A boundary hit or iteration cap is a warning, not proof that the final model-averaged Ka/Ks is wrong.",
+      "This summary does not refit models, establish a global optimum, or test positive selection."
+    ]
+  },
+  "windows_input_checks": 2,
+  "windows_fitting_performed": false,
+  "scientific_code_unchanged": true,
+  "frozen_release_archives_unchanged": true,
+  "benchmark": false,
+  "new_gpu_test": false,
+  "biological_accuracy_test": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "kaksforge.exact_upstream_notice_recovery/1",
+  "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/LICENSE",
+  "expected_sha256": null,
+  "installed": false,
+  "PASS": true,
+  "network_source_changed": false,
+  "final_url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/LICENSE",
+  "sha256": "47a26beb94e3f6b333a3677fc85d546f1fdfd2f0b3686c26d2fb5b10e0134165",
+  "bytes": 3384,
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/torch-2.5.1-LICENSE-v1/LICENSE.txt",
+      "sha256": "47a26beb94e3f6b333a3677fc85d546f1fdfd2f0b3686c26d2fb5b10e0134165",
+      "bytes": 3384
+    }
+  ]
+}

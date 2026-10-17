@@ -1,0 +1,9 @@
+KaKsTurbo CPU/GPU 设备说明
+
+当前下载：Windows 1.1.0rc10；Linux 1.1.0rc9-tutorial1。CPU/GPU 后端和私有 Python 均随便携包提供。完整解压，不要单独移动启动文件。
+CPU：kaksturbo doctor --backend cpu；不需要 NVIDIA 显卡、驱动或 CUDA。可用 --threads 指定线程数，默认值为可用亲和性范围与16的较小值。
+GPU：先运行 nvidia-smi，再运行 kaksturbo doctor --backend gpu --probe-gpu。当前 PTX 要求计算能力>=8.6、驱动CUDA兼容级别>=12.9；无需另装 CUDA Toolkit。显存预检要求至少8 GiB空闲，包含安全余量；实际峰值随工作负载变化。
+缺少设备、驱动不可用、显存不足、设备隐藏或缺少后端时，显式 --backend gpu 返回明确原因和建议，不静默改用CPU。--backend auto 当前选择CPU。每次run使用一块GPU。
+Linux：x86-64、glibc>=2.17。原生Ubuntu22.04 CPU和CentOS7容器CPU小输入已验证；GPU在Ubuntu22.04容器用户空间、Ubuntu24.04 NVIDIA宿主上验证。ABI下限不等于所有发行版/驱动认证；不支持ARM、macOS或musl/Alpine的此款二进制。
+Windows：本地NTFS长路径、空格和中文路径已验证，系统LongPathsEnabled保持0。深层安装使用配套解压器和PowerShell入口，见docs/WINDOWS_PATHS_ZH.md；不用搬动输入或结果，不修改注册表。
+常规终端显示真实进度；--quiet隐藏；--json保留机器输出。doctor不是拟合验收或收敛保证。十四模型、FP64、500迭代上限和原质量阈值不变。

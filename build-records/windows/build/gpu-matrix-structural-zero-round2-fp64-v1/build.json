@@ -1,0 +1,26 @@
+{
+  "source_template_sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb",
+  "generated_source_sha256": "0820d50669f235214211a64b5d31fec9d22318d0924e7aef8b81c683eedcb848",
+  "original_template_sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "torch_reduce_header_sha256": "86078c6f9b9147260c56b97ff870919be08f2533ea1ac849e400074592226856",
+  "schema": "kaksforge.matrix_structural_zero_FP64_build_round2/1",
+  "ptx_sha256": "923a733780b16b172a68aab87c0e9ddfb9a78865c2afff0bbafa77e4f430d308",
+  "precision": "Original FP64 arithmetic and positive exact-zero shortcut; no fastmath/TF32",
+  "shortcut": "Offdiagonal CODE<0 with finite positive time/mr and finite nonnegative pi/positive sqrt; absent pi requires sqrt1",
+  "failure_time0_and_diagonal_fallthrough": "Original arithmetic unchanged, including Inf/NaN/mr0/signedzero/time0",
+  "structure_cells": 587,
+  "structural_offdiagonal_nonedges": 3134,
+  "full_unmasked_mr_unchanged": true,
+  "reverse": "Original MatrixContractRuntime; no adjoint masking",
+  "CUDA_context_created_by_compilation": false,
+  "optimizer_or_MA_changed": false,
+  "module_lifetime": "process-owned",
+  "actual_GPU_bitparity_gate_required": true
+}

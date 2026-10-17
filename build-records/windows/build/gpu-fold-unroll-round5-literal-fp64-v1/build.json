@@ -1,0 +1,70 @@
+{
+  "candidate": "literal",
+  "source_sha256": "8b1f08f9c863e6218f2479c44638922d2d405cc9f07c858ca994303d55b8f401",
+  "runtime_source_sha256": "cca10cc0fbece41002431f47c6ccd9b8b3bebbf8e29237ea48e3626c7a1bcfcc",
+  "original_runtime_source_sha256": "e50f7c786bf5ddcb604ef6a53f7bdf7b0a2fe58fbd2520dcfe58185a582d37ed",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "coefficients": [
+    [
+      0.0,
+      -0.10036558103014462,
+      -0.00802924648241157,
+      -0.00089213849804573,
+      0.0
+    ],
+    [
+      0.0,
+      0.3978497494996451,
+      1.3678377846041172,
+      0.49828962252538267,
+      -0.0006378981945947233
+    ],
+    [
+      -10.967639605296206,
+      1.680158138789062,
+      0.05717798464788655,
+      -0.0069821012248805206,
+      3.349750170860705e-05
+    ],
+    [
+      -0.09043168323908106,
+      -0.06764045190713819,
+      0.06759613017704597,
+      0.029555257042931552,
+      -1.391802575160607e-05
+    ],
+    [
+      0.0,
+      0.0,
+      -0.09233646193671186,
+      -0.016936493900208172,
+      -1.400867981820361e-05
+    ]
+  ],
+  "static_contract": {
+    "PASS": true,
+    "candidate": "literal",
+    "FP64": true,
+    "fast_math": false,
+    "fmad": false,
+    "all_original_25_coefficient_bits_SHA256": "ce5893a36f54bef278ee672548064f2e981943dfcc67e8d9e9bb71c5d740788f",
+    "forward": "Five products and five successive adds to positive0 per row, unchanged ascending term order",
+    "backward": "Four transpose columns, five products/five successive adds each, unchanged ascending row order",
+    "zero_coefficient_products_retained": true,
+    "nonfinite_input_actual_bit_gate_required": true,
+    "model_optimizer_scaling_convergence_orchestrator_unchanged": true,
+    "original_kernel_generated_SHA256": "02965d317feb1c8ce0069d67f73226d92ab76e7e0e23db3bac006ea223c62037"
+  },
+  "schema": "kaksforge.strict_FP64_fold_build_round5/1",
+  "ptx_sha256": "57a3f0a7a967aace9618289015e73ef3523352535c41460074c8d2328c064ab7",
+  "CUDA_context_created": false,
+  "product_original_runtime_identities": {
+    "original_runtime_source_sha256": "3ff943437016efad23219943819bb121034a8a045589938484d834cc0f4325e4"
+  }
+}

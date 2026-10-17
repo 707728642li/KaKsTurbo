@@ -1,0 +1,5 @@
+pair_id	seq1	seq2
+demo_A_to_B	spA_tx1	spB_tx1
+demo_B_to_A	spB_tx1	spA_tx1
+demo_C_to_D	spA_tx2	spB_tx2
+demo_identical	spA_tx1	spA_tx1

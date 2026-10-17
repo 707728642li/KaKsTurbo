@@ -1,0 +1,60 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/openssl-3.5.8-hbb43b14_0.json",
+  "metadata_sha256": "871e77ae5c7e3d14dd4a23d1efb4758e575f91765467d908ff6266af8a4335e2",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-3.5.8-hbb43b14_0.conda",
+  "recorded_full_archive_sha256": "e71760e145c97b16159605ef67fdbf3b970ec4a2c63e7b947bcafd0f7995c657",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-openssl-3.5.8-hbb43b14_0.tar.zst",
+  "info_tar_zst_sha256": "0ac7f2786ed01c2833d5e4a63228ac0c6853be071782370b0c3013d81233a171",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/openssl-3.5.8-hbb43b14_0/info/licenses/LICENSE.txt",
+      "archive_member": "info/licenses/LICENSE.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+      "bytes": 10175
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 9338863,
+      "bytes": 22,
+      "content_range": "bytes 9338863-9338884/9338885",
+      "sha256": "b5745570c4c42e19bdba876a40b621a260d65d697bed8bd8892c507e1c350ea8"
+    },
+    {
+      "start": 9338843,
+      "bytes": 20,
+      "content_range": "bytes 9338843-9338862/9338885",
+      "sha256": "d3ce0bd73064f17bcae296c0196f611ee0178c06046012f45279b84b890d6330"
+    },
+    {
+      "start": 9338639,
+      "bytes": 224,
+      "content_range": "bytes 9338639-9338862/9338885",
+      "sha256": "3368e87bddf084e46c150a13200a800bedaad52d6e3bdf7ade37ec5659b66c77"
+    },
+    {
+      "start": 9318057,
+      "bytes": 30,
+      "content_range": "bytes 9318057-9318086/9338885",
+      "sha256": "867d47ee1ec0a4f1e56e373ce5b20b6dd7b7d22f853ef267aa2cce653add6f24"
+    },
+    {
+      "start": 9318087,
+      "bytes": 37,
+      "content_range": "bytes 9318087-9318123/9338885",
+      "sha256": "205b5da7347e0fc7e6ddbf48049467139029bc17cc7e90abf1e4859a0ecce1b2"
+    },
+    {
+      "start": 9318144,
+      "bytes": 20495,
+      "content_range": "bytes 9318144-9338638/9338885",
+      "sha256": "0ac7f2786ed01c2833d5e4a63228ac0c6853be071782370b0c3013d81233a171"
+    }
+  ],
+  "archive_bytes": 9338885
+}

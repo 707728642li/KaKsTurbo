@@ -1,0 +1,66 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "src/kaksforge/_engine_root/third-party/mkl-2023.1.0-h6a75c08_48682.json",
+  "metadata_sha256": "5c4d492c08f9d5ba44cbbbe48fe9cce5c2c1151a9f8f6b9c981089fe440cbdba",
+  "recorded_url": "https://conda.anaconda.org/conda-forge/win-64/mkl-2023.1.0-h6a75c08_48682.conda",
+  "recorded_full_archive_sha256": "4475f772520087890e49006cab030083e69a21534d2ea48ebf2f33f94636886e",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-mkl-2023.1.0-h6a75c08_48682.tar.zst",
+  "info_tar_zst_sha256": "91a3866030d5db893d582f28fbd26145825175108f35c887f3c7a18c51fe4feb",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/mkl-2023.1.0-h6a75c08_48682/info/recipe/parent/ANACONDA_LICENSE",
+      "archive_member": "info/recipe/parent/ANACONDA_LICENSE",
+      "sha256": "80450ab3550e46dfee5c99a67507b24989e77b8249344f40b1878b54d2b8c604",
+      "bytes": 1609
+    },
+    {
+      "path": "software/product-v1-licenses/mkl-2023.1.0-h6a75c08_48682/info/recipe/parent/recipe-scripts-license.txt",
+      "archive_member": "info/recipe/parent/recipe-scripts-license.txt",
+      "sha256": "933c7e2f7471d8c90e6aee877c0838fc01b19dd55e362e2e2ec367b74caeb97f",
+      "bytes": 1568
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 143887962,
+      "bytes": 22,
+      "content_range": "bytes 143887962-143887983/143887984",
+      "sha256": "748c517ace14d117aa78f9b1b7544a5aa8597233879e2634062b814ffeb03127"
+    },
+    {
+      "start": 143887942,
+      "bytes": 20,
+      "content_range": "bytes 143887942-143887961/143887984",
+      "sha256": "7107d4e326e971184631a386f6bc14d1d741805b177a30e0f9cf3ed8ae314188"
+    },
+    {
+      "start": 143887732,
+      "bytes": 230,
+      "content_range": "bytes 143887732-143887961/143887984",
+      "sha256": "1c0cc66f031ae297ab8945e219259cf6f41fb0cac04f07f8af18a5526aa7ac27"
+    },
+    {
+      "start": 143877438,
+      "bytes": 30,
+      "content_range": "bytes 143877438-143877467/143887984",
+      "sha256": "5ebe58dfc3dc90410110f644bca118b25e91032b9ec3cf80546acaa29f55ff7f"
+    },
+    {
+      "start": 143877468,
+      "bytes": 40,
+      "content_range": "bytes 143877468-143877507/143887984",
+      "sha256": "20c948553b418b84975089315661dac776eac4fe7c745a3a69c898679028088f"
+    },
+    {
+      "start": 143877508,
+      "bytes": 10224,
+      "content_range": "bytes 143877508-143887731/143887984",
+      "sha256": "91a3866030d5db893d582f28fbd26145825175108f35c887f3c7a18c51fe4feb"
+    }
+  ],
+  "archive_bytes": 143887984
+}

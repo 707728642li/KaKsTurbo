@@ -1,0 +1,66 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/sqlite-3.53.4-hee5a0db_0.json",
+  "metadata_sha256": "19027ec4b3aa6714df05e7eebd422839147abe289eaabf7b4306f1c8ce3953b2",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.53.4-hee5a0db_0.conda",
+  "recorded_full_archive_sha256": "8adb7b42e99594567e5789c33813b90cc7669183d6760836150ce8a23a7d3813",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-sqlite-3.53.4-hee5a0db_0.tar.zst",
+  "info_tar_zst_sha256": "2b84c38371bc410a2ea6d92e5a8fc09c57ab5fbbba8898e03db43afce5d6e307",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/sqlite-3.53.4-hee5a0db_0/info/licenses/LICENSE.md",
+      "archive_member": "info/licenses/LICENSE.md",
+      "sha256": "c6e0d0f8df7ed01f16fcb3e196094904145f3605e2b42796a23c4e056117bffa",
+      "bytes": 269
+    },
+    {
+      "path": "software/product-v1-licenses/sqlite-3.53.4-hee5a0db_0/info/recipe/LICENSE.md",
+      "archive_member": "info/recipe/LICENSE.md",
+      "sha256": "c6e0d0f8df7ed01f16fcb3e196094904145f3605e2b42796a23c4e056117bffa",
+      "bytes": 269
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 968825,
+      "bytes": 22,
+      "content_range": "bytes 968825-968846/968847",
+      "sha256": "b47e3443ae3a17bbdc13acd22a4443a2e3993081de39cd451003e9baf987be04"
+    },
+    {
+      "start": 968805,
+      "bytes": 20,
+      "content_range": "bytes 968805-968824/968847",
+      "sha256": "57862e3639932834f7f3846fdcf1c8460cafc22db595aacc1ab17bc05e28ffa8"
+    },
+    {
+      "start": 968601,
+      "bytes": 224,
+      "content_range": "bytes 968601-968824/968847",
+      "sha256": "eb903c2b0b9eeca1bcd3118cab1664e7311d6c077fc60fb502705c97cad83612"
+    },
+    {
+      "start": 961935,
+      "bytes": 30,
+      "content_range": "bytes 961935-961964/968847",
+      "sha256": "520eea4cb26295eb9dc9c6cf053d0e46e43829fabcbe4685fba3996f4f33b9d2"
+    },
+    {
+      "start": 961965,
+      "bytes": 37,
+      "content_range": "bytes 961965-962001/968847",
+      "sha256": "43283e0854b8f45f03ff84207914b3969f63ae31c162e6f44dec518cce03ad65"
+    },
+    {
+      "start": 962022,
+      "bytes": 6579,
+      "content_range": "bytes 962022-968600/968847",
+      "sha256": "2b84c38371bc410a2ea6d92e5a8fc09c57ab5fbbba8898e03db43afce5d6e307"
+    }
+  ],
+  "archive_bytes": 968847
+}

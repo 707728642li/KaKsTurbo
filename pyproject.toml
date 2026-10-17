@@ -1,0 +1,25 @@
+[build-system]
+requires = []
+build-backend = "release_backend"
+backend-path = ["scripts"]
+
+[project]
+name = "kaksturbo"
+version = "1.1.0rc10"
+description = "CPU and GPU codon model averaging with explicit numerical diagnostics"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "licenses/**/*"]
+maintainers = [{name = "Taishan Li", email = "litaishan@caf.ac.cn"}]
+dependencies = []
+keywords = ["KaKs", "codon", "model-averaging", "comparative-genomics"]
+classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Bio-Informatics"]
+
+[project.scripts]
+kaksturbo = "kaksturbo.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/707728642li/KaKsTurbo"
+Source = "https://github.com/707728642li/KaKsTurbo"
+Issues = "https://github.com/707728642li/KaKsTurbo/issues"

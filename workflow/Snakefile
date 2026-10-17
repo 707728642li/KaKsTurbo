@@ -1,0 +1,10 @@
+# Minimal optional wrapper; not an executed workflow qualification.
+rule all:
+    input: "results/result.tsv", "results/quality_summary.json"
+
+rule kaks:
+    input: "pairs.axt"
+    output: "results/result.tsv", "results/quality_summary.json"
+    threads: 2
+    shell:
+        "kaksturbo run --input {input:q} --output results --backend cpu --threads {threads}"

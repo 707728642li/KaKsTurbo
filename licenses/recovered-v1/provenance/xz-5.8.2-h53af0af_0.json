@@ -1,0 +1,14 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/xz-5.8.2-h53af0af_0.json",
+  "metadata_sha256": "f8b7b26ccec430af096bae3b486b60510dcfaf68d8c74849220a5ae5d52a22b0",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.8.2-h53af0af_0.conda",
+  "recorded_full_archive_sha256": "e09005f52c41234213bd52ebd07092d945855b6d631dd709dcf35dbc71a15c63",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": false,
+  "error_type": "URLError",
+  "message": "<urlopen error [WinError 10060] \u7531\u4e8e\u8fde\u63a5\u65b9\u5728\u4e00\u6bb5\u65f6\u95f4\u540e\u6ca1\u6709\u6b63\u786e\u7b54\u590d\u6216\u8fde\u63a5\u7684\u4e3b\u673a\u6ca1\u6709\u53cd\u5e94\uff0c\u8fde\u63a5\u5c1d\u8bd5\u5931\u8d25\u3002>",
+  "network_source_changed": false
+}

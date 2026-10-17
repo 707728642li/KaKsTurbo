@@ -1,0 +1,24 @@
+{
+  "source_sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9",
+  "NVRTC_input_sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9",
+  "original_source_sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "ptx_sha256": "87804a69a784ad8ad8603ef1842c9d6ce818dbfb00f819268fb668e214c2bb9a",
+  "precision": "All FP64 input/output/accumulation; no fast-math/TF32",
+  "arithmetic": "Original explicit __fma_rn and k0..63 serial accumulation/zero padding unchanged",
+  "load_layout": "8 specialized16/32 NN/NT/TN/TT entrypoints; each lower-stride dimension coalesced",
+  "shared_padding": {
+    "A_K_stride": 17,
+    "B_column_stride": "TILE+1"
+  },
+  "CUDA_context_created_by_compilation": false,
+  "CUDA_module_lifetime": "process-owned",
+  "optimizer_or_MA_changed": false,
+  "precision_change": false
+}

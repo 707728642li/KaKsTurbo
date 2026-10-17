@@ -1,0 +1,48 @@
+{
+  "schema": "kaksforge.windows_portable_build/1",
+  "compiler": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\bin\\g++.exe",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-BD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib\\",
+    "-LD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib",
+    "-shared"
+  ],
+  "compiler_version": "g++.exe (conda-forge gcc 16.2.0-4) 16.2.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "compiler_sha256": "c98f31d0c92f96194b588d8505549aa4654e374751387d880f5265e831449978",
+  "source_sha256": {
+    "batched_optimizer.cpp": "8717e2fc8a0a16af2f804fb878b967052096de089810d50fb08d6830eab552fc",
+    "batched_optimizer.h": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616",
+    "gradient_optimizer.h": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305",
+    "variant.json": "eeb0efed3e10ac1498f510548510b10d90c98072a82abb5cdb0a8196dbfe4fda"
+  },
+  "compilation_source": "compiled_source_snapshot/batched_optimizer.cpp",
+  "dll": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\product-v1-windows-optimizer\\kaks_optimizer.dll",
+  "dll_sha256": "6b381812b950fa90d6bbcba6f7d4504ea6a22b59fb5517a71041cccecc0e1a69",
+  "policy": "bounded-log-BFGS-relative-curvature-stagnation-v3-analytic-gradient-v1",
+  "base_build": "batched-optimizer-stagnation-v3",
+  "base_dll_sha256": "fb9d715c59f558093e91a029ba6562b08e9810775b83b556f87ab6d42e1a4628",
+  "experimental_gradient_contract": "raw F plus raw-F gradient with respect to log(raw x)",
+  "CUDA_execution": false,
+  "original_source_modified": false,
+  "built_at": "2026-10-11T03:15:35.7474917+09:00",
+  "source_build": "gradient-optimizer-stagnation-v4b",
+  "source_build_sha256": "db7c67e7464a8d417a85a197b3e20d1fdbebd5106ad432391e149418065c1a0a",
+  "compiled_translation_units": [
+    "batched_optimizer.cpp"
+  ],
+  "target": "Windows x86-64 baseline; runtime-dispatched MKL",
+  "source_bytes_unchanged": true,
+  "numerically_validated": false,
+  "build_script_sha256": "3cabb4a0f4a49dd763cb6a035b78e1ee6f0ad4624b47dd08e91bf01da2617d39",
+  "returncode": 0,
+  "build_seconds": 1.1878731999313459
+}

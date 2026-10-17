@@ -1,0 +1,72 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/python-3.11.16-hb00fc5c_0.json",
+  "metadata_sha256": "f2e91b3a61f93f5d3bc4594afad4e557d5797f45323a9a26261527eb951e173e",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.11.16-hb00fc5c_0.conda",
+  "recorded_full_archive_sha256": "f557680c1e03860d16a9342ff47eda8b1ed2fea57a8f7eb433d165b435d3069b",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-python-3.11.16-hb00fc5c_0.tar.zst",
+  "info_tar_zst_sha256": "f0f9642d038d94daaa80bfebb69beef89d0ccf79a608ac86da46656bec947e29",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/python-3.11.16-hb00fc5c_0/info/licenses/LICENSE",
+      "archive_member": "info/licenses/LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "bytes": 13936
+    },
+    {
+      "path": "software/product-v1-licenses/python-3.11.16-hb00fc5c_0/info/recipe/parent/LICENSE.txt",
+      "archive_member": "info/recipe/parent/LICENSE.txt",
+      "sha256": "c52691f010a91c8ef71062f01d62dcef465fd14bd5ff8b47155cee2480c1d844",
+      "bytes": 1521
+    },
+    {
+      "path": "software/product-v1-licenses/python-3.11.16-hb00fc5c_0/info/recipe/parent/recipe-license.txt",
+      "archive_member": "info/recipe/parent/recipe-license.txt",
+      "sha256": "0bcf182b7a5092db13f9205c421e26c33650f673046fdf1d9c36d8a868740381",
+      "bytes": 1712
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 17735360,
+      "bytes": 22,
+      "content_range": "bytes 17735360-17735381/17735382",
+      "sha256": "696e3921da4cda07644715180232997f3c0cda1ef9704b5c9221c4ccf2a10766"
+    },
+    {
+      "start": 17735340,
+      "bytes": 20,
+      "content_range": "bytes 17735340-17735359/17735382",
+      "sha256": "f228dfc7da700a507a17059301a222b5a11036581cf2722cc08bd77eac11bd00"
+    },
+    {
+      "start": 17735134,
+      "bytes": 226,
+      "content_range": "bytes 17735134-17735359/17735382",
+      "sha256": "2205ca75efa4134542e9230f0732efa3f7b757797bf7e1d50092c5c68adf23d4"
+    },
+    {
+      "start": 17562867,
+      "bytes": 30,
+      "content_range": "bytes 17562867-17562896/17735382",
+      "sha256": "0305f0e818222d34b7c617cac819dbe01eba21ecd3059f93b2a526784baceea9"
+    },
+    {
+      "start": 17562897,
+      "bytes": 38,
+      "content_range": "bytes 17562897-17562934/17735382",
+      "sha256": "a814f28754b75df1897cfcc9d19d59095f5ab09f80981b72b6b8215875bc890b"
+    },
+    {
+      "start": 17562955,
+      "bytes": 172179,
+      "content_range": "bytes 17562955-17735133/17735382",
+      "sha256": "f0f9642d038d94daaa80bfebb69beef89d0ccf79a608ac86da46656bec947e29"
+    }
+  ],
+  "archive_bytes": 17735382
+}

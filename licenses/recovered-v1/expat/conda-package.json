@@ -1,0 +1,51 @@
+{
+  "name": "libexpat",
+  "version": "2.8.1",
+  "build": "hac47afa_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libexpat-2.8.1-hac47afa_0.conda",
+  "md5": "23eb9474a16d4b9f6f27429989e82002",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libexpat-2.8.1-hac47afa_0.conda",
+  "sha256": "a65e518c20d1482182bc0f1f6dd5d992f25ca44c3b32307be39ae8310db8f060",
+  "arch": "x86_64",
+  "platform": "win32",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [
+    "expat 2.8.1.*"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1779278786150,
+  "size": 71280,
+  "requested_spec": "conda-forge/win-64::libexpat==2.8.1=hac47afa_0",
+  "package_tarball_full_path": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\tools\\nar-offline-env-v1\\pkgs\\libexpat-2.8.1-hac47afa_0",
+  "extracted_package_dir": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\tools\\nar-offline-env-v1\\pkgs\\libexpat-2.8.1-hac47afa_0",
+  "files": [
+    "Library/bin/libexpat.dll"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/libexpat.dll",
+        "path_type": "hardlink",
+        "sha256": "c3d538e602f508b7e3cc76e1be4ff65c6ef9c6aa94283ef074ae7f2449db188a",
+        "size_in_bytes": 266752,
+        "sha256_in_prefix": "c3d538e602f508b7e3cc76e1be4ff65c6ef9c6aa94283ef074ae7f2449db188a"
+      }
+    ]
+  },
+  "link": {
+    "source": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\tools\\nar-offline-env-v1\\pkgs\\libexpat-2.8.1-hac47afa_0",
+    "type": 3
+  },
+  "requested_specs": [
+    "conda-forge/win-64::libexpat==2.8.1=hac47afa_0"
+  ]
+}

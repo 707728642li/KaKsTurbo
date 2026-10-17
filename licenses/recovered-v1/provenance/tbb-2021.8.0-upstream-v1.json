@@ -1,0 +1,31 @@
+{
+  "schema": "kaksforge.exact_upstream_notice_recovery/1",
+  "url": "https://github.com/oneapi-src/oneTBB/archive/v2021.8.0.tar.gz",
+  "expected_sha256": "eee380323bb7ce864355ed9431f85c43955faaae9e9bce35c62b372d7ffd9f8b",
+  "installed": false,
+  "PASS": true,
+  "network_source_changed": false,
+  "final_url": "https://codeload.github.com/uxlfoundation/oneTBB/tar.gz/refs/tags/v2021.8.0",
+  "sha256": "eee380323bb7ce864355ed9431f85c43955faaae9e9bce35c62b372d7ffd9f8b",
+  "bytes": 2575336,
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/tbb-2021.8.0-upstream-v1/oneTBB-2021.8.0/LICENSE.txt",
+      "member": "oneTBB-2021.8.0/LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "software/product-v1-licenses/tbb-2021.8.0-upstream-v1/oneTBB-2021.8.0/doc/main/intro/notices_and_disclaimers.rst",
+      "member": "oneTBB-2021.8.0/doc/main/intro/notices_and_disclaimers.rst",
+      "sha256": "cbc31d023acca2e30a8e9e53cb452600e8974b4cce2c0d1231994110285a7dcb",
+      "bytes": 1795
+    },
+    {
+      "path": "software/product-v1-licenses/tbb-2021.8.0-upstream-v1/oneTBB-2021.8.0/third-party-programs.txt",
+      "member": "oneTBB-2021.8.0/third-party-programs.txt",
+      "sha256": "12dde7e20fd8439d0b17ad2eb33a5aeb2442f7f4f1ea52692a2401e75bb513ca",
+      "bytes": 46979
+    }
+  ]
+}

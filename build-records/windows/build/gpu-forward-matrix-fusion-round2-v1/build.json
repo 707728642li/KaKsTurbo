@@ -1,0 +1,20 @@
+{
+  "source_template_sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13",
+  "generated_source_sha256": "58e8f7875bf9f8bf3f6056e9994e6606bba8c10e82a855a5be148dd9622c5f35",
+  "ptx_sha256": "767a8f97675ec7cb2fb27beda421e753d197ba349601f845f488b865182cf77f",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "torch_reduce_header_sha256": "86078c6f9b9147260c56b97ff870919be08f2533ea1ac849e400074592226856",
+  "precision": "All FP64; no fast-math or TF32",
+  "edge_count": 263,
+  "CUDA_context_created_by_compilation": false,
+  "optimizer_or_MA_changed": false,
+  "forward_changed": true,
+  "forward_bitwise_parity_claimed": false,
+  "module_lifetime": "process-owned",
+  "reduction_schedule": "Contiguous Torch61 q-row warp; Torch263 vector4/head/tail, x32 rows>=16 elsex64; bitwise gate still required"
+}

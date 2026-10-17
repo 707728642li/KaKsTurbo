@@ -1,0 +1,108 @@
+KaKsTurbo — Windows 1.1.0rc10 / Linux 1.1.0rc9-tutorial1
+
+当前唯一开发源码：src/kaksturbo；版本来源：src/kaksturbo/_version.py。
+本源码快照对应 Windows rc10；Linux 保留单独验收的 rc9-tutorial1 包。项目根 rc6 入口不是本次下载。
+离线发行入口：Windows 解压目录的 kaksturbo.exe；Linux 解压目录的 ./kaksturbo。
+Python API 和 CLI 来自同一套源码。构建脚本读取同一版本号，不再独立硬编码版本。
+Windows rc10 已修复长路径 IO/启动；Linux rc9-tutorial1 保持原样，均未上传。Linux CPU 原生 Ubuntu 22.04
+已验证；GPU 已验证范围和设备条件见 docs/LINUX_COMPATIBILITY.md。
+计算引擎沿用已验证的 1.1.0rc4+schur.1，版本区别是有意的接口/引擎分层。
+14 模型、FP64、MA、遗传密码表 1、边界、主迭代预算和质量检查策略不变。
+
+输入与准备
+输入必须已经按密码子对齐。本工具不执行 CDS 比对、同源识别或自动推断配对。
+支持 KaKs 三行 AXT，或者 FASTA + 显式 pairs.tsv；支持现有 gzip 输入。
+下面命令在 Windows rc10 离线解压目录的 PowerShell 中执行；Linux 将入口替换为 ./kaksturbo：
+
+  .\kaksturbo.exe --version
+  .\kaksturbo.exe doctor --backend cpu --json
+  .\kaksturbo.exe examples --output examples
+  .\kaksturbo.exe prepare --input examples/aligned.fasta --pairs examples/pairs.tsv --output prepared
+  .\kaksturbo.exe validate --input prepared --output input_qc
+  .\kaksturbo.exe run --input prepared --output cpu_run --backend cpu --threads 16
+
+prepared 目录和其中 pairs.axt 均会自动校验 preparation.json 中的文件哈希，
+并读取 pairs.metadata.jsonl。输出的 seq1_id/seq2_id 保留原 FASTA ID。
+单独搬出 AXT 时，可用 --metadata FILE 显式关联元数据；Python 对应
+RunConfig(input_metadata='FILE')。每条元数据都必须匹配原序号、pair_id 和
+有向序列指纹，多行、少行、乱序、内容不符都会失败，不会用于拟合。
+没有 sidecar 的普通 AXT 不猜测序列 ID，seq1_id/seq2_id 仍为 null。
+
+运行、诊断与进度
+auto 后端目前选择 CPU；稳健 GPU 须显式 --backend gpu。
+历史复现模式为 --mode reproduce --backend cpu。
+GPU 运行前检查 nvidia-smi，选择有显存余量的单卡，例如 --device cuda:1。
+doctor --backend gpu 若 GPU 不可用则 PASS=false、退出码 4；CPU 检查不要求 GPU。
+doctor 只检查资源与引擎完整性，不代表完成数值拟合或正确性验证。
+默认无网页。进度在 stderr 显示已提交对数、吞吐、耗时、ETA 和汇总阶段。
+--quiet 隐藏进度；--json 输出单个 JSON，保持机器输出可解析。
+
+断点恢复
+  .\kaksturbo.exe resume cpu_run
+  .\kaksturbo.exe resume cpu_run --max-seconds 1200
+  .\kaksturbo.exe resume cpu_run --input D:/moved/pairs.axt --metadata D:/moved/pairs.metadata.jsonl
+
+max-seconds 是单块的运行超时，只能增大；不是拟合迭代数或收敛阈值。
+搬迁输入或 sidecar 时必须逐字节一致；FASTA 配对表搬迁用 --pairs。
+恢复前会校验原引擎、公共代码、输入、预处理文件和所有完成块；验收全部通过后
+才记录新的路径/超时及历史事件。完成块不会重新计算。
+未显式指定的路径保持原样；--input 在 resume 中指文件，不指 prepared 目录。
+不要手改检查点。科学配置、模式、线程配置和模型标准仍不能改变。
+已完成任务的 resume 只核验并返回已有结果，不改写其配置或超时。
+旧版本的未完成任务必须用其原冻结程序恢复，当前版本不跨版本接管旧检查点。
+
+标准结果与质量解释
+保留原有 9 个标准文件：result.tsv、results.jsonl、native_result.tsv、
+native_results.jsonl、models.tsv、models.jsonl、pair_statistics.jsonl、qc.tsv、
+data_dictionary.json。增加 quality_summary.json 与 quality_summary.txt，纳入
+最终结果哈希。run_manifest.json 和 CLI --json 同时包含质量汇总。
+TSV 数值缺失为 NA；JSON 为 null；绝不按零处理。
+
+汇总统计包括：有限/NA 的最终 Ka/Ks，含封顶/触边模型的基因对数，全部模型槽数，
+保存端点可用性、有限坐标检查、封顶、触边，以及保存点投影梯度 <=1e-8、>1e-8
+和缺失诊断数。数量的分母明确分为 gene pairs 与 model fits，不混用。
+result18 不具备完整 18 字段时端点可用性记未知，非有限完整端点记不可用。
+复现模式或历史记录未提供的诊断记未知，不伪造为零或通过。
+有限结果、quality_passed 或优化器 success 都不等于严格收敛或全局最优。
+封顶/触边提示需要结合 MA 权重与敏感性分析，不直接断言最终 Ka/Ks 错误。
+Ka/Ks > 1 本身不是显著正选择检验。本次汇总只读取保存结果，不重新拟合。
+
+Python
+  from kaksturbo import RunConfig, fit_file, resume, summarize_quality
+  from kaksturbo.progress import TerminalProgress
+  with TerminalProgress() as progress:
+      result = fit_file('prepared', 'api_run', RunConfig(backend='cpu'), progress=progress)
+  result = resume('api_run', max_seconds=1200)
+  summary = summarize_quality('api_run')  # 只读，不写入原结果
+
+用离线包 runtime/python.exe -I -B your_script.py 执行，可直接导入以上 API。
+项目开发中通过 src 导入；不要将旧 overlay 或冻结包路径混入新源码的搜索路径。
+summarize_quality 可只读检查旧版标准输出，要求完整 14 模型顺序；不替代原文件校验。
+
+安装与验证范围
+Windows ZIP / Linux TAR.GZ 均需完整解压后使用，不要只移动单个可执行文件。
+请使用新目录保留旧版本；下载 SHA256 与包内 FILES.sha256.json 可用于完整性核对。
+Windows rc10 自动处理长输入/输出路径、空格和中文路径，无需修改系统长路径开关。深层安装和安全解压入口见 docs/WINDOWS_PATHS_ZH.md；科学引擎与旧 rc9 相同。 wheel 需要兼容的运行环境；独立离线包已带
+所需解释器与运行依赖，普通用户优先使用离线包。
+接口发行的验收范围是接口测试、保存结果回放和包完整性/启动验证；科学 benchmark
+使用单独标明的冻结引擎与前端。新增汇总会有输出阶段开销，不能沿用旧耗时当新接口性能。
+
+命名迁移：当前正式名称为 KaKsTurbo，旧名 KaKsForge。计算引擎、14 模型、FP64 和原阈值均不变。旧实验仍使用原文件名和冻结版本；旧检查点必须使用对应原版本恢复，不进行原地转换。新结果 schema 使用 kaksturbo 前缀，旧的准备输入和只读状态可识别。
+
+
+1.1.0rc9 update: optional export
+
+Completed standard results can be exported without fitting:
+  kaksturbo export completed_run --format kaks-calculator --output new_export
+The canonical result.tsv/results.jsonl remain unchanged. Missing statistics use NA with cell-level reasons. This is 22-column layout compatibility, not estimator equality. Full mappings, limits and reader examples: docs/COMPATIBLE_EXPORT.txt and docs/COMPATIBLE_EXPORT_ZH.txt. The Windows rc7 / Linux rc8 validation above is inherited only for byte-identical engines and runtimes; new rc9 export/installed-CLI checks are recorded separately in the new release QUALIFICATION.json. No upload.
+
+
+原始 CDS / PEP 入门与批量比对（Linux 为主）
+中英文教程：docs/RAW_CDS_TUTORIAL_ZH.md、docs/RAW_CDS_TUTORIAL.md。
+配套脚本：scripts/prepare_cds_pairs.py；示例：examples/raw_cds_demo/。
+先提供明确的同源基因配对与匹配的 CDS/PEP，再进行 MAFFT 蛋白比对、PAL2NAL
+密码子回译，最后调用本工具 prepare / validate / run。该外部准备脚本不推断同源性，
+不改变估计方法。可用 GNU parallel 批量并发；错误配对明确报告、不悄悄删除。
+rc9-tutorial1 Windows/Linux 便携包已包含教程、批量脚本和原始示例；程序仍为 rc9。
+从包根目录的 QUICKSTART_ZH.md 开始。原 rc9 下载归档保持原样并单独保留。
+实测范围与证据摘要：docs/RAW_CDS_VALIDATION.md。

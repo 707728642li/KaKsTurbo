@@ -1,0 +1,10 @@
+# Optional Linux preparation tools; separate from the KaKsTurbo runtime.
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - mafft=7.526
+  - pal2nal=14.1
+  - parallel

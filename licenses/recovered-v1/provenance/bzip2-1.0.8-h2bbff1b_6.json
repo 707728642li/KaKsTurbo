@@ -1,0 +1,53 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/bzip2-1.0.8-h2bbff1b_6.json",
+  "metadata_sha256": "c364f9e15c3d7408133ab209e5314066ec1feaefd0cf02c6ed04aaf959ab51c5",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/bzip2-1.0.8-h2bbff1b_6.conda",
+  "recorded_full_archive_sha256": "4e30c9bfd4501555b0859c863e95ea044290babf3bf190b9d4fb38b06cf15c3c",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": false,
+  "info_member": "info-bzip2-1.0.8-h2bbff1b_6.tar.zst",
+  "info_tar_zst_sha256": "11dba4f9f5815466cb14ecb5600c15a6173bf20c1385552857bbbcd0d30d7612",
+  "extracted": [],
+  "requested_ranges": [
+    {
+      "start": 91848,
+      "bytes": 22,
+      "content_range": "bytes 91848-91869/91870",
+      "sha256": "c518d7c9566886ccee573ff14638a0d7ca45145e37bc3979ce6627c053498780"
+    },
+    {
+      "start": 91828,
+      "bytes": 20,
+      "content_range": "bytes 91828-91847/91870",
+      "sha256": "8305545e55a51e19c1ce9364322bebf8e93758592b0be6faa454677025971764"
+    },
+    {
+      "start": 91628,
+      "bytes": 220,
+      "content_range": "bytes 91628-91847/91870",
+      "sha256": "6ba96ade87f02e9c1e14ca5f12e3bbd29ac7436292a6a985857332ae61bb5de4"
+    },
+    {
+      "start": 82784,
+      "bytes": 30,
+      "content_range": "bytes 82784-82813/91870",
+      "sha256": "91254d131bd109fa03bfc470dac7327b262ca01b2e575974ee6de8b9c7c1a777"
+    },
+    {
+      "start": 82814,
+      "bytes": 35,
+      "content_range": "bytes 82814-82848/91870",
+      "sha256": "62e6e4d794ec354e3412279f1196a8d11d26e3970e7c3c879a434e1069716fe5"
+    },
+    {
+      "start": 82849,
+      "bytes": 8779,
+      "content_range": "bytes 82849-91627/91870",
+      "sha256": "11dba4f9f5815466cb14ecb5600c15a6173bf20c1385552857bbbcd0d30d7612"
+    }
+  ],
+  "archive_bytes": 91870
+}

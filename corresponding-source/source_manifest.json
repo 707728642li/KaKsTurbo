@@ -1,0 +1,2152 @@
+[
+  {
+    "path": "corresponding-source/windows/build/batched-optimizer-v1-reviewed/compiled_source_snapshot/batched_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "19bc399302f22fe6c924e91bd718d8eb79e0665692830778dac3bfeada9ff98b"
+  },
+  {
+    "path": "corresponding-source/windows/build/batched-optimizer-v1-reviewed/compiled_source_snapshot/batched_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/cpu_backend.cpp",
+    "source_engine": "windows",
+    "sha256": "8f984ed9028a886bcc2f10bfe4f47b4276e3c76954739b3105f78a51a1796846"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/cpu_backend.h",
+    "source_engine": "windows",
+    "sha256": "ccae82f4573c5d5209f337ec81a288c8efe33c218c14da3c8e4acc730d651a89"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/cpu_backend.hpp",
+    "source_engine": "windows",
+    "sha256": "d21e15ab74dae63f128ffee165bda2d069115bca738abdf6fd2cfddadea37c9c"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "windows",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/shared_core.h",
+    "source_engine": "windows",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-backend-v1-reviewed/compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "windows",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-gradient-v2/compiled_source_snapshot/cpu_gradient.cpp",
+    "source_engine": "windows",
+    "sha256": "21cd431d9bee8029a78b993fe1f9a5b61c19ee5f27ff549b34933541bcfdfde6"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-gradient-v2/compiled_source_snapshot/cpu_gradient.h",
+    "source_engine": "windows",
+    "sha256": "6d029c52fa9389ebb68ed21f2dbef058fdf6965d84e919ff32d0ebdd424ab8de"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-gradient-v2/compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "windows",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-gradient-v2/compiled_source_snapshot/shared_core.h",
+    "source_engine": "windows",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-gradient-v2/compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "windows",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/AXTConvertor.cpp",
+    "source_engine": "windows",
+    "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.cpp",
+    "source_engine": "windows",
+    "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.h",
+    "source_engine": "windows",
+    "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/ConcatenatePairs.cpp",
+    "source_engine": "windows",
+    "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/GY94.cpp",
+    "source_engine": "windows",
+    "sha256": "96258d73dd3eb4891ba3a1f89acf49dc3e080eb11962d548d7489eb92efa8adc"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/GY94.h",
+    "source_engine": "windows",
+    "sha256": "4aaa5503f9fa128a4a6544bc0d42aaab88275115a8937133fc22b29ec9ad4437"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/KaKs.cpp",
+    "source_engine": "windows",
+    "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/KaKs.h",
+    "source_engine": "windows",
+    "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/KaKs_Calculator.cpp",
+    "source_engine": "windows",
+    "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/LPB93.cpp",
+    "source_engine": "windows",
+    "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/LPB93.h",
+    "source_engine": "windows",
+    "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/LWL85.cpp",
+    "source_engine": "windows",
+    "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/LWL85.h",
+    "source_engine": "windows",
+    "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/MSMA.cpp",
+    "source_engine": "windows",
+    "sha256": "5858a5d212a63960b8df305cf02d206b6136b08ae99117320bf91aad56b26a64"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/MSMA.h",
+    "source_engine": "windows",
+    "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/MYN.cpp",
+    "source_engine": "windows",
+    "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/MYN.h",
+    "source_engine": "windows",
+    "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/NG86.cpp",
+    "source_engine": "windows",
+    "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/NG86.h",
+    "source_engine": "windows",
+    "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/YN00.cpp",
+    "source_engine": "windows",
+    "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+  },
+  {
+    "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/YN00.h",
+    "source_engine": "windows",
+    "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+  },
+  {
+    "path": "corresponding-source/windows/build/driver-staging-round3-v1/compiled_source_snapshot/request_staging.cpp",
+    "source_engine": "windows",
+    "sha256": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-fold-unroll-round5-literal-fp64-v1/t18_fold.cu",
+    "source_engine": "windows",
+    "sha256": "8b1f08f9c863e6218f2479c44638922d2d405cc9f07c858ca994303d55b8f401"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-fold-unroll-round5-literal-fp64-v1/t18_fold.ptx",
+    "source_engine": "windows",
+    "sha256": "57a3f0a7a967aace9618289015e73ef3523352535c41460074c8d2328c064ab7"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-fold-unroll-round5-pragma-fp64-v1/t18_fold.cu",
+    "source_engine": "windows",
+    "sha256": "4c52ad99abd9472cbf786e817beced8797d626cf7eb9f4c91bed99f085275267"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-fold-unroll-round5-pragma-fp64-v1/t18_fold.ptx",
+    "source_engine": "windows",
+    "sha256": "a7208867674f59750ac9dd8eef26ebdad474bc2ba12b710999387f75ad27d23d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-forward-matrix-fusion-round2-v1/matrix_forward.cu",
+    "source_engine": "windows",
+    "sha256": "7d78332470432e79006042e9206b15f419f5e4b04cf90cd58d4aa67b461ec856"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-forward-matrix-fusion-round2-v1/matrix_forward.ptx",
+    "source_engine": "windows",
+    "sha256": "767a8f97675ec7cb2fb27beda421e753d197ba349601f845f488b865182cf77f"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-forward-matrix-fusion-round2-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-coalesced-round2-fp64-v1/gemm_coalesced.cu",
+    "source_engine": "windows",
+    "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-coalesced-round2-fp64-v1/gemm_coalesced.ptx",
+    "source_engine": "windows",
+    "sha256": "87804a69a784ad8ad8603ef1842c9d6ce818dbfb00f819268fb668e214c2bb9a"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-coalesced-round2-fp64-v1/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round2-fp64-v1/gemm.cu",
+    "source_engine": "windows",
+    "sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round2-fp64-v1/gemm.ptx",
+    "source_engine": "windows",
+    "sha256": "6c787e4d054a1e0df270a94136ec0110a5ac6786c268e7a21a919cc462451c77"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-register-fp64-v1/gemm_register.ptx",
+    "source_engine": "windows",
+    "sha256": "62bc83e2a00e9d1683349353d9b114e531a553e7ecdebbeb751fe77170153bc1"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-register-fp64-v1/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-register-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-warp-fp64-v1/gemm_register.ptx",
+    "source_engine": "windows",
+    "sha256": "a73858eae03979304dfb0c37933c806012edcc052942271b6b8e510fa2705361"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-warp-fp64-v1/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-gemm-round5-warp-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-contract-round2-v1/matrix_contract.cu",
+    "source_engine": "windows",
+    "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-contract-round2-v1/matrix_contract.ptx",
+    "source_engine": "windows",
+    "sha256": "b6f90b444fcdd9c9522490a99f7e01c8a3a1a98055c5900099710bddafd1723d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-invariant-round4-fp64-v1/matrix_invariant.cu",
+    "source_engine": "windows",
+    "sha256": "1bf033f0b5222bb05bcf017a8e76e85eabbfad03696d0bcae721491c7cea2f27"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-invariant-round4-fp64-v1/matrix_invariant.ptx",
+    "source_engine": "windows",
+    "sha256": "5169a13b8ae5b41062f5e1b4d435d2a4e28404185e970473e6ae15e7c61039bc"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-invariant-round4-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-structural-zero-round2-fp64-v1/matrix_structural.cu",
+    "source_engine": "windows",
+    "sha256": "0820d50669f235214211a64b5d31fec9d22318d0924e7aef8b81c683eedcb848"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-structural-zero-round2-fp64-v1/matrix_structural.ptx",
+    "source_engine": "windows",
+    "sha256": "923a733780b16b172a68aab87c0e9ddfb9a78865c2afff0bbafa77e4f430d308"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-matrix-structural-zero-round2-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-intscale-t18-round2-fp64-v1/native_t18_intscale.cu",
+    "source_engine": "windows",
+    "sha256": "6a9b09c3d2d989ab3f60105dd6e087aeab4a30d6e239f3b5717eb3decc5dcf15"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-intscale-t18-round2-fp64-v1/native_t18_intscale.ptx",
+    "source_engine": "windows",
+    "sha256": "2814bafb5b4eb5a1e8f36b056b0bc3c2fa0bf9cfd4bda5e32cdb9e9496301c4e"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-intscale-t18-round2-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-objective-round2-fp64-v1/native_objective.cu",
+    "source_engine": "windows",
+    "sha256": "6b1d00f23d15395814bd3b94a6d402693a89889131c04d0deeda49c8ec68f699"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-objective-round2-fp64-v1/native_objective.ptx",
+    "source_engine": "windows",
+    "sha256": "8b72ec07afa83ee1a3bbfc763250760be5c0e6d65eecf0550f2c7858f6be2be4"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-t18-round2-fp64-v1/native_t18.cu",
+    "source_engine": "windows",
+    "sha256": "469b31b46ac8e1647f7a003f106cf1495d5c064091a8c6da2ec6eda31901f290"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-t18-round2-fp64-v1/native_t18.ptx",
+    "source_engine": "windows",
+    "sha256": "5ca95c1b8dc6e4e8ca57d2ca5473a170e827bfde5cc7f39671c5dd4a72c97663"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-native-t18-round2-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-fp64-v1/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-fp64-v1/observed_adjoint.ptx",
+    "source_engine": "windows",
+    "sha256": "7ca3d56384e0b253e929fb3553743c486bb9e5bc44240c2b39f4d761ac310026"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-shared-fp64-v2/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-shared-fp64-v2/observed_adjoint_shared.ptx",
+    "source_engine": "windows",
+    "sha256": "2f7fc01ee52dcfeebd1103833437f61463cbe4ea9419bf753d1cb64bad6a76bf"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-adjoint-round6-shared-fp64-v2/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-output-round6-fp64-v3/nvrtc_input.cu",
+    "source_engine": "windows",
+    "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-output-round6-fp64-v3/observed_output.ptx",
+    "source_engine": "windows",
+    "sha256": "982589982d05f8150c960d5c3d1ebdc061ed4786d0ea7ccd9b1a6635a6c890e3"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-observed-output-round6-fp64-v3/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-selected-final-vjp-round6-fp64-v1/original_matrix_contract.cu",
+    "source_engine": "windows",
+    "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-selected-final-vjp-round6-fp64-v1/selected_final_vjp.cu",
+    "source_engine": "windows",
+    "sha256": "c17f9912fa59b1bf174e690e46a8c5136dfbdb77a82a97bba0b491034e698620"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-selected-final-vjp-round6-fp64-v1/selected_final_vjp.ptx",
+    "source_engine": "windows",
+    "sha256": "51687b1a145272a8128c533fd05d3977070d0a6539211e8ed6285deda6bc7655"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-selected-final-vjp-round6-fp64-v1/source_template.cu",
+    "source_engine": "windows",
+    "sha256": "548825c8e1f8c775c57f4039b9549890429f93c6b30dd9eadb9875155ab63384"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18.cu",
+    "source_engine": "windows",
+    "sha256": "cac233d0a6bf3c355425eb43697db2073692ab6ca0176f9e5da1c87d103430f3"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18.ptx",
+    "source_engine": "windows",
+    "sha256": "f7b843091f796e79d65b74941374fec7f9becedd13d6674e4102d0e7e8ca08c6"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18_template.cu",
+    "source_engine": "windows",
+    "sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-t18-fusion-round2-v1/t18_fold.cu",
+    "source_engine": "windows",
+    "sha256": "d80915c0699a1c0c6055b3ae25b9989716cf00b90edeecdc78d019da3d6b0aac"
+  },
+  {
+    "path": "corresponding-source/windows/build/gpu-t18-fusion-round2-v1/t18_fold.ptx",
+    "source_engine": "windows",
+    "sha256": "a7208867674f59750ac9dd8eef26ebdad474bc2ba12b710999387f75ad27d23d"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-active-free-v1/compiled_source_snapshot/batched_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "a30fbe4afdf8bbac3d951915456381499444f5b0a614da7150370b042a3a8d8f"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-active-free-v1/compiled_source_snapshot/batched_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-active-free-v1/compiled_source_snapshot/gradient_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-stagnation-v4b/compiled_source_snapshot/batched_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "8717e2fc8a0a16af2f804fb878b967052096de089810d50fb08d6830eab552fc"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-stagnation-v4b/compiled_source_snapshot/batched_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-stagnation-v4b/compiled_source_snapshot/gradient_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/AXTConvertor.cpp",
+    "source_engine": "windows",
+    "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/base.cpp",
+    "source_engine": "windows",
+    "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/base.h",
+    "source_engine": "windows",
+    "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/ConcatenatePairs.cpp",
+    "source_engine": "windows",
+    "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/GY94.cpp",
+    "source_engine": "windows",
+    "sha256": "4267c6704e7bd852e1e9b60a0855d26275206ea267f1174114a3a61141451f5b"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/GY94.h",
+    "source_engine": "windows",
+    "sha256": "9afdc1bfa6f7a8c14930541ef4a10a74f923315e194c568c18ccfed66eeb2859"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/KaKs.cpp",
+    "source_engine": "windows",
+    "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/KaKs.h",
+    "source_engine": "windows",
+    "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/KaKs_Calculator.cpp",
+    "source_engine": "windows",
+    "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/LPB93.cpp",
+    "source_engine": "windows",
+    "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/LPB93.h",
+    "source_engine": "windows",
+    "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/LWL85.cpp",
+    "source_engine": "windows",
+    "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/LWL85.h",
+    "source_engine": "windows",
+    "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/MSMA.cpp",
+    "source_engine": "windows",
+    "sha256": "7e2fc74b9c1fe3be93e5a2c16cf3c5dab5fdff92854f2f1a799bb2d3e0fa4016"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/MSMA.h",
+    "source_engine": "windows",
+    "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/MYN.cpp",
+    "source_engine": "windows",
+    "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/MYN.h",
+    "source_engine": "windows",
+    "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/NG86.cpp",
+    "source_engine": "windows",
+    "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/NG86.h",
+    "source_engine": "windows",
+    "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/YN00.cpp",
+    "source_engine": "windows",
+    "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+  },
+  {
+    "path": "corresponding-source/windows/build/native-adapter-src/YN00.h",
+    "source_engine": "windows",
+    "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/publication_graph_host.cpp",
+    "source_engine": "windows",
+    "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host.cpp",
+    "source_engine": "windows",
+    "sha256": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host.h",
+    "source_engine": "windows",
+    "sha256": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host_grouped.cpp",
+    "source_engine": "windows",
+    "sha256": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host_grouped.h",
+    "source_engine": "windows",
+    "sha256": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+  },
+  {
+    "path": "corresponding-source/windows/build/publication-tight-round2-v1/compiled_source_snapshot/tight_bound.cpp",
+    "source_engine": "windows",
+    "sha256": "0dd435b6434edf4977fb9d42764b0e0dc7d25bd10eb0143bdee4da195dbcc223"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-core-v1-reviewed/compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "windows",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-core-v1-reviewed/compiled_source_snapshot/shared_core.h",
+    "source_engine": "windows",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-core-v1-reviewed/compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "windows",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "windows",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/shared_core.h",
+    "source_engine": "windows",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "windows",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/statistics.cpp",
+    "source_engine": "windows",
+    "sha256": "23d473b6a4ab2093b2e87c520c1106bba6c2342ad1b8c72ad9f86b4363693ae1"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/statistics.h",
+    "source_engine": "windows",
+    "sha256": "5db0aeeb04adca1f928b04534c446ba7a62b83ac5a49df07c3b192612a03aaf2"
+  },
+  {
+    "path": "corresponding-source/windows/build/shared-statistics-v1-checked/compiled_source_snapshot/statistics.hpp",
+    "source_engine": "windows",
+    "sha256": "c6ca22d89808a29093bad09b69399a55b3f79fa217b612315fe2200c4c7648e1"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/AXTConvertor.cpp",
+    "source_engine": "windows",
+    "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.cpp",
+    "source_engine": "windows",
+    "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.h",
+    "source_engine": "windows",
+    "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/ConcatenatePairs.cpp",
+    "source_engine": "windows",
+    "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/GY94.cpp",
+    "source_engine": "windows",
+    "sha256": "96258d73dd3eb4891ba3a1f89acf49dc3e080eb11962d548d7489eb92efa8adc"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/GY94.h",
+    "source_engine": "windows",
+    "sha256": "4aaa5503f9fa128a4a6544bc0d42aaab88275115a8937133fc22b29ec9ad4437"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/KaKs.cpp",
+    "source_engine": "windows",
+    "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/KaKs.h",
+    "source_engine": "windows",
+    "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/KaKs_Calculator.cpp",
+    "source_engine": "windows",
+    "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/LPB93.cpp",
+    "source_engine": "windows",
+    "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/LPB93.h",
+    "source_engine": "windows",
+    "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/LWL85.cpp",
+    "source_engine": "windows",
+    "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/LWL85.h",
+    "source_engine": "windows",
+    "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/MSMA.cpp",
+    "source_engine": "windows",
+    "sha256": "5858a5d212a63960b8df305cf02d206b6136b08ae99117320bf91aad56b26a64"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/MSMA.h",
+    "source_engine": "windows",
+    "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/MYN.cpp",
+    "source_engine": "windows",
+    "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/MYN.h",
+    "source_engine": "windows",
+    "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/NG86.cpp",
+    "source_engine": "windows",
+    "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/NG86.h",
+    "source_engine": "windows",
+    "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/YN00.cpp",
+    "source_engine": "windows",
+    "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/YN00.h",
+    "source_engine": "windows",
+    "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/platform_v1_linux/openblas64_bridge.cpp",
+    "source_engine": "windows",
+    "sha256": "93ae6e467963c66175e22d94ab62919b01d8913d911a2682fe0166e2e3fe4f68"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/platform_v1_linux/windows.h",
+    "source_engine": "windows",
+    "sha256": "55541d64df7bc1227f5fe552c472f5637beb2f7f47e44974b01a925f496952d2"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/prepare_cpu_cached.py",
+    "source_engine": "windows",
+    "sha256": "8960f8a52ce9d58acfde009d9d0d2b9c84a41c98b270430ece1636b9ec44804f"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_bundle.py",
+    "source_engine": "windows",
+    "sha256": "ce422f648ac8ebf748c9d707d22d6e2dae13f7e649a5fed77d43c1ad83408ef5"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_linux_build.py",
+    "source_engine": "windows",
+    "sha256": "f9b65f8e5a68364fc7da345d583634ecb96cc08ac238b9000ec0d02dcdbf957d"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_linux_build_original_v3.py",
+    "source_engine": "windows",
+    "sha256": "51c5d50fcfd93bbbd13ac6d3a1c7284b899de1240587a58ae75f73041ad3b871"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_linux_python_overlay.py",
+    "source_engine": "windows",
+    "sha256": "67499e814ba60f51611200df2d7b8d3de4364c531d3c2a9f8038ad81ed1ed430"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_windows_build.py",
+    "source_engine": "windows",
+    "sha256": "3cabb4a0f4a49dd763cb6a035b78e1ee6f0ad4624b47dd08e91bf01da2617d39"
+  },
+  {
+    "path": "corresponding-source/windows/corresponding-source/scripts/product_v1_windows_remaining.py",
+    "source_engine": "windows",
+    "sha256": "8187c3464bb1fe40d72a7006c3170161b79a80c9cf038681c3ed4f21ce4f28c3"
+  },
+  {
+    "path": "corresponding-source/windows/envs/cuda-torch/include/cuda.h",
+    "source_engine": "windows",
+    "sha256": "e92376169061ab3f7ec1d2a758de3f477ab5f3e6ae3baee075c069f9c1224a91"
+  },
+  {
+    "path": "corresponding-source/windows/envs/cuda-torch/Lib/site-packages/torch/include/ATen/native/cuda/Reduce.cuh",
+    "source_engine": "windows",
+    "sha256": "86078c6f9b9147260c56b97ff870919be08f2533ea1ac849e400074592226856"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/batched_optimizer.py",
+    "source_engine": "windows",
+    "sha256": "c71165c5369663b3651b4238fbedfebc030058f8b6a3aa453a8059020b771455"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/benchmark_cpu.py",
+    "source_engine": "windows",
+    "sha256": "3d4a4bdbc53892a6b129e5d6e59322e547aecc59b4340c61bdca0e827b76f511"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/check_publication_simulations.py",
+    "source_engine": "windows",
+    "sha256": "314476a9f464d3ae05fda62b4ea4926d46d3d4b065aae25f1b6f842dc367578f"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/cpu_backend.py",
+    "source_engine": "windows",
+    "sha256": "51d97b1da664c8b9e8df29f8d69fb76d6aef4707d6bd2cd2a93da7d0a8331157"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/cpu_gradient.py",
+    "source_engine": "windows",
+    "sha256": "5c55ae14f5b33c28d92095413f83fb6782b100e5541a35b664ae7dc49d04bc01"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/cuda_array_round3.py",
+    "source_engine": "windows",
+    "sha256": "b822281865930ceeb4f6a4a96f66e1eeb68a57bbc8c416c5c597c20c6d793931"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/cuda_driver.py",
+    "source_engine": "windows",
+    "sha256": "290aff7ab480612b2989cd629e7ea1b82f35441486c3ed91d2855696168d5e6e"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/cuda_multistream_round4.py",
+    "source_engine": "windows",
+    "sha256": "80277c2b4ed42bfcd7ec817a50f363789311aeeabc8f03e69c7cd761f4bda157"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer.py",
+    "source_engine": "windows",
+    "sha256": "92577dd70994ab4d70ed640296dbb3d648af59f374e159165176d8893df983f4"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer_buffered.py",
+    "source_engine": "windows",
+    "sha256": "5c06e5aed6ed1ec3216b6c3e404a6adde5390874b37d5f7b71a3455155a6974c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer_stable.py",
+    "source_engine": "windows",
+    "sha256": "71767858f95274932d026cf7ee0f01c7e36ed61b34aa95e8c3c4c8ada4f1ca30"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer_stagnation.py",
+    "source_engine": "windows",
+    "sha256": "3d91ad88de40182b1ae262af8888ea8a63a39b6ceaaaccd14f1f86c3053d025a"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer_stagnation_v4.py",
+    "source_engine": "windows",
+    "sha256": "b1a46b4fb6e57fb67492cbc73bb09d6de74c2cf7d3d9ef3a4f0ef9cd73e16f6a"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/fiber_optimizer_stagnation_v5.py",
+    "source_engine": "windows",
+    "sha256": "ce6d16568b402b01a802446e7a9cc9725ff57fef44cca6bcdbe425bbcf3dc53d"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_coalesced_gemm_round2.py",
+    "source_engine": "windows",
+    "sha256": "70dc302b181c01acf73607d116fcdf092489cf146a468677ea122a00307f5458"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_forward_matrix_fusion_round2.py",
+    "source_engine": "windows",
+    "sha256": "a5733c3010c49450dbde1e7067ef065cc0e1b5457f6b481204d6c5e07eda7ce6"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_matrix_contract_round2.py",
+    "source_engine": "windows",
+    "sha256": "59d248e527cf4d950c26ade46a89eeb94d58df3690b2366d75b577af61a63cb3"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_matrix_invariant_round4.py",
+    "source_engine": "windows",
+    "sha256": "bd4e5a6665372626b2f2e46582a7367b7d8f00912a1eafbd92eeed6890c1db07"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_matrix_structural_zero_round2.py",
+    "source_engine": "windows",
+    "sha256": "0c62b783aabeacd090369a054281c88e2a785140e3fb92e7d5eaa3157991d95e"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_native_intscale_t18_round2.py",
+    "source_engine": "windows",
+    "sha256": "0528f18d477796ea6ad540daf9a759ea450af995318fb8e2ae83e8135c2962c9"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_native_objective_round2.py",
+    "source_engine": "windows",
+    "sha256": "838a307a8fc1d45a6e4e6cc46820ed51fa4fdb43c9e65c88e63ee072cb49c7f2"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_native_t18_round2.py",
+    "source_engine": "windows",
+    "sha256": "3db12f7e43c56bbfcb243358343e4cb23dd1b3c8551a1cf6c00e381d8e687841"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_observed_adjoint_round6.py",
+    "source_engine": "windows",
+    "sha256": "5cbcca222978d60134e94a8d042ba14bbc88bc450c9ae6279ab5df3c69832d06"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_observed_adjoint_shared_round6.py",
+    "source_engine": "windows",
+    "sha256": "b4d76d27c1dfeeb8ed6b39440513a61502fd57790fc43fff9bd294c46bfe2fc1"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_observed_output_round6.py",
+    "source_engine": "windows",
+    "sha256": "d318b7ca9fe27da849c60c568e7c48ce99e37d812d865ac2298bdad9b5499b3f"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_register_gemm_round5.py",
+    "source_engine": "windows",
+    "sha256": "e4c1f0fe96b993e102f37662ce852a66cba039bee1346cf3a629950139acc657"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_selected_vjp_round6.py",
+    "source_engine": "windows",
+    "sha256": "9eaebbdf54cabd67c791b20223baa162ed318b824c5e94716ebec132875a7dae"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_small_gemm_round2.py",
+    "source_engine": "windows",
+    "sha256": "4cbb7e61ab48431b5a5da0b8858f10f6b98e641f316416d85aa573d48137fe72"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_sparse_t18_round2.py",
+    "source_engine": "windows",
+    "sha256": "65bcf680d2491e7f4fc5972c0c889d5891305dbac231b90ed200c6c380eec9c4"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_t18_fusion_round2.py",
+    "source_engine": "windows",
+    "sha256": "e50f7c786bf5ddcb604ef6a53f7bdf7b0a2fe58fbd2520dcfe58185a582d37ed"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gpu_telemetry.py",
+    "source_engine": "windows",
+    "sha256": "0d4f8776c79cb8968b6fd4cc0166217af8050c51666fdce120bf0fd8a9e06b39"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/gradient_optimizer.py",
+    "source_engine": "windows",
+    "sha256": "c972e736ea51a64bd6ebb65ea1c7cb3756fc4fb386c01ed1863f84bcc43f45dc"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/kakscuda.py",
+    "source_engine": "windows",
+    "sha256": "ffef7d85b23366d0e130517a49375eb9f3bcf513f303dd03cece42af07f46665"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/ma_reporting.py",
+    "source_engine": "windows",
+    "sha256": "771cc7eb5d60bd287238728e3d6637ecec88540dd677818cb0eec936f67b7f1f"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/native_adapter.py",
+    "source_engine": "windows",
+    "sha256": "ec11af69e72556e3b8881fea6816223e223fe24bf126cc5c5d395c94d23d454f"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_cached_assets.py",
+    "source_engine": "windows",
+    "sha256": "834e6d9bd63bc2a441354dfbd57e1948ad164367079f3a3fe45f486a87021124"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_engine_fit.py",
+    "source_engine": "windows",
+    "sha256": "54200bc0713bdb14c2d6f3ce20013e7dea791199432889caaa19c5a01aeb5c99"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_engine_reproduce.py",
+    "source_engine": "windows",
+    "sha256": "5d83eccf4eec4366eece289d436e812a498dfe5184f0ff1133b3ab0c90472e48"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_engine_runtime.py",
+    "source_engine": "windows",
+    "sha256": "3a05833cbf392faf36b0b3ffd4b190b2979b8559a26e3ea7017dcc1120d55476"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_owned_job.py",
+    "source_engine": "windows",
+    "sha256": "29c202f5deb2b81079e5c25bbea3960323f86b5fbee188098b6cdc6c1e949b7c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/product_v1_platform.py",
+    "source_engine": "windows",
+    "sha256": "06752cc2393b601879dcc3e04ae607235e9f24498102c33bb3c6d56485588e38"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_fit_contract.py",
+    "source_engine": "windows",
+    "sha256": "3a5adfe577335ae044fc5e02ec6f49fb952868adf94a04b074f5e21aa9277aef"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_frequency_inputs_v2.py",
+    "source_engine": "windows",
+    "sha256": "3ec4c866d868f5efcd27a12086323f2c2b4b2a25d6d71c7db05883a130cace4e"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_gradient.py",
+    "source_engine": "windows",
+    "sha256": "ec9672231f4e57ae3bac9a5e384308df73f7449fd7868e107723fbe05c306e74"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_gradient_v2.py",
+    "source_engine": "windows",
+    "sha256": "69c375522ce41ed859d49f2ecfca98edc80d598816f87a2c48650be2c2022dc3"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_likelihood.py",
+    "source_engine": "windows",
+    "sha256": "3b863140eddebdd5fb063be2b1b4376dd8b65c47cc77fbae619783813955253a"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_multistream_coldreuse_round4.py",
+    "source_engine": "windows",
+    "sha256": "06a2d3fa47f04d298e1e2f68ab5158b7738d89a87c00c27d89865a7a38721109"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_multistream_round4.py",
+    "source_engine": "windows",
+    "sha256": "137a6e562c0e8c58a6c86145b7042cb0f71e89b03423481699a3bd99335e23a7"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_native_driver_round3.py",
+    "source_engine": "windows",
+    "sha256": "359af3c4fb309667a30a3c2ede73e91dbdb183e6920078dc124e872f9a9ea5de"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_native_optimized_t18_round2.py",
+    "source_engine": "windows",
+    "sha256": "7ee869278379d51ab6a6538613c8ac625e54fdaf41b8689084851d7a1c1bb464"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_reduced_output_round6.py",
+    "source_engine": "windows",
+    "sha256": "e053c2ae335938f4b1097353750973f4ef8b400080b0f265027e8f08a839ee7c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_reduced_round6.py",
+    "source_engine": "windows",
+    "sha256": "adee7ca00e8390511656d160ee677a87557355d6cd4cc3c63e0040c0212cad24"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_reduced_shared_round6.py",
+    "source_engine": "windows",
+    "sha256": "73693ddf38c2b4c442b121af1012d80b7dc1cd1cb95a5387d9a6581a2776f428"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_selected_round6.py",
+    "source_engine": "windows",
+    "sha256": "544daeb72d8f507b99eba92f617731308715cfd39296e9018e1f6865d2ac5df3"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_gpu_tight_round2.py",
+    "source_engine": "windows",
+    "sha256": "a4b87b6a21f9ea72d49b313df5377d204c4e756e4e2c63dae09a98a29a7411e2"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_output.py",
+    "source_engine": "windows",
+    "sha256": "d449380e58c6e2dec1a41de9554a123a37b4c360a106dd021757d3a322b651b8"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_provenance.py",
+    "source_engine": "windows",
+    "sha256": "c4a031a1ad0a2e249429fac9f076fb47fd5a531a37ba172cfca235bb9dc65a44"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_returned_gradient.py",
+    "source_engine": "windows",
+    "sha256": "516077683ed9e6b611c66fc0d592603a902eb2a10d76bdff37bb821cea6a3bb8"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/publication_statistics.py",
+    "source_engine": "windows",
+    "sha256": "105e59162496e4b24df2ae47fc472b44fddd772adad2ef36f8d05a8b232dfc7c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/shared_core.py",
+    "source_engine": "windows",
+    "sha256": "e8a08fb96b7c2026c2c0eb9bebd44490d2627a1911f602e7d05919e6534ab975"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/shared_statistics.py",
+    "source_engine": "windows",
+    "sha256": "86392a38889f6df18a7c2f125d91e51d5ab6193e362d0c2901bdf73a52cb4b03"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_graph_likelihood.py",
+    "source_engine": "windows",
+    "sha256": "5c5f5360656e3c97b023813ba55bca4c45a8d219524878ee76cc61d1f642051c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_graph_likelihood_buffered.py",
+    "source_engine": "windows",
+    "sha256": "5340c14c47234640aa36f0ae62783b22bcc85e3ca8b35efc90f60ff482b4b9ac"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_graph_likelihood_fast.py",
+    "source_engine": "windows",
+    "sha256": "5105db826418ebec81730c278649e193f586567c751eb7ee746ce33dc46cb529"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_graph_likelihood_grouped.py",
+    "source_engine": "windows",
+    "sha256": "c62e2059989172ea75d22933b82823cb46edd69dff1d9768a95c8cfaf9f3167c"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_graph_likelihood_pipelined.py",
+    "source_engine": "windows",
+    "sha256": "0d4766ecd3f53e1db6c0a69db75a82e74892b6c0a2ea5741d85b5de30205f38d"
+  },
+  {
+    "path": "corresponding-source/windows/scripts/torch_matrix_prototype.py",
+    "source_engine": "windows",
+    "sha256": "3445fdb6cec5e15bcef9e694767c8d091084b43ead8e20c875055d6d02d9dedb"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/batched_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "19bc399302f22fe6c924e91bd718d8eb79e0665692830778dac3bfeada9ff98b"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/batched_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/cpu_backend.cpp",
+    "source_engine": "windows",
+    "sha256": "8f984ed9028a886bcc2f10bfe4f47b4276e3c76954739b3105f78a51a1796846"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/cpu_backend.h",
+    "source_engine": "windows",
+    "sha256": "ccae82f4573c5d5209f337ec81a288c8efe33c218c14da3c8e4acc730d651a89"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/cpu_backend.hpp",
+    "source_engine": "windows",
+    "sha256": "d21e15ab74dae63f128ffee165bda2d069115bca738abdf6fd2cfddadea37c9c"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/cpu_gradient.cpp",
+    "source_engine": "windows",
+    "sha256": "639e45b9fd6ab4b6c12decebac4894041a84fe0e6bbfa3795727187200184b76"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/cpu_gradient.h",
+    "source_engine": "windows",
+    "sha256": "6d029c52fa9389ebb68ed21f2dbef058fdf6965d84e919ff32d0ebdd424ab8de"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/shared_core.cpp",
+    "source_engine": "windows",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/shared_core.h",
+    "source_engine": "windows",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/shared_core.hpp",
+    "source_engine": "windows",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/statistics.cpp",
+    "source_engine": "windows",
+    "sha256": "23d473b6a4ab2093b2e87c520c1106bba6c2342ad1b8c72ad9f86b4363693ae1"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/statistics.h",
+    "source_engine": "windows",
+    "sha256": "5db0aeeb04adca1f928b04534c446ba7a62b83ac5a49df07c3b192612a03aaf2"
+  },
+  {
+    "path": "corresponding-source/windows/src/core/statistics.hpp",
+    "source_engine": "windows",
+    "sha256": "c6ca22d89808a29093bad09b69399a55b3f79fa217b612315fe2200c4c7648e1"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/gemm_coalesced_fp64_v1.cu",
+    "source_engine": "windows",
+    "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/gemm_fp64_v1.cu",
+    "source_engine": "windows",
+    "sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/matrix_contract_v1.cu",
+    "source_engine": "windows",
+    "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/matrix_forward_fusion_v1.cu",
+    "source_engine": "windows",
+    "sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/matrix_forward_structural_zero_v1.cu",
+    "source_engine": "windows",
+    "sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/native_objective_v1.cu",
+    "source_engine": "windows",
+    "sha256": "6b1d00f23d15395814bd3b94a6d402693a89889131c04d0deeda49c8ec68f699"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/native_t18_helpers_v1.cu",
+    "source_engine": "windows",
+    "sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/native_t18_intscale_helpers_v1.cu",
+    "source_engine": "windows",
+    "sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/sparse_t18_v1.cu",
+    "source_engine": "windows",
+    "sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round2/tight_bound.cpp",
+    "source_engine": "windows",
+    "sha256": "0dd435b6434edf4977fb9d42764b0e0dc7d25bd10eb0143bdee4da195dbcc223"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round3/request_staging.cpp",
+    "source_engine": "windows",
+    "sha256": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round4/matrix_numerical_invariant_v1.cu",
+    "source_engine": "windows",
+    "sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round5/gemm_register_fp64_v1.cu",
+    "source_engine": "windows",
+    "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round5/gemm_warp_fp64_v1.cu",
+    "source_engine": "windows",
+    "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round5/t18_fold_literal_v1.cu",
+    "source_engine": "windows",
+    "sha256": "8b1f08f9c863e6218f2479c44638922d2d405cc9f07c858ca994303d55b8f401"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round5/t18_fold_pragma_v1.cu",
+    "source_engine": "windows",
+    "sha256": "4c52ad99abd9472cbf786e817beced8797d626cf7eb9f4c91bed99f085275267"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round6/observed_adjoint_products_v1.cu",
+    "source_engine": "windows",
+    "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round6/observed_adjoint_shared_v2.cu",
+    "source_engine": "windows",
+    "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round6/observed_output_product_v3.cu",
+    "source_engine": "windows",
+    "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+  },
+  {
+    "path": "corresponding-source/windows/src/gpu_round6/selected_final_vjp_v1.cu",
+    "source_engine": "windows",
+    "sha256": "548825c8e1f8c775c57f4039b9549890429f93c6b30dd9eadb9875155ab63384"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/adapter_bridge.h",
+    "source_engine": "windows",
+    "sha256": "1bba6765c057e1ba6faceead2a1237a8590b07d94699ed4e553b89a715971bc6"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "2d9aeca01a43b06c8d97851e9f17edd58b96aef92f627597bbab774c343b30fc"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "0c824b1c1c7fa2de594d3df092cb99dcefe89d81a812c81e6aa20c679aa38572"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_bridge.h",
+    "source_engine": "windows",
+    "sha256": "53aa71242629cf36395e3165db907ff13b496ccbd5885ce3892ac0588742c710"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_near_bridge.h",
+    "source_engine": "windows",
+    "sha256": "95d8667e6c6f0c6b005b24b1f7cd7d17ba9a1f5ebe06b9f11c9cf7d3d8b1f9aa"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_protected_bridge.h",
+    "source_engine": "windows",
+    "sha256": "ef0900a0939b2f6c74034ced100a24d563138229323710ed004af171bb42ea2d"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_queued.cpp",
+    "source_engine": "windows",
+    "sha256": "7f53adcca9a0f1c9ec009c02d06a9297b169f40be8daa4e973e4032d2e112c96"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stable.cpp",
+    "source_engine": "windows",
+    "sha256": "de362e22d1dfa96347a2b4fcdd5ebe16fa349944fd7706f96005e6a5ffc28aec"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stable_bridge.h",
+    "source_engine": "windows",
+    "sha256": "f45fb4e86a21ad4779a2749b9cb5eae00edb5139199068836165716f415fab95"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation.cpp",
+    "source_engine": "windows",
+    "sha256": "6b3436ff06ca1ce63575c4cf2e7be3f2c45ed9961ec9ecc63992a7f18642ebfb"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_bridge.h",
+    "source_engine": "windows",
+    "sha256": "9b7b01abe0080acabbaf676f15c6fa1759651d11131d9e62d3793e0b64e64ce4"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_host_v4.cpp",
+    "source_engine": "windows",
+    "sha256": "9e6bd00664d7e5a3d8381c36382768cda0e79f03ae93946dde93961dec742ee3"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_host_v7.cpp",
+    "source_engine": "windows",
+    "sha256": "9a0733707e42eadbabc723941c8c07efe2280a3e32f10e53b6ba6c034b2d1d4f"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_host_v8.cpp",
+    "source_engine": "windows",
+    "sha256": "16929e60b2ee0326bf37355a8ce283f886271e858eec730d523be111192a555b"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_v4.cpp",
+    "source_engine": "windows",
+    "sha256": "e85df496a343eb903adffdfbbc2cd7963332ce31205cb49dafa9ca9f75a5dc04"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_v5.cpp",
+    "source_engine": "windows",
+    "sha256": "395a37c13c942d27d105e78442cbfea6248f4e784a4e40f5fac9068ded7db672"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_v6.cpp",
+    "source_engine": "windows",
+    "sha256": "3308d6131221f7884bc0c896c16489b78a65a2c20cb8e86dceca610592629d13"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_v7.cpp",
+    "source_engine": "windows",
+    "sha256": "3a0691f6980327b88a7afee935c15f557af4af2631fc99e20d351e3b9ee29b42"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_stagnation_v8.cpp",
+    "source_engine": "windows",
+    "sha256": "90ecf77f628067b6a43c35e93f3b4f72d2556cdb9914a03ae2084e4ea7364830"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/fiber_optimizer_zero_bridge.h",
+    "source_engine": "windows",
+    "sha256": "bba1897695d5ba7cbf4dbe8a0a476f43e6f7e34f7499acf4efe3a01953b88751"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/kaks_adapter.cpp",
+    "source_engine": "windows",
+    "sha256": "17adf484e4ee3c25bacb3791369cc9e40b72ab4b15481def340a03ef416826f0"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/kaks_adapter.h",
+    "source_engine": "windows",
+    "sha256": "7e75021e7a5e103a183a29b366e2969b39e61cc59cd74091ded4a3f380c95951"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/near_window_guard_test.cpp",
+    "source_engine": "windows",
+    "sha256": "ac7101ecc30ed0501af0b8c499e86e98a228b738982f07a5f9ea12d968d5e5a6"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/publication_graph_host.cpp",
+    "source_engine": "windows",
+    "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/q_snapshot.cpp",
+    "source_engine": "windows",
+    "sha256": "49f4e7599f64aa8d915eae25ee031a65c3656b05dedbc52c14b847f34b43f21f"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/q_snapshot_hook.h",
+    "source_engine": "windows",
+    "sha256": "23f5c09f106b701749cf34552553dcc34d784b8d7b83820a758f630830c4605a"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/torch_graph_host.cpp",
+    "source_engine": "windows",
+    "sha256": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/torch_graph_host.h",
+    "source_engine": "windows",
+    "sha256": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/torch_graph_host_grouped.cpp",
+    "source_engine": "windows",
+    "sha256": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e"
+  },
+  {
+    "path": "corresponding-source/windows/src/native/torch_graph_host_grouped.h",
+    "source_engine": "windows",
+    "sha256": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+  },
+  {
+    "path": "corresponding-source/windows/src/platform_v1_linux/openblas64_bridge.cpp",
+    "source_engine": "windows",
+    "sha256": "93ae6e467963c66175e22d94ab62919b01d8913d911a2682fe0166e2e3fe4f68"
+  },
+  {
+    "path": "corresponding-source/windows/src/platform_v1_linux/windows.h",
+    "source_engine": "windows",
+    "sha256": "55541d64df7bc1227f5fe552c472f5637beb2f7f47e44974b01a925f496952d2"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/AXTConvertor.cpp",
+    "source_engine": "windows",
+    "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.cpp",
+    "source_engine": "windows",
+    "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.h",
+    "source_engine": "windows",
+    "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/ConcatenatePairs.cpp",
+    "source_engine": "windows",
+    "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/GY94.cpp",
+    "source_engine": "windows",
+    "sha256": "314729dc88bdf4e9d08804a13f4b11eb98d9fc911ab9c633668e7ee6c2117e88"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/GY94.h",
+    "source_engine": "windows",
+    "sha256": "9afdc1bfa6f7a8c14930541ef4a10a74f923315e194c568c18ccfed66eeb2859"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/KaKs.cpp",
+    "source_engine": "windows",
+    "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/KaKs.h",
+    "source_engine": "windows",
+    "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/KaKs_Calculator.cpp",
+    "source_engine": "windows",
+    "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/LPB93.cpp",
+    "source_engine": "windows",
+    "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/LPB93.h",
+    "source_engine": "windows",
+    "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/LWL85.cpp",
+    "source_engine": "windows",
+    "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/LWL85.h",
+    "source_engine": "windows",
+    "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/MSMA.cpp",
+    "source_engine": "windows",
+    "sha256": "5858a5d212a63960b8df305cf02d206b6136b08ae99117320bf91aad56b26a64"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/MSMA.h",
+    "source_engine": "windows",
+    "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/MYN.cpp",
+    "source_engine": "windows",
+    "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/MYN.h",
+    "source_engine": "windows",
+    "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/NG86.cpp",
+    "source_engine": "windows",
+    "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/NG86.h",
+    "source_engine": "windows",
+    "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/YN00.cpp",
+    "source_engine": "windows",
+    "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+  },
+  {
+    "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/YN00.h",
+    "source_engine": "windows",
+    "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-schur-v1/compiled_source_snapshot/batched_optimizer.cpp",
+    "source_engine": "windows",
+    "sha256": "a5a4251cedc40839aa9e32948922cfd1a22f613fdf330c1d0b36f12366ad5788"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-schur-v1/compiled_source_snapshot/batched_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/windows/build/gradient-optimizer-schur-v1/compiled_source_snapshot/gradient_optimizer.h",
+    "source_engine": "windows",
+    "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.cpp",
+    "source_engine": "linux",
+    "sha256": "4f13160f79fa03581977932bac64de670f9f4f9ccb5b4607f9ef5828da735bf7"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.h",
+    "source_engine": "linux",
+    "sha256": "ccae82f4573c5d5209f337ec81a288c8efe33c218c14da3c8e4acc730d651a89"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.hpp",
+    "source_engine": "linux",
+    "sha256": "d21e15ab74dae63f128ffee165bda2d069115bca738abdf6fd2cfddadea37c9c"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "linux",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.h",
+    "source_engine": "linux",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "linux",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-gradient-v2/linux_compiled_source_snapshot/cpu_gradient.cpp",
+    "source_engine": "linux",
+    "sha256": "cf9a8e64759191bf4c602d5e344d8899f55bb673dc1fcbe1b1eaa90f53b43d48"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-gradient-v2/linux_compiled_source_snapshot/cpu_gradient.h",
+    "source_engine": "linux",
+    "sha256": "6d029c52fa9389ebb68ed21f2dbef058fdf6965d84e919ff32d0ebdd424ab8de"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "linux",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.h",
+    "source_engine": "linux",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/linux/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "linux",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/linux/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/batched_optimizer.cpp",
+    "source_engine": "linux",
+    "sha256": "a5a4251cedc40839aa9e32948922cfd1a22f613fdf330c1d0b36f12366ad5788"
+  },
+  {
+    "path": "corresponding-source/linux/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/batched_optimizer.h",
+    "source_engine": "linux",
+    "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+  },
+  {
+    "path": "corresponding-source/linux/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/gradient_optimizer.h",
+    "source_engine": "linux",
+    "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/AXTConvertor.cpp",
+    "source_engine": "linux",
+    "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/ConcatenatePairs.cpp",
+    "source_engine": "linux",
+    "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/GY94.cpp",
+    "source_engine": "linux",
+    "sha256": "4267c6704e7bd852e1e9b60a0855d26275206ea267f1174114a3a61141451f5b"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/GY94.h",
+    "source_engine": "linux",
+    "sha256": "9afdc1bfa6f7a8c14930541ef4a10a74f923315e194c568c18ccfed66eeb2859"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs.cpp",
+    "source_engine": "linux",
+    "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs.h",
+    "source_engine": "linux",
+    "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs_Calculator.cpp",
+    "source_engine": "linux",
+    "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/LPB93.cpp",
+    "source_engine": "linux",
+    "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/LPB93.h",
+    "source_engine": "linux",
+    "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/LWL85.cpp",
+    "source_engine": "linux",
+    "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/LWL85.h",
+    "source_engine": "linux",
+    "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/MSMA.cpp",
+    "source_engine": "linux",
+    "sha256": "7e2fc74b9c1fe3be93e5a2c16cf3c5dab5fdff92854f2f1a799bb2d3e0fa4016"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/MSMA.h",
+    "source_engine": "linux",
+    "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/MYN.cpp",
+    "source_engine": "linux",
+    "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/MYN.h",
+    "source_engine": "linux",
+    "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/NG86.cpp",
+    "source_engine": "linux",
+    "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/NG86.h",
+    "source_engine": "linux",
+    "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/YN00.cpp",
+    "source_engine": "linux",
+    "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/YN00.h",
+    "source_engine": "linux",
+    "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/adapter_bridge.h",
+    "source_engine": "linux",
+    "sha256": "1bba6765c057e1ba6faceead2a1237a8590b07d94699ed4e553b89a715971bc6"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.cpp",
+    "source_engine": "linux",
+    "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.h",
+    "source_engine": "linux",
+    "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.cpp",
+    "source_engine": "linux",
+    "sha256": "17adf484e4ee3c25bacb3791369cc9e40b72ab4b15481def340a03ef416826f0"
+  },
+  {
+    "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.h",
+    "source_engine": "linux",
+    "sha256": "7e75021e7a5e103a183a29b366e2969b39e61cc59cd74091ded4a3f380c95951"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.cpp",
+    "source_engine": "linux",
+    "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.h",
+    "source_engine": "linux",
+    "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.hpp",
+    "source_engine": "linux",
+    "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.cpp",
+    "source_engine": "linux",
+    "sha256": "23d473b6a4ab2093b2e87c520c1106bba6c2342ad1b8c72ad9f86b4363693ae1"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.h",
+    "source_engine": "linux",
+    "sha256": "5db0aeeb04adca1f928b04534c446ba7a62b83ac5a49df07c3b192612a03aaf2"
+  },
+  {
+    "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.hpp",
+    "source_engine": "linux",
+    "sha256": "c6ca22d89808a29093bad09b69399a55b3f79fa217b612315fe2200c4c7648e1"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/batched_optimizer.py",
+    "source_engine": "linux",
+    "sha256": "c71165c5369663b3651b4238fbedfebc030058f8b6a3aa453a8059020b771455"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/benchmark_cpu.py",
+    "source_engine": "linux",
+    "sha256": "3d4a4bdbc53892a6b129e5d6e59322e547aecc59b4340c61bdca0e827b76f511"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/check_publication_simulations.py",
+    "source_engine": "linux",
+    "sha256": "314476a9f464d3ae05fda62b4ea4926d46d3d4b065aae25f1b6f842dc367578f"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/cpu_backend.py",
+    "source_engine": "linux",
+    "sha256": "51d97b1da664c8b9e8df29f8d69fb76d6aef4707d6bd2cd2a93da7d0a8331157"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/cpu_gradient.py",
+    "source_engine": "linux",
+    "sha256": "5c55ae14f5b33c28d92095413f83fb6782b100e5541a35b664ae7dc49d04bc01"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/cuda_array_round3.py",
+    "source_engine": "linux",
+    "sha256": "b822281865930ceeb4f6a4a96f66e1eeb68a57bbc8c416c5c597c20c6d793931"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/cuda_driver.py",
+    "source_engine": "linux",
+    "sha256": "290aff7ab480612b2989cd629e7ea1b82f35441486c3ed91d2855696168d5e6e"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/cuda_multistream_round4.py",
+    "source_engine": "linux",
+    "sha256": "80277c2b4ed42bfcd7ec817a50f363789311aeeabc8f03e69c7cd761f4bda157"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer.py",
+    "source_engine": "linux",
+    "sha256": "92577dd70994ab4d70ed640296dbb3d648af59f374e159165176d8893df983f4"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer_buffered.py",
+    "source_engine": "linux",
+    "sha256": "5c06e5aed6ed1ec3216b6c3e404a6adde5390874b37d5f7b71a3455155a6974c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer_stable.py",
+    "source_engine": "linux",
+    "sha256": "71767858f95274932d026cf7ee0f01c7e36ed61b34aa95e8c3c4c8ada4f1ca30"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer_stagnation.py",
+    "source_engine": "linux",
+    "sha256": "3d91ad88de40182b1ae262af8888ea8a63a39b6ceaaaccd14f1f86c3053d025a"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer_stagnation_v4.py",
+    "source_engine": "linux",
+    "sha256": "b1a46b4fb6e57fb67492cbc73bb09d6de74c2cf7d3d9ef3a4f0ef9cd73e16f6a"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/fiber_optimizer_stagnation_v5.py",
+    "source_engine": "linux",
+    "sha256": "ce6d16568b402b01a802446e7a9cc9725ff57fef44cca6bcdbe425bbcf3dc53d"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_coalesced_gemm_round2.py",
+    "source_engine": "linux",
+    "sha256": "70dc302b181c01acf73607d116fcdf092489cf146a468677ea122a00307f5458"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_forward_matrix_fusion_round2.py",
+    "source_engine": "linux",
+    "sha256": "a5733c3010c49450dbde1e7067ef065cc0e1b5457f6b481204d6c5e07eda7ce6"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_matrix_contract_round2.py",
+    "source_engine": "linux",
+    "sha256": "59d248e527cf4d950c26ade46a89eeb94d58df3690b2366d75b577af61a63cb3"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_matrix_invariant_round4.py",
+    "source_engine": "linux",
+    "sha256": "bd4e5a6665372626b2f2e46582a7367b7d8f00912a1eafbd92eeed6890c1db07"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_matrix_structural_zero_round2.py",
+    "source_engine": "linux",
+    "sha256": "0c62b783aabeacd090369a054281c88e2a785140e3fb92e7d5eaa3157991d95e"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_native_intscale_t18_round2.py",
+    "source_engine": "linux",
+    "sha256": "0528f18d477796ea6ad540daf9a759ea450af995318fb8e2ae83e8135c2962c9"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_native_objective_round2.py",
+    "source_engine": "linux",
+    "sha256": "838a307a8fc1d45a6e4e6cc46820ed51fa4fdb43c9e65c88e63ee072cb49c7f2"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_native_t18_round2.py",
+    "source_engine": "linux",
+    "sha256": "3db12f7e43c56bbfcb243358343e4cb23dd1b3c8551a1cf6c00e381d8e687841"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_observed_adjoint_round6.py",
+    "source_engine": "linux",
+    "sha256": "5cbcca222978d60134e94a8d042ba14bbc88bc450c9ae6279ab5df3c69832d06"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_observed_adjoint_shared_round6.py",
+    "source_engine": "linux",
+    "sha256": "b4d76d27c1dfeeb8ed6b39440513a61502fd57790fc43fff9bd294c46bfe2fc1"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_observed_output_round6.py",
+    "source_engine": "linux",
+    "sha256": "d318b7ca9fe27da849c60c568e7c48ce99e37d812d865ac2298bdad9b5499b3f"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_register_gemm_round5.py",
+    "source_engine": "linux",
+    "sha256": "e4c1f0fe96b993e102f37662ce852a66cba039bee1346cf3a629950139acc657"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_selected_vjp_round6.py",
+    "source_engine": "linux",
+    "sha256": "9eaebbdf54cabd67c791b20223baa162ed318b824c5e94716ebec132875a7dae"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_small_gemm_round2.py",
+    "source_engine": "linux",
+    "sha256": "4cbb7e61ab48431b5a5da0b8858f10f6b98e641f316416d85aa573d48137fe72"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_sparse_t18_round2.py",
+    "source_engine": "linux",
+    "sha256": "65bcf680d2491e7f4fc5972c0c889d5891305dbac231b90ed200c6c380eec9c4"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_t18_fusion_round2.py",
+    "source_engine": "linux",
+    "sha256": "e50f7c786bf5ddcb604ef6a53f7bdf7b0a2fe58fbd2520dcfe58185a582d37ed"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gpu_telemetry.py",
+    "source_engine": "linux",
+    "sha256": "0d4f8776c79cb8968b6fd4cc0166217af8050c51666fdce120bf0fd8a9e06b39"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/gradient_optimizer.py",
+    "source_engine": "linux",
+    "sha256": "c972e736ea51a64bd6ebb65ea1c7cb3756fc4fb386c01ed1863f84bcc43f45dc"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/kakscuda.py",
+    "source_engine": "linux",
+    "sha256": "ffef7d85b23366d0e130517a49375eb9f3bcf513f303dd03cece42af07f46665"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/ma_reporting.py",
+    "source_engine": "linux",
+    "sha256": "771cc7eb5d60bd287238728e3d6637ecec88540dd677818cb0eec936f67b7f1f"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/native_adapter.py",
+    "source_engine": "linux",
+    "sha256": "ec11af69e72556e3b8881fea6816223e223fe24bf126cc5c5d395c94d23d454f"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_cached_assets.py",
+    "source_engine": "linux",
+    "sha256": "834e6d9bd63bc2a441354dfbd57e1948ad164367079f3a3fe45f486a87021124"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_engine_fit.py",
+    "source_engine": "linux",
+    "sha256": "ceb852b34ae9b5f7d2ca913ab69b1bc52288e51791b4d590263275a095d123a9"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_engine_reproduce.py",
+    "source_engine": "linux",
+    "sha256": "5d83eccf4eec4366eece289d436e812a498dfe5184f0ff1133b3ab0c90472e48"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_engine_runtime.py",
+    "source_engine": "linux",
+    "sha256": "7ba8a4a55a641f46ae208a7c0c8523062c9810d998c0e46fe75c1db6af93f8e6"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_owned_job.py",
+    "source_engine": "linux",
+    "sha256": "29c202f5deb2b81079e5c25bbea3960323f86b5fbee188098b6cdc6c1e949b7c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/product_v1_platform.py",
+    "source_engine": "linux",
+    "sha256": "06752cc2393b601879dcc3e04ae607235e9f24498102c33bb3c6d56485588e38"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_fit_contract.py",
+    "source_engine": "linux",
+    "sha256": "3a5adfe577335ae044fc5e02ec6f49fb952868adf94a04b074f5e21aa9277aef"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_frequency_inputs_v2.py",
+    "source_engine": "linux",
+    "sha256": "3ec4c866d868f5efcd27a12086323f2c2b4b2a25d6d71c7db05883a130cace4e"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_gradient.py",
+    "source_engine": "linux",
+    "sha256": "ec9672231f4e57ae3bac9a5e384308df73f7449fd7868e107723fbe05c306e74"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_gradient_v2.py",
+    "source_engine": "linux",
+    "sha256": "69c375522ce41ed859d49f2ecfca98edc80d598816f87a2c48650be2c2022dc3"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_likelihood.py",
+    "source_engine": "linux",
+    "sha256": "3b863140eddebdd5fb063be2b1b4376dd8b65c47cc77fbae619783813955253a"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_multistream_coldreuse_round4.py",
+    "source_engine": "linux",
+    "sha256": "06a2d3fa47f04d298e1e2f68ab5158b7738d89a87c00c27d89865a7a38721109"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_multistream_round4.py",
+    "source_engine": "linux",
+    "sha256": "137a6e562c0e8c58a6c86145b7042cb0f71e89b03423481699a3bd99335e23a7"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_native_driver_round3.py",
+    "source_engine": "linux",
+    "sha256": "359af3c4fb309667a30a3c2ede73e91dbdb183e6920078dc124e872f9a9ea5de"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_native_optimized_t18_round2.py",
+    "source_engine": "linux",
+    "sha256": "7ee869278379d51ab6a6538613c8ac625e54fdaf41b8689084851d7a1c1bb464"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_reduced_output_round6.py",
+    "source_engine": "linux",
+    "sha256": "e053c2ae335938f4b1097353750973f4ef8b400080b0f265027e8f08a839ee7c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_reduced_round6.py",
+    "source_engine": "linux",
+    "sha256": "adee7ca00e8390511656d160ee677a87557355d6cd4cc3c63e0040c0212cad24"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_reduced_shared_round6.py",
+    "source_engine": "linux",
+    "sha256": "73693ddf38c2b4c442b121af1012d80b7dc1cd1cb95a5387d9a6581a2776f428"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_selected_round6.py",
+    "source_engine": "linux",
+    "sha256": "544daeb72d8f507b99eba92f617731308715cfd39296e9018e1f6865d2ac5df3"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_gpu_tight_round2.py",
+    "source_engine": "linux",
+    "sha256": "a4b87b6a21f9ea72d49b313df5377d204c4e756e4e2c63dae09a98a29a7411e2"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_output.py",
+    "source_engine": "linux",
+    "sha256": "dffe0f0d426df5f9e1a1b89dc859ec242872a8f38ef79b1d59e59d92020b4ac1"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_provenance.py",
+    "source_engine": "linux",
+    "sha256": "c4a031a1ad0a2e249429fac9f076fb47fd5a531a37ba172cfca235bb9dc65a44"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_returned_gradient.py",
+    "source_engine": "linux",
+    "sha256": "516077683ed9e6b611c66fc0d592603a902eb2a10d76bdff37bb821cea6a3bb8"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/publication_statistics.py",
+    "source_engine": "linux",
+    "sha256": "105e59162496e4b24df2ae47fc472b44fddd772adad2ef36f8d05a8b232dfc7c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/shared_core.py",
+    "source_engine": "linux",
+    "sha256": "e8a08fb96b7c2026c2c0eb9bebd44490d2627a1911f602e7d05919e6534ab975"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/shared_statistics.py",
+    "source_engine": "linux",
+    "sha256": "86392a38889f6df18a7c2f125d91e51d5ab6193e362d0c2901bdf73a52cb4b03"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_graph_likelihood.py",
+    "source_engine": "linux",
+    "sha256": "5c5f5360656e3c97b023813ba55bca4c45a8d219524878ee76cc61d1f642051c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_graph_likelihood_buffered.py",
+    "source_engine": "linux",
+    "sha256": "5340c14c47234640aa36f0ae62783b22bcc85e3ca8b35efc90f60ff482b4b9ac"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_graph_likelihood_fast.py",
+    "source_engine": "linux",
+    "sha256": "5105db826418ebec81730c278649e193f586567c751eb7ee746ce33dc46cb529"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_graph_likelihood_grouped.py",
+    "source_engine": "linux",
+    "sha256": "c62e2059989172ea75d22933b82823cb46edd69dff1d9768a95c8cfaf9f3167c"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_graph_likelihood_pipelined.py",
+    "source_engine": "linux",
+    "sha256": "0d4766ecd3f53e1db6c0a69db75a82e74892b6c0a2ea5741d85b5de30205f38d"
+  },
+  {
+    "path": "corresponding-source/linux/scripts/torch_matrix_prototype.py",
+    "source_engine": "linux",
+    "sha256": "3445fdb6cec5e15bcef9e694767c8d091084b43ead8e20c875055d6d02d9dedb"
+  },
+  {
+    "path": "corresponding-source/linux/src/platform_v1_linux/openblas64_bridge.cpp",
+    "source_engine": "linux",
+    "sha256": "93ae6e467963c66175e22d94ab62919b01d8913d911a2682fe0166e2e3fe4f68"
+  },
+  {
+    "path": "corresponding-source/linux/src/platform_v1_linux/windows.h",
+    "source_engine": "linux",
+    "sha256": "55541d64df7bc1227f5fe552c472f5637beb2f7f47e44974b01a925f496952d2"
+  }
+]

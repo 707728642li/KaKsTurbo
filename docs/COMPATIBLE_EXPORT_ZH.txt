@@ -1,0 +1,61 @@
+KaKsTurbo 可选 KaKs_Calculator 兼容导出（1.1.0rc9）
+
+用途
+保留原 result.tsv/results.jsonl，不重新拟合，不改变任何估计值、14模型、FP64或正确性门槛。
+把已完成的公开标准输出转换为 KaKs_Calculator 3.0 的22列表头、顺序及NA约定。
+这是表格布局兼容，不表示两种工具的估计方法、目标函数、数值或显著性检验等价。
+
+命令
+Linux:
+  ./kaksturbo export /path/to/completed_run --format kaks-calculator --output /path/to/new_export
+Windows PowerShell:
+  .\kaksturbo.exe export D:\results\completed_run --format kaks-calculator --output D:\results\new_export
+Python:
+  from kaksturbo import export_kaks_calculator
+  export_kaks_calculator("completed_run", "new_export")
+加 --json 可得到机器可读完成/错误记录；导出不触发CPU/GPU拟合。
+输出目录必须是新的独立目录，不能位于原运行目录内，不覆盖任何已有目录。
+
+输入要求
+已完成的公共 run_manifest/2 结果，包含清单登记的 result.tsv、results.jsonl、native_result.tsv。
+支持旧接口版本的此种完整输出；不需要 .work、原始序列、CUDA、显卡或旧版本引擎。
+预先核对实际读取的这三份核心文件SHA256，逐行核对表/JSONL身份、顺序、核心数值及行数，再次核对后发布导出目录。
+单独一个 result.tsv 不足以提供完整来源，不能导出。中断任务先按原版本恢复完成；导出不把中断状态变为完成。
+如果这三份核心文件被压缩、移动或删除，先恢复其原始字节，不能跳过它们的哈希检查。模型/QC明细可单独归档；导出会明确列出未读取、未重新验证的文件，不能把格式转换当成新的模型验收。
+
+四个输出文件
+result.kaks：精确22列制表符分隔表，无注释前言、不增加额外列，NA保持为NA。
+missing_fields.tsv：每个统计NA单元格的原因，按原pair_index和pair_id索引。
+compatibility.json：来源版本、模式、后端、原文件和新文件哈希、字段映射、局限和完成状态。
+README.txt：解释与读取约定。原模型诊断和质量摘要仍需保留，兼容表不替代它们。
+
+稳健模式 robust 的字段规则
+Sequence/Method/Ka/Ks/Ka/Ks：直接复制原标识、方法和核心估计值，不用显示的Ka除以Ks重新计算比值。
+Length：有效密码子数乘3，即过滤后的核苷酸长度，不是原始对齐长度。
+Substitutions：过滤后观察到的核苷酸差异数，不是期望替换事件数。
+S-Sites/N-Sites：复制稳健原生表的位点估计；仍是KaKsTurbo稳健模型定义。
+ML-Score：复制原稳健MA lnL；不得与不同似然定义的基线ML分数直接比较。
+P-Value(Fisher)：NA。尚无经过验证的Fisher显著性检验，不能用Ka/Ks>1或质量标记代替P值。
+Syn-Subs/Nonsyn-Subs、简并位点及简并替换、距离、替换速率比、GC：NA，未验证legacy定义映射，不重标或补算。
+AICc/Akaike-Weight/Model：NA。候选模型的条件AICc、权重和最佳模型不是完整MA的单模型身份；详情仍在原模型/配对统计中。
+任何原始不可用值继续为NA，附原状态/原因。绝不填0、1、最佳模型权重或虚构P值。
+
+复现模式 reproduce
+支持原生3.0表头，以及历史复现模式的22列表头。逐单元格保留原生值和NA，解释为historical_reported_NA。
+经核对基线源码的同一输出字段，旧 S-/N-Substitutions、Fold-S-/N-Substitutions 和 Divergence-Time 五列只转换为3.0的列名，数值不变；映射记录在compatibility.json。这些别名仅用于复现模式，稳健模式仍保留未验证字段为NA。
+这仍是KaKsTurbo记录的复现模式，不宣称重新运行了KaKs_Calculator 3.0。
+复制的是原有打印精度；不会把历史舍入值描述成新增精度。
+
+读取
+随包 scripts/read_kaks_compatible.R 与 .py 可直接读取，无额外R/Python包依赖。
+R: source("scripts/read_kaks_compatible.R"); x <- read_kaks_compatible("new_export/result.kaks")
+Python: from read_kaks_compatible import read_kaks_compatible
+        rows = list(read_kaks_compatible("new_export/result.kaks"))
+应使用tab分隔，关闭注释/引号解析，Sequence按文本保留。不要从pair_id猜测两个基因ID。
+若第三方读取器把字符串ID "NA" 也当成缺失，应使用随包读取器；导出不会擅自改写ID。
+需要有效Fisher P值的旧筛选流程无法在robust导出上直接完成显著性筛选，必须保留为未提供。
+
+验证范围
+以已保存CPU/GPU结果进行只读导出，使用固定提交的GeneFamilies原版readKaKsCalculatorOutput函数、随包R/Python读取器实际验收。
+具体通过项目和已知读取限制见本次发布QUALIFICATION.json。不能推断所有下游软件均兼容。
+当前发布仅本地保存，旧Windows rc7/Linux rc8和原论文/原始结果保持不变；不上传。

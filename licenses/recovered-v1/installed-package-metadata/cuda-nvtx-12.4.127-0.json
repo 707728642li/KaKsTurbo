@@ -1,0 +1,167 @@
+{
+  "name": "cuda-nvtx",
+  "version": "12.4.127",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/win-64",
+  "subdir": "win-64",
+  "fn": "cuda-nvtx-12.4.127-0.tar.bz2",
+  "md5": "091f53e67f8e42bcfa13665d9aa0c3ab",
+  "url": "https://conda.anaconda.org/nvidia/win-64/cuda-nvtx-12.4.127-0.tar.bz2",
+  "sha256": "09fb6f1e33a866ed91fc86c2e53e86e43a4b406dc2584b6d05f92ae56b13ba2a",
+  "depends": [],
+  "constrains": [],
+  "license": "",
+  "timestamp": 1710541051423,
+  "size": 42129,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\admin\\miniconda3\\pkgs\\cuda-nvtx-12.4.127-0.tar.bz2",
+  "extracted_package_dir": "C:\\Users\\admin\\miniconda3\\pkgs\\cuda-nvtx-12.4.127-0",
+  "files": [
+    "LICENSE",
+    "include/nvtx3/nvToolsExt.h",
+    "include/nvtx3/nvToolsExtCuda.h",
+    "include/nvtx3/nvToolsExtCudaRt.h",
+    "include/nvtx3/nvToolsExtOpenCL.h",
+    "include/nvtx3/nvToolsExtSync.h",
+    "include/nvtx3/nvtxDetail/nvtxImpl.h",
+    "include/nvtx3/nvtxDetail/nvtxImplCore.h",
+    "include/nvtx3/nvtxDetail/nvtxImplCudaRt_v3.h",
+    "include/nvtx3/nvtxDetail/nvtxImplCuda_v3.h",
+    "include/nvtx3/nvtxDetail/nvtxImplOpenCL_v3.h",
+    "include/nvtx3/nvtxDetail/nvtxImplSync_v3.h",
+    "include/nvtx3/nvtxDetail/nvtxInit.h",
+    "include/nvtx3/nvtxDetail/nvtxInitDecls.h",
+    "include/nvtx3/nvtxDetail/nvtxInitDefs.h",
+    "include/nvtx3/nvtxDetail/nvtxLinkOnce.h",
+    "include/nvtx3/nvtxDetail/nvtxTypes.h"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e2c71babfd18a8e69542dd7e9ca018f9caa438094001a58e6bc4d8c999bf0d07",
+        "size_in_bytes": 63021,
+        "sha256_in_prefix": "e2c71babfd18a8e69542dd7e9ca018f9caa438094001a58e6bc4d8c999bf0d07"
+      },
+      {
+        "_path": "include/nvtx3/nvToolsExt.h",
+        "path_type": "hardlink",
+        "sha256": "da7c9f69fbec22d00b43e735c55045cd71d38b158542ebaac7182112f4775915",
+        "size_in_bytes": 53746,
+        "sha256_in_prefix": "da7c9f69fbec22d00b43e735c55045cd71d38b158542ebaac7182112f4775915"
+      },
+      {
+        "_path": "include/nvtx3/nvToolsExtCuda.h",
+        "path_type": "hardlink",
+        "sha256": "bf603db64156dbef0a8773df3f56910b76d5a57e3842d775d06fb953b27fff88",
+        "size_in_bytes": 6374,
+        "sha256_in_prefix": "bf603db64156dbef0a8773df3f56910b76d5a57e3842d775d06fb953b27fff88"
+      },
+      {
+        "_path": "include/nvtx3/nvToolsExtCudaRt.h",
+        "path_type": "hardlink",
+        "sha256": "184629baf13bbfa0a0fb2e0f5c4fea77ad9463b1506340cc9fda7734f1198376",
+        "size_in_bytes": 5539,
+        "sha256_in_prefix": "184629baf13bbfa0a0fb2e0f5c4fea77ad9463b1506340cc9fda7734f1198376"
+      },
+      {
+        "_path": "include/nvtx3/nvToolsExtOpenCL.h",
+        "path_type": "hardlink",
+        "sha256": "6f0f568a220b46386ca35d559e490e3daf8bd4c859493881708b6855a911977b",
+        "size_in_bytes": 8783,
+        "sha256_in_prefix": "6f0f568a220b46386ca35d559e490e3daf8bd4c859493881708b6855a911977b"
+      },
+      {
+        "_path": "include/nvtx3/nvToolsExtSync.h",
+        "path_type": "hardlink",
+        "sha256": "d525a4cfacc6a433953f6403772a83d46cda55d6374b088bea9bae89c2735a12",
+        "size_in_bytes": 15167,
+        "sha256_in_prefix": "d525a4cfacc6a433953f6403772a83d46cda55d6374b088bea9bae89c2735a12"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImpl.h",
+        "path_type": "hardlink",
+        "sha256": "ade23c0496acf51af7889c8650dbb1016bffa592ebba9eeed96d7fb68b4d2f91",
+        "size_in_bytes": 23802,
+        "sha256_in_prefix": "ade23c0496acf51af7889c8650dbb1016bffa592ebba9eeed96d7fb68b4d2f91"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImplCore.h",
+        "path_type": "hardlink",
+        "sha256": "4273770dddd1d2f585fc4e6cd371c712f7b797df4059bfaa22f4ace992f99fa8",
+        "size_in_bytes": 10055,
+        "sha256_in_prefix": "4273770dddd1d2f585fc4e6cd371c712f7b797df4059bfaa22f4ace992f99fa8"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImplCudaRt_v3.h",
+        "path_type": "hardlink",
+        "sha256": "a38bab193237e702b487814de4de1268b6bae29121533863c38168726bd38ea0",
+        "size_in_bytes": 4887,
+        "sha256_in_prefix": "a38bab193237e702b487814de4de1268b6bae29121533863c38168726bd38ea0"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImplCuda_v3.h",
+        "path_type": "hardlink",
+        "sha256": "04c1b984c3ddecc5231257d2682a06024c003a64423051a940714ef991c4e929",
+        "size_in_bytes": 5683,
+        "sha256_in_prefix": "04c1b984c3ddecc5231257d2682a06024c003a64423051a940714ef991c4e929"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImplOpenCL_v3.h",
+        "path_type": "hardlink",
+        "sha256": "94e00a4f10659175e1fa30becc0b5f80a43846d6caa070e2ad7ac4a84e7dd6f5",
+        "size_in_bytes": 8467,
+        "sha256_in_prefix": "94e00a4f10659175e1fa30becc0b5f80a43846d6caa070e2ad7ac4a84e7dd6f5"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxImplSync_v3.h",
+        "path_type": "hardlink",
+        "sha256": "8e51e340d3af479e103d391a05130cbb2ce93a8aca438d98beb5bbcd8e61821c",
+        "size_in_bytes": 5136,
+        "sha256_in_prefix": "8e51e340d3af479e103d391a05130cbb2ce93a8aca438d98beb5bbcd8e61821c"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxInit.h",
+        "path_type": "hardlink",
+        "sha256": "f9a619a9324ffcf83e2b82bbce1c9d3bb938e46121fd539fe901d3e46670b56a",
+        "size_in_bytes": 15059,
+        "sha256_in_prefix": "f9a619a9324ffcf83e2b82bbce1c9d3bb938e46121fd539fe901d3e46670b56a"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxInitDecls.h",
+        "path_type": "hardlink",
+        "sha256": "c5e3ae5275e058c03b06ea48d490935dffee289349270fc70ab6ab7170103ed0",
+        "size_in_bytes": 9434,
+        "sha256_in_prefix": "c5e3ae5275e058c03b06ea48d490935dffee289349270fc70ab6ab7170103ed0"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxInitDefs.h",
+        "path_type": "hardlink",
+        "sha256": "5a7534997a5276b1c6c2232c3996492bceb9e5cfb19c98650298c716a7207380",
+        "size_in_bytes": 35997,
+        "sha256_in_prefix": "5a7534997a5276b1c6c2232c3996492bceb9e5cfb19c98650298c716a7207380"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxLinkOnce.h",
+        "path_type": "hardlink",
+        "sha256": "fb7dbcb69da1180b2900312e8724751242aff51158eabde3c5d75a4169c7be0c",
+        "size_in_bytes": 3938,
+        "sha256_in_prefix": "fb7dbcb69da1180b2900312e8724751242aff51158eabde3c5d75a4169c7be0c"
+      },
+      {
+        "_path": "include/nvtx3/nvtxDetail/nvtxTypes.h",
+        "path_type": "hardlink",
+        "sha256": "5812d6bdf563d1b39dacd384b0172d04807e76dad986d6a455380fa763caa58e",
+        "size_in_bytes": 17685,
+        "sha256_in_prefix": "5812d6bdf563d1b39dacd384b0172d04807e76dad986d6a455380fa763caa58e"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\admin\\miniconda3\\pkgs\\cuda-nvtx-12.4.127-0",
+    "type": 1
+  }
+}

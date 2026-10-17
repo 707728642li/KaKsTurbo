@@ -1,0 +1,23 @@
+{
+  "template_sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9",
+  "source_sha256": "6a9b09c3d2d989ab3f60105dd6e087aeab4a30d6e239f3b5717eb3decc5dcf15",
+  "original_template_sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "theta": 1.090863719290036,
+  "log2_theta": 0.12547087821039307,
+  "ptx_sha256": "2814bafb5b4eb5a1e8f36b056b0bc3c2fa0bf9cfd4bda5e32cdb9e9496301c4e",
+  "precision": "All FP64 input/output/arithmetic/reductions; exact exponent-bit2^-selected; no fast-math/TF32",
+  "scale_precondition": "selected finite integer0..16 after existing norm-valid decision; invalid selected falls back0",
+  "required_norm_guard_changed": false,
+  "CUDA_context_created_by_compilation": false,
+  "CUDA_module_lifetime": "process-owned",
+  "optimizer_or_MA_changed": false,
+  "higher_order_gradients": false,
+  "numerical_scope": "Same full native T18 equations and float addition order; selected2^-k CPU bit exact for every k0..16; actual GPU gates still required"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/libffi-3.4.8-h42d73b9_3.json",
+  "metadata_sha256": "b68cf849de1222ef6c67817df186fd9c695836e00e0c5e1e24cc2a891ea74230",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/libffi-3.4.8-h42d73b9_3.conda",
+  "recorded_full_archive_sha256": "52fa61549a14619aa53c0ae875f6d969fd97c92edffce64bfd7277e2557a726e",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": false,
+  "info_member": "info-libffi-3.4.8-h42d73b9_3.tar.zst",
+  "info_tar_zst_sha256": "ea950c8a6233c080ce0ea3991441e9a70a5a87f37c34bbad2fb1717b097f362f",
+  "extracted": [],
+  "requested_ranges": [
+    {
+      "start": 120796,
+      "bytes": 22,
+      "content_range": "bytes 120796-120817/120818",
+      "sha256": "351c464d6fb9ac5a2b2ce67d5e495ff115478021a95ccded7c626fe0b8f28206"
+    },
+    {
+      "start": 120776,
+      "bytes": 20,
+      "content_range": "bytes 120776-120795/120818",
+      "sha256": "0090cf3101a9969ee17dac46fe73dd158373749c74115a0a59dd000dcbb1a409"
+    },
+    {
+      "start": 120574,
+      "bytes": 222,
+      "content_range": "bytes 120574-120795/120818",
+      "sha256": "d6e93bc728781aa2c0a06ab3b717186d1af55bf161d89fc18d3ab04701e8f0dd"
+    },
+    {
+      "start": 33493,
+      "bytes": 30,
+      "content_range": "bytes 33493-33522/120818",
+      "sha256": "82d23ee2c67a6fa859cdd084746d5a68432336663fe6217943d40ed79fb46b92"
+    },
+    {
+      "start": 33523,
+      "bytes": 36,
+      "content_range": "bytes 33523-33558/120818",
+      "sha256": "dad4d9676369e0830a66db2847cbe5569d13fbd69e5810ac89a0f43b02054eb7"
+    },
+    {
+      "start": 33579,
+      "bytes": 86995,
+      "content_range": "bytes 33579-120573/120818",
+      "sha256": "ea950c8a6233c080ce0ea3991441e9a70a5a87f37c34bbad2fb1717b097f362f"
+    }
+  ],
+  "archive_bytes": 120818
+}

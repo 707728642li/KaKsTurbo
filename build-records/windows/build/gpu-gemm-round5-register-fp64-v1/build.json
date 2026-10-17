@@ -1,0 +1,42 @@
+{
+  "source_sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad",
+  "NVRTC_input_sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad",
+  "original_source_sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "ptx_sha256": "62bc83e2a00e9d1683349353d9b114e531a553e7ecdebbeb751fe77170153bc1",
+  "precision": "FP64 input/output/accumulator; no fast-math/TF32",
+  "arithmetic": "Same +0 initialization and serial k0..63 __fma_rn; no split-K or reassociation",
+  "CUDA_context_created_by_compilation": false,
+  "optimizer_or_MA_changed": false,
+  "precision_change": false,
+  "layouts": {
+    "whole64": {
+      "output_tile": [
+        64,
+        64
+      ],
+      "threads": [
+        16,
+        16
+      ],
+      "outputs_per_thread": 16
+    },
+    "rect32x64": {
+      "output_tile": [
+        32,
+        64
+      ],
+      "threads": [
+        32,
+        8
+      ],
+      "outputs_per_thread": 8
+    }
+  }
+}

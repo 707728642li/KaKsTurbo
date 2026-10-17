@@ -1,0 +1,60 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/ucrt-10.0.22621.0-haa95532_0.json",
+  "metadata_sha256": "ca7f6ce097b96fd87933fd399cc1920e32f65e90b8b846cdbbb61642582465ed",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/ucrt-10.0.22621.0-haa95532_0.conda",
+  "recorded_full_archive_sha256": "9dfca4fb23f20e62a48b9c52e2fdf4d0d34bb31eb6a930c2195fcd10651b3cc3",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-ucrt-10.0.22621.0-haa95532_0.tar.zst",
+  "info_tar_zst_sha256": "bcb70b22a6a846272a70c7b3975922b1f268ac0e2fa336c40d6e322468f01672",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/ucrt-10.0.22621.0-haa95532_0/info/recipe/LICENSE.txt",
+      "archive_member": "info/recipe/LICENSE.txt",
+      "sha256": "2169a9a139c5c16e5566f679fe06b555254f3e2e1f0054f9eaa3059202c76cda",
+      "bytes": 29155
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 634794,
+      "bytes": 22,
+      "content_range": "bytes 634794-634815/634816",
+      "sha256": "47cbec6c0a298b731910fe56247de4756235d8ca46089a1af821a3077217d9d7"
+    },
+    {
+      "start": 634774,
+      "bytes": 20,
+      "content_range": "bytes 634774-634793/634816",
+      "sha256": "0c96831b094ec1d1177598097c5513a8760a18089a24cc0219ba7a54b848e04b"
+    },
+    {
+      "start": 634562,
+      "bytes": 232,
+      "content_range": "bytes 634562-634793/634816",
+      "sha256": "eb46a537a8e57c56e275f91db831c532245df73a44d9ba5f1c1d91a23982f925"
+    },
+    {
+      "start": 614570,
+      "bytes": 30,
+      "content_range": "bytes 614570-614599/634816",
+      "sha256": "f12112e378e5b21983750627bf563ead2efc3f8c71773e810ae256242bad380a"
+    },
+    {
+      "start": 614600,
+      "bytes": 41,
+      "content_range": "bytes 614600-614640/634816",
+      "sha256": "ae61cc8a6d70980e244cfe0c0fa5fc262330ef35bac82078db6b9592cffa6d92"
+    },
+    {
+      "start": 614641,
+      "bytes": 19921,
+      "content_range": "bytes 614641-634561/634816",
+      "sha256": "bcb70b22a6a846272a70c7b3975922b1f268ac0e2fa336c40d6e322468f01672"
+    }
+  ],
+  "archive_bytes": 634816
+}

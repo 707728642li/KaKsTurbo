@@ -1,0 +1,25 @@
+{
+  "source_sha256": "6b1d00f23d15395814bd3b94a6d402693a89889131c04d0deeda49c8ec68f699",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "schema": "kaksforge.native_objective_FP64_build_round2/1",
+  "nvrtc_version": [
+    12,
+    9
+  ],
+  "nvrtc_path": "envs/cuda-runtime/Library/bin/nvrtc64_120_0.dll",
+  "nvrtc_builtins_path": "envs/cuda-runtime/Library/bin/nvrtc-builtins64_129.dll",
+  "ptx_sha256": "8b72ec07afa83ee1a3bbfc763250760be5c0e6d65eecf0550f2c7858f6be2be4",
+  "precision": "FP64 likelihood and full exponential adjoint",
+  "arithmetic": "Original divide/multiply/stationary/log/weight order; stepwise chain reverse",
+  "F_reduction": "Perlane ascending densecell p+=256 leftfold;256 fixed binarytree128..1; no bitparity claim",
+  "gradient_reduction": "Unique positive prepared pattern percell; no atomics or count aggregation",
+  "CUDA_context_created_by_compilation": false,
+  "fast_math": false,
+  "probability_clamp": false
+}

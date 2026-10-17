@@ -1,0 +1,35 @@
+{
+  "platform": "Windows native x64",
+  "compiler": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\bin\\g++.exe",
+  "compiler_version": [
+    "g++.exe (conda-forge gcc 16.2.0-4) 16.2.0",
+    "Copyright (C) 2026 Free Software Foundation, Inc.",
+    "This is free software; see the source for copying conditions.  There is NO",
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    ""
+  ],
+  "flags": [
+    "-O3",
+    "-std=gnu++98",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-BD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib\\",
+    "-LD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib",
+    "-march=native",
+    "-ffp-contract=off"
+  ],
+  "optimization": "O3-native",
+  "executable": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\cpu-reference-cached\\KaKs_Calculator.exe",
+  "executable_sha256": "b964a417828693764ea231f4eebb6bd2e3148a619de57dc7f92377913d23e16f",
+  "original_baseline_manifest": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\cpu-reference-O3-native\\build.json",
+  "original_baseline_manifest_sha256": "bec20fd52faba3f01457c0afa0ef0d4a3e3c6aa32b716e508f7db172339d96a9",
+  "source_manifest": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\cpu-reference-cached\\source_manifest.json",
+  "source_archive_sha256": "d3f321647c262aaab5560fdc7fe886af11d3570fc27340d81ce5a757dcc2f0af",
+  "source_modifications": [
+    "GY94.h: exact 64-entry per-run cache members",
+    "GY94.cpp: cache reset, bitwise lookup and original hit side effects"
+  ],
+  "scientific_changes": [],
+  "output_changes": [],
+  "built_at": "2026-10-10T22:38:12.1557445+09:00"
+}

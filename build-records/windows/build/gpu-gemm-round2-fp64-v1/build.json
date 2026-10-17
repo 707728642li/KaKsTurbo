@@ -1,0 +1,14 @@
+{
+  "source_sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7",
+  "ptx_sha256": "6c787e4d054a1e0df270a94136ec0110a5ac6786c268e7a21a919cc462451c77",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "precision": "FP64 input/output/accumulation",
+  "arithmetic": "Explicit double __fma_rn, k=0..63 zero-padded serial accumulation",
+  "CUDA_context_created_by_compilation": false,
+  "fast_math": false
+}

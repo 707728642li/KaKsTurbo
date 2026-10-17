@@ -1,0 +1,16 @@
+{
+  "source_sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae",
+  "ptx_sha256": "b6f90b444fcdd9c9522490a99f7e01c8a3a1a98055c5900099710bddafd1723d",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "precision": "FP64 input/output/reduction/Jacobian",
+  "edge_count": 263,
+  "CUDA_context_created_by_compilation": false,
+  "fast_math": false,
+  "forward_changed": false,
+  "optimizer_or_MA_changed": false
+}

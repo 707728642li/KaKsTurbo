@@ -1,0 +1,30 @@
+{
+  "schema": "kakscuda.publication_graph_host_build/1",
+  "compiler": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\bin\\g++.exe",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-march=native",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-BD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib\\",
+    "-LD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib",
+    "-shared"
+  ],
+  "source_sha256": {
+    "publication_graph_host.cpp": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312",
+    "torch_graph_host.cpp": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905",
+    "torch_graph_host.h": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba",
+    "torch_graph_host_grouped.cpp": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e",
+    "torch_graph_host_grouped.h": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+  },
+  "dll": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\publication-graph-host-v1\\torch_graph_host.dll",
+  "dll_sha256": "8abc3274466171af418268c5786af0e5f9d4fe00a2138b3d9771a4918574f506",
+  "CUDA_execution": false,
+  "original_source_modified": false,
+  "built_at": "2026-10-11T02:14:36.5983228+09:00"
+}

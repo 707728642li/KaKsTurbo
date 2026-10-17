@@ -1,0 +1,24 @@
+{
+  "source_sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d",
+  "NVRTC_input_sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d",
+  "runtime_source_sha256": "5cbcca222978d60134e94a8d042ba14bbc88bc450c9ae6279ab5df3c69832d06",
+  "original_source_sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "ptx_sha256": "7ca3d56384e0b253e929fb3553743c486bb9e5bc44240c2b39f4d761ac310026",
+  "precision": "FP64 inputs/output/accumulator; no fast-math/TF32",
+  "arithmetic": "Ascending retained original k __fma_rn; positive-zero tail normalization; unsafe rows original k0..63",
+  "safety": "All logical g/dense cells finite and every off-support g cell equals zero, checked on GPU for every product row",
+  "output": "Full dense61x61; never masks downstream adjoints",
+  "CUDA_context_created_by_compilation": false,
+  "optimizer_or_MA_changed": false,
+  "precision_change": false,
+  "product_original_runtime_identities": {
+    "runtime_source_sha256": "84207d179f926cb2e33fd9843d72d1f23a9fbfbd7b2b60489f3ffadfd803ef96"
+  }
+}

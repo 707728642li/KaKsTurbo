@@ -1,0 +1,74 @@
+KaKsTurbo optional KaKs_Calculator export (1.1.0rc9)
+
+Keep result.tsv and results.jsonl as the canonical outputs. Export is a separate,
+read-only command on a completed public run; it performs no fitting:
+  kaksturbo export completed_run --format kaks-calculator --output new_export
+Portable Windows: use .\kaksturbo.exe. Portable Linux: use ./kaksturbo.
+Add --json for a machine-readable completion/error record.
+Python API: from kaksturbo import export_kaks_calculator
+            export_kaks_calculator("completed_run", "new_export")
+
+The new directory contains result.kaks (the exact 22-column header and order of
+KaKs_Calculator 3.0), missing_fields.tsv (one reason per unavailable statistical
+cell), compatibility.json (provenance, hashes, mappings and limitations), and
+README.txt. An existing directory or a location inside the source run is refused.
+The source must have a completed public run_manifest/2, all registered final
+core artifacts: result.tsv, native_result.tsv and results.jsonl. Their hashes are
+verified before and after reading; IDs, order, primary values and counts are
+cross-checked. Old public schema-2 outputs are supported. No .work directory,
+input alignment, GPU or native computation is needed. Restore the three core
+files if moved/compressed; their verification is never bypassed. Other model/QC
+artifacts can be separately archived; they are explicitly listed as nonconsumed
+and unverified. Export does not recertify the scientific model details.
+
+Robust mode:
+Sequence, Method, Ka, Ks and Ka/Ks retain the saved cells, including precision
+and NA. The ratio is never recomputed by dividing printed Ka by printed Ks.
+Length is 3 * eligible_codons (cleaned nucleotide length). Substitutions is the
+observed SNP count. S-Sites/N-Sites and ML-Score retain robust native site counts
+and the saved robust MA lnL; their definitions are not certified equivalent to
+the baseline estimator's statistics or likelihood.
+
+P-Value(Fisher) is NA: no validated Fisher test is supplied in robust mode.
+Fold-site/event statistics, Syn-Subs/Nonsyn-Subs, divergence distance, legacy
+rate ratios and GC are NA because their legacy mapping has not been validated.
+Expected-event statistics are not relabelled as historical counts. MA-level
+AICc/Akaike-Weight/Model are NA: the best candidate and its conditional weight
+are not the identity or weight of the complete model average. Candidate values
+remain in the original detailed outputs. Other unavailable values remain NA
+with their saved reason. No fabricated P value, zero or unit weight is inserted.
+
+Reproduce mode:
+Both the 3.0 header and the historical 22-column reproduction header are
+recognized. Cells, printed precision and NA are copied unchanged. Five older
+labels (S-/N-Substitutions, their Fold fields, and Divergence-Time) map to
+3.0 Syn-/Nonsyn-Subs and Divergence-Distance. The ordered Sd/Nd/Si/Vi/t output
+fields were checked in both baseline source trees; this is only a documented
+label mapping for reproduction mode, not a robust statistic reconstruction. This is still a KaKsTurbo
+reproduction-mode result; exporting does not rerun KaKs_Calculator 3.0.
+
+Readers:
+  R: source("scripts/read_kaks_compatible.R")
+     x <- read_kaks_compatible("new_export/result.kaks")
+  Python: add scripts/ to the import path, then
+     from read_kaks_compatible import read_kaks_compatible
+     rows = list(read_kaks_compatible("new_export/result.kaks"))
+Both examples need only the standard R/Python installation. Read tab-separated
+fields with quote/comment parsing disabled; keep Sequence as text. The export
+does not infer individual gene IDs from the pair ID.
+
+The unmodified GeneFamilies readKaKsCalculatorOutput function was actually run
+on exports (pinned commit 777fbfe96edfaddd6c8187b1346c4e23490b9803):
+https://github.com/asishallab/GeneFamilies/blob/777fbfe96edfaddd6c8187b1346c4e23490b9803/R/selection_funks.R
+It reads Sequence, Ka/Ks and Fisher P values. Its default NA handling converts
+a literal Sequence ID "NA" to a missing ID. The supplied safe readers preserve
+that ID; the exporter never rewrites it. This test does not certify every
+downstream program. A pipeline requiring finite Fisher P values cannot perform
+that significance filter on a robust export.
+
+Compatibility means table layout, not estimator equivalence, convergence or
+positive-selection significance. Keep the standard results, quality summaries
+and model diagnostics, including unresolved projected gradients and NA cases.
+The calculation engine, fourteen models, FP64, boundaries, iterations and
+correctness thresholds are unchanged. See release QUALIFICATION.json for the
+precise installed-package checks. The release remains local; no upload occurred.

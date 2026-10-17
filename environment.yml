@@ -1,0 +1,9 @@
+name: kaksturbo-dev
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pip
+  - build
+  - twine
+# Install only to a project prefix. Channels are not changed at runtime.

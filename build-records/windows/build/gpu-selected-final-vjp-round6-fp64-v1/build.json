@@ -1,0 +1,48 @@
+{
+  "source_template_sha256": "548825c8e1f8c775c57f4039b9549890429f93c6b30dd9eadb9875155ab63384",
+  "generated_source_sha256": "c17f9912fa59b1bf174e690e46a8c5136dfbdb77a82a97bba0b491034e698620",
+  "runtime_source_sha256": "9eaebbdf54cabd67c791b20223baa162ed318b824c5e94716ebec132875a7dae",
+  "original_reverse_sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae",
+  "original_dense_sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9",
+  "original_sparse_sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8",
+  "original_helpers_sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9",
+  "structural_map_sha256": "6f8aec9766dea07f6514fd7481b358c643a575a2b7ec12a961c3fddc3802c358",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "static_contract": {
+    "PASS": true,
+    "full_upstream_adjoints_required": true,
+    "full_ga3_and_updated_ga2": true,
+    "support": "All61diagonal+bothdirectionsall263structuraledges; no pi or observedpattern masking",
+    "full_unmasked_mean_rate_derivative": true,
+    "all263_edge_algebra_unchanged_except_lookup": true,
+    "ascending_dense64_FMA": true,
+    "original_CSR_order": true,
+    "original_add_scale_order": true,
+    "original_full3721_logical_reduction_order": true,
+    "original_binary_tree": true,
+    "safe_row": "All5fulltailinputsfinite,S/Afinite,nonedgesexactpositive0,upwardroundedoverflowcertificate",
+    "unsafe_row": "All3721tailentriescomputed; originalfullcontraction/edge algebra retained",
+    "original_forward_unchanged": true,
+    "optimizer_models_scaling_bounds_unchanged": true,
+    "selected_tail_bits_require_GPU_gate": true,
+    "whole_gradient_bit_parity_claimed": false,
+    "signed_zero_subnormal_nonfinite_and_forced_fallback_require_actual_GPU_gates": true,
+    "selected_entries": 587,
+    "degree_squared_sum": 5673
+  },
+  "schema": "kaksforge.selected_final_VJP_FP64_build_round6/1",
+  "ptx_sha256": "51687b1a145272a8128c533fd05d3977070d0a6539211e8ed6285deda6bc7655",
+  "CUDA_context_created_by_compilation": false,
+  "precision": "FP64 FMA64/CSR/order/exactscale; fmadfalse/no fastmath",
+  "selected_only_at_final_parameter_Jacobian": true,
+  "forward_and_upstream_dense_tape_changed": false,
+  "product_original_runtime_identities": {
+    "runtime_source_sha256": "1309c19a98fcb80de40df832d6a729cb5ca5b1c5e1c3721776571d58cf553fbe"
+  }
+}

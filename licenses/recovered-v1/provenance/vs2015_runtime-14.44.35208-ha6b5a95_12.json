@@ -1,0 +1,60 @@
+{
+  "schema": "kaksforge.exact_conda_notice_recovery/1",
+  "metadata_path": "envs/cuda-torch/conda-meta/vs2015_runtime-14.44.35208-ha6b5a95_12.json",
+  "metadata_sha256": "30740199a52e0a26cd8318a5fbf2f3edbc12cba91000c0810f909ebe005a7f72",
+  "recorded_url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.44.35208-ha6b5a95_12.conda",
+  "recorded_full_archive_sha256": "5b484a4b7df0133f60fd9e12dcf1926f868eaa34a2c3ddad8475169a1a99d9fa",
+  "full_archive_SHA_verified": false,
+  "scope": "ZIP info member fetched from the exact recorded URL; full payload not downloaded or installed",
+  "installed": false,
+  "PASS": true,
+  "info_member": "info-vs2015_runtime-14.44.35208-ha6b5a95_12.tar.zst",
+  "info_tar_zst_sha256": "67e7cae78c74519199493bc51d4c0884d9bed5d086595a687e22cfb3bbe1aea3",
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/vs2015_runtime-14.44.35208-ha6b5a95_12/info/recipe/parent/LICENSE.TXT",
+      "archive_member": "info/recipe/parent/LICENSE.TXT",
+      "sha256": "cf89b37107c22cf8ce21043da1da143087b86ce7fd4556f91c25bc429533807e",
+      "bytes": 7590
+    }
+  ],
+  "requested_ranges": [
+    {
+      "start": 16819,
+      "bytes": 22,
+      "content_range": "bytes 16819-16840/16841",
+      "sha256": "4358da3b60581d4840d97eedc321f9369f5f5ab190eb96523b2ff68772fed1a6"
+    },
+    {
+      "start": 16799,
+      "bytes": 20,
+      "content_range": "bytes 16799-16818/16841",
+      "sha256": "f84d1475de308e3910b9fd276816a218b792449f6fa46219e65a3810ba9a4015"
+    },
+    {
+      "start": 16567,
+      "bytes": 252,
+      "content_range": "bytes 16567-16818/16841",
+      "sha256": "18b3076c929db72e8621c98ae9a96f681c4ec6ed35e4c5516fe50f594b94454e"
+    },
+    {
+      "start": 192,
+      "bytes": 30,
+      "content_range": "bytes 192-221/16841",
+      "sha256": "14960cae6d1b8cbac116de38b45e8d01193844c4a27579ecee16e7b6c472b3c3"
+    },
+    {
+      "start": 222,
+      "bytes": 51,
+      "content_range": "bytes 222-272/16841",
+      "sha256": "659325216b0abce685ec4a5ae82220bd2dd1102a8c9dd026443b983bd80f30dc"
+    },
+    {
+      "start": 293,
+      "bytes": 16274,
+      "content_range": "bytes 293-16566/16841",
+      "sha256": "67e7cae78c74519199493bc51d4c0884d9bed5d086595a687e22cfb3bbe1aea3"
+    }
+  ],
+  "archive_bytes": 16841
+}

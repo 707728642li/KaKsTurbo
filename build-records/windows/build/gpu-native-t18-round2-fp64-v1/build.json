@@ -1,0 +1,20 @@
+{
+  "template_sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903",
+  "source_sha256": "469b31b46ac8e1647f7a003f106cf1495d5c064091a8c6da2ec6eda31901f290",
+  "options": [
+    "--std=c++17",
+    "--gpu-architecture=compute_86",
+    "--fmad=false"
+  ],
+  "nvrtc_sha256": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+  "nvrtc_builtins_sha256": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1",
+  "theta": 1.090863719290036,
+  "log2_theta": 0.12547087821039307,
+  "ptx_sha256": "5ca95c1b8dc6e4e8ca57d2ca5473a170e827bfde5cc7f39671c5dd4a72c97663",
+  "precision": "All FP64 input/output/arithmetic/reductions; no fast-math/TF32",
+  "CUDA_context_created_by_compilation": false,
+  "CUDA_module_lifetime": "process-owned",
+  "optimizer_or_MA_changed": false,
+  "higher_order_gradients": false,
+  "numerical_scope": "Complete T18 forward/reverse; native norm column sums ascending rows; different float summation order requires original gates"
+}

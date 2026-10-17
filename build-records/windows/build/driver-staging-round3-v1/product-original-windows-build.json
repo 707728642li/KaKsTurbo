@@ -1,0 +1,31 @@
+{
+  "schema": "kaksforge.driver_staging_build_round3/1",
+  "compiler": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\bin\\g++.exe",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-march=native",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-BD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib\\",
+    "-LD:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\envs\\cpu-reference\\Library\\x86_64-w64-mingw32\\sysroot\\usr\\lib",
+    "-shared"
+  ],
+  "source_sha256": {
+    "request_staging.cpp": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+  },
+  "compiler_sha256": "c98f31d0c92f96194b588d8505549aa4654e374751387d880f5265e831449978",
+  "compiler_version": "g++.exe (conda-forge gcc 16.2.0-4) 16.2.0\r\nCopyright (C) 2026 Free Software Foundation, Inc.\r\nThis is free software; see the source for copying conditions.  There is NO\r\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compilation_source": "compiled_source_snapshot/request_staging.cpp",
+  "live_snapshot_match_after_build": true,
+  "dll": "D:\\00_Codex_dir\\00_Biotools\\03_KaKsCUDA\\build\\driver-staging-round3-v1\\driver_staging.dll",
+  "dll_sha256": "b555f441d6b90fe2f7879ae90fbbc1119d855dd817abed9f2364986b850e95b7",
+  "policy": "Stable kind split and memcpy-only request/result transport; classify invalid outputs explicitly; no model/optimizer/MA arithmetic",
+  "CUDA_execution": false,
+  "original_source_modified": false,
+  "built_at": "2026-10-11T11:16:39.4733859+09:00"
+}

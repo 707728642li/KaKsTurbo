@@ -1,0 +1,31 @@
+{
+  "schema": "kaksforge.exact_upstream_notice_recovery/1",
+  "url": "https://software.repos.intel.com/python/conda/win-64/intel-openmp-2025.0.0-intel_1162.tar.bz2",
+  "expected_sha256": "06700819892363d36e7b44856f14aa78c718b500c9df8e8bb0d230ced2cd67a0",
+  "installed": false,
+  "PASS": true,
+  "network_source_changed": false,
+  "final_url": "https://software.repos.intel.com/python/conda/win-64/intel-openmp-2025.0.0-intel_1162.tar.bz2",
+  "sha256": "06700819892363d36e7b44856f14aa78c718b500c9df8e8bb0d230ced2cd67a0",
+  "bytes": 3628511,
+  "extracted": [
+    {
+      "path": "software/product-v1-licenses/intel-openmp-2025.0.0-upstream-v1/info/licenses/license.txt",
+      "member": "info/licenses/license.txt",
+      "sha256": "febfb69a5b058f55892dc7f341108a9ca29d50e9fe85723a57eebbb826436958",
+      "bytes": 25224
+    },
+    {
+      "path": "software/product-v1-licenses/intel-openmp-2025.0.0-upstream-v1/info/licenses/tpp.txt",
+      "member": "info/licenses/tpp.txt",
+      "sha256": "a81491a0243fa1d072aa636c890a6dd082ca403aca4681672cf6f69d3d516f79",
+      "bytes": 36937
+    },
+    {
+      "path": "software/product-v1-licenses/intel-openmp-2025.0.0-upstream-v1/share/doc/compiler/licensing/openmp/third-party-programs.txt",
+      "member": "share/doc/compiler/licensing/openmp/third-party-programs.txt",
+      "sha256": "f8ce918fe7311ce279e68380a2e233f8a42b1cd3dda8f4c48d6de97a0255c1d7",
+      "bytes": 31578
+    }
+  ]
+}
