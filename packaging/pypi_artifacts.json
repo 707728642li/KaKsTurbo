@@ -15,9 +15,10 @@
     },
     {
       "name": "kaksturbo-1.1.0rc10.tar.gz",
-      "sha256": "b3c559cf60fb6b76546b93f6d0404f80d8c93187500a031492e91c52975b4143",
-      "bytes": 21037643,
-      "url": "https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/kaksturbo-1.1.0rc10.tar.gz"
+      "sha256": "851aea9ca0660777477de262809fd384a693317e51002209331afd354f79bdaa",
+      "bytes": 21037423,
+      "url": "https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/kaksturbo-1.1.0rc10-sdist1.tar.gz",
+      "asset_name": "kaksturbo-1.1.0rc10-sdist1.tar.gz"
     }
   ]
 }

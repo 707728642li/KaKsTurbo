@@ -32,12 +32,14 @@ def license_entries():
   if n in seen and sha(p)!=seen[n]:raise ValueError('Short license hash collision')
   seen[n]=sha(p)
  return entries
-def metadata(platform):
+def metadata(platform,sdist=False):
+ license_names=(['licenses/'+p.relative_to(ROOT/'licenses').as_posix() for p in license_entries()]
+                if sdist else list(license_entries().values()))
  text=('Metadata-Version: 2.4\nName: kaksturbo\nVersion: '+VERSION+'\n'
  'Summary: Codon model averaging with CPU/GPU execution and numerical diagnostics\n'
  'Requires-Python: >=3.11\nMaintainer: Taishan Li\nMaintainer-email: litaishan@caf.ac.cn\n'
  'License-Expression: GPL-3.0-only\nLicense-File: LICENSE\n'+
- ''.join('License-File: '+n+'\n' for n in sorted(set(license_entries().values())))+
+ ''.join('License-File: '+n+'\n' for n in sorted(set(license_names)))+
  'Classifier: Development Status :: 4 - Beta\nClassifier: Programming Language :: Python :: 3\n'
  'Project-URL: Source, https://github.com/707728642li/KaKsTurbo\n'
  'Project-URL: Issues, https://github.com/707728642li/KaKsTurbo/issues\n'
@@ -79,5 +81,5 @@ def build_sdist(sdist_directory,config_settings=None):
    if not p.is_file() or any(v in p.relative_to(ROOT).parts for v in ('.git','engine','dist','__pycache__','.test-tmp')) or p.suffix=='.pyc':continue
    t.add(p,arcname=f'kaksturbo-{VERSION}/'+p.relative_to(ROOT).as_posix())
   for n in [*manifest['files'],'engine-assets.json']:t.add(runtime/n,arcname=f'kaksturbo-{VERSION}/engine/'+n)
-  data=metadata('linux_x86_64')[DIST+'/METADATA'];info=tarfile.TarInfo(f'kaksturbo-{VERSION}/PKG-INFO');info.size=len(data);info.mode=0o644;t.addfile(info,io.BytesIO(data))
+  data=metadata('linux_x86_64',sdist=True)[DIST+'/METADATA'];info=tarfile.TarInfo(f'kaksturbo-{VERSION}/PKG-INFO');info.size=len(data);info.mode=0o644;t.addfile(info,io.BytesIO(data))
  return name

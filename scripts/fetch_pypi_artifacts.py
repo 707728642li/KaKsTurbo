@@ -9,7 +9,9 @@ assert len(manifest['artifacts'])==3
 for item in manifest['artifacts']:
     name=item['name'];assert Path(name).name==name
     assert name.startswith('kaksturbo-'+manifest['version'])
-    assert item['url']=='https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/'+name
+    asset=item.get('asset_name',name);assert Path(asset).name==asset
+    assert asset.startswith('kaksturbo-'+manifest['version'])
+    assert item['url']=='https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/'+asset
     with urllib.request.urlopen(item['url'],timeout=120) as response:data=response.read()
     assert len(data)==item['bytes'],name
     assert hashlib.sha256(data).hexdigest()==item['sha256'],name

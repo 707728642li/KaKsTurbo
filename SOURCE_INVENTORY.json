@@ -3338,8 +3338,8 @@
     },
     {
       "path": "packaging/pypi_artifacts.json",
-      "bytes": 972,
-      "sha256": "92ca663b1c530e11b4e68d295d06abf8047811988a860e7d7b242c9ed3d88568"
+      "bytes": 1036,
+      "sha256": "206285b1deb4cc5014dd7d06fab4c403ecca4e94bdbffd02a86db093bf740019"
     },
     {
       "path": "pyproject.toml",
@@ -3353,8 +3353,8 @@
     },
     {
       "path": "scripts/fetch_pypi_artifacts.py",
-      "bytes": 896,
-      "sha256": "29d8c75aacd608ba49fd4fcbbae0a33c2c78a3028d47e5201e82fb3c5fc563e9"
+      "bytes": 1028,
+      "sha256": "c8963106020811fd9855db6c3b79ee77bc2a292858aae48c3fc0fe425b6abd2e"
     },
     {
       "path": "scripts/native_smoke.py",
@@ -3383,8 +3383,8 @@
     },
     {
       "path": "scripts/release_backend.py",
-      "bytes": 5750,
-      "sha256": "b1cf6680beb0b968d7c9938bc22239f80a14463ac9813128483d9b07b1f31424"
+      "bytes": 5923,
+      "sha256": "e7ca08e4b1bdd721990611d961120888cb67b8756fa8a72a87f03d21648d6ce9"
     },
     {
       "path": "scripts/run_raw_cds_demo_linux.sh",
