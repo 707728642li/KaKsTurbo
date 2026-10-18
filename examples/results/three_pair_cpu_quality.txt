@@ -1,0 +1,31 @@
+KaKsTurbo quality summary
+
+PAIRS
+  total: 3
+  finite_Ka_Ks: 2
+  NA_Ka_Ks: 1
+  iteration_capped: 0
+  cap_diagnostic_unknown: 0
+  boundary: 0
+  boundary_diagnostic_unknown: 1
+
+MODELS
+  total: 42
+  finite_endpoint: 28
+  unavailable_endpoint: 0
+  endpoint_unknown: 14
+  coordinate_gate_passed: 28
+  coordinate_gate_failed: 0
+  coordinate_gate_unknown: 14
+  iteration_capped: 0
+  cap_unknown: 14
+  boundary: 0
+  boundary_unknown: 14
+  gradient_within_1e_minus_8: 28
+  gradient_above_1e_minus_8: 0
+  gradient_unknown: 14
+
+Finite Ka/Ks and a passed coordinate gate do not establish optimizer convergence.
+The projected normalized gradient threshold is 1e-8 at the saved endpoint; missing diagnostics remain unknown.
+A boundary hit or iteration cap is a warning, not proof that the final model-averaged Ka/Ks is wrong.
+This summary does not refit models, establish a global optimum, or test positive selection.

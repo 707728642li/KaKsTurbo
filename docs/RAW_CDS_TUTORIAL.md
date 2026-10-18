@@ -156,6 +156,6 @@ After Linux preparation, copy the complete prepared directory to Windows if need
 - [PAL2NAL](https://www.bork.embl.de/pal2nal/), [Suyama et al. (2006)](https://doi.org/10.1093/nar/gkl315). The strict whole-CDS checks are additional checks in this helper.
 - [GNU parallel](https://www.gnu.org/software/parallel/); follow its citation guidance when used in published work.
 
-This is an upstream tutorial addendum. Existing rc9 binaries, fourteen models, FP64, numerical gates and historical results are unchanged. Project-local execution proofs are in `Codex_test/kt_raw_input_20261018/`; the checks are tutorial qualification, not new performance or biological-accuracy evidence.
+The preparation helper preserves the scientific engine, fourteen models, FP64 and numerical gates. Its published [workflow validation record](RAW_CDS_VALIDATION.md) and [machine-readable summary](RAW_CDS_VALIDATION.json) describe the tested inputs and platform. These checks qualify the tutorial; they are not performance or biological-accuracy evidence.
 
 See the [qualification record](RAW_CDS_VALIDATION.md) for exact platform, checks and limits.

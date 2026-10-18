@@ -1,10 +1,10 @@
 KaKsTurbo — Windows 1.1.0rc10 / Linux 1.1.0rc9-tutorial1
 
 当前唯一开发源码：src/kaksturbo；版本来源：src/kaksturbo/_version.py。
-本源码快照对应 Windows rc10；Linux 保留单独验收的 rc9-tutorial1 包。项目根 rc6 入口不是本次下载。
-离线发行入口：Windows 解压目录的 kaksturbo.exe；Linux 解压目录的 ./kaksturbo。
+本源码快照对应 Windows rc10；Linux 保留单独验收的 rc9-tutorial1 包。下载入口见 README.md。
+便携发行入口：Windows 解压目录的 kaksturbo.exe；Linux 解压目录的 ./kaksturbo。
 Python API 和 CLI 来自同一套源码。构建脚本读取同一版本号，不再独立硬编码版本。
-Windows rc10 已修复长路径 IO/启动；Linux rc9-tutorial1 保持原样，均未上传。Linux CPU 原生 Ubuntu 22.04
+Windows rc10 已修复长路径 IO/启动；Linux rc9-tutorial1 保留独立验收版本，均已在 GitHub Release 发布。Linux CPU 原生 Ubuntu 22.04
 已验证；GPU 已验证范围和设备条件见 docs/LINUX_COMPATIBILITY.md。
 计算引擎沿用已验证的 1.1.0rc4+schur.1，版本区别是有意的接口/引擎分层。
 14 模型、FP64、MA、遗传密码表 1、边界、主迭代预算和质量检查策略不变。
@@ -16,8 +16,8 @@ Windows rc10 已修复长路径 IO/启动；Linux rc9-tutorial1 保持原样，�
 
   .\kaksturbo.exe --version
   .\kaksturbo.exe doctor --backend cpu --json
-  .\kaksturbo.exe examples --output examples
-  .\kaksturbo.exe prepare --input examples/aligned.fasta --pairs examples/pairs.tsv --output prepared
+  .\kaksturbo.exe examples --output generated_examples
+  .\kaksturbo.exe prepare --input generated_examples/aligned.fasta --pairs generated_examples/pairs.tsv --output prepared
   .\kaksturbo.exe validate --input prepared --output input_qc
   .\kaksturbo.exe run --input prepared --output cpu_run --backend cpu --threads 16
 
@@ -94,7 +94,7 @@ Windows rc10 自动处理长输入/输出路径、空格和中文路径，无需
 
 Completed standard results can be exported without fitting:
   kaksturbo export completed_run --format kaks-calculator --output new_export
-The canonical result.tsv/results.jsonl remain unchanged. Missing statistics use NA with cell-level reasons. This is 22-column layout compatibility, not estimator equality. Full mappings, limits and reader examples: docs/COMPATIBLE_EXPORT.txt and docs/COMPATIBLE_EXPORT_ZH.txt. The Windows rc7 / Linux rc8 validation above is inherited only for byte-identical engines and runtimes; new rc9 export/installed-CLI checks are recorded separately in the new release QUALIFICATION.json. No upload.
+The canonical result.tsv/results.jsonl remain unchanged. Missing statistics use NA with cell-level reasons. This is 22-column layout compatibility, not estimator equality. Full mappings, limits and reader examples: docs/COMPATIBLE_EXPORT.txt and docs/COMPATIBLE_EXPORT_ZH.txt. Export was introduced and qualified in rc9; Windows rc10 and Linux rc9-tutorial1 retain that contract. Platform-specific installed checks are recorded in each released package QUALIFICATION.json.
 
 
 原始 CDS / PEP 入门与批量比对（Linux 为主）
@@ -103,6 +103,6 @@ The canonical result.tsv/results.jsonl remain unchanged. Missing statistics use 
 先提供明确的同源基因配对与匹配的 CDS/PEP，再进行 MAFFT 蛋白比对、PAL2NAL
 密码子回译，最后调用本工具 prepare / validate / run。该外部准备脚本不推断同源性，
 不改变估计方法。可用 GNU parallel 批量并发；错误配对明确报告、不悄悄删除。
-rc9-tutorial1 Windows/Linux 便携包已包含教程、批量脚本和原始示例；程序仍为 rc9。
-从包根目录的 QUICKSTART_ZH.md 开始。原 rc9 下载归档保持原样并单独保留。
+当前 Windows rc10 / Linux rc9-tutorial1 便携包均包含教程、批量脚本和原始示例。
+从包根目录的 QUICKSTART_ZH.md 开始；旧版归档保留不变。
 实测范围与证据摘要：docs/RAW_CDS_VALIDATION.md。

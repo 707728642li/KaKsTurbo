@@ -1,0 +1,21 @@
+{
+  "scope": "Two figures explicitly authorized for the software repository",
+  "figures": [
+    {
+      "asset": "workflow.png",
+      "source_figure": "Figure 1",
+      "source_package": "KaKsTurbo_MBE_Audit_Package_V1",
+      "sha256": "735900d810b4dd1521b33ce74dd8bba80f72a4ce75850b7e9d2eaf33161c4882",
+      "bytes": 2872191,
+      "modified": false
+    },
+    {
+      "asset": "performance.png",
+      "source_figure": "Figure 2",
+      "source_package": "KaKsTurbo_MBE_Audit_Package_V1",
+      "sha256": "84e70d01b1b41ee1c00f4c71243d7c932b98dfbade5914e46d5d938a9d1e9c65",
+      "bytes": 436493,
+      "modified": false
+    }
+  ]
+}

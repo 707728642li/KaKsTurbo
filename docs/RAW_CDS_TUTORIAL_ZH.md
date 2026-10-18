@@ -177,6 +177,6 @@ ATGGCCGGATTC
 - [PAL2NAL 官方页面](https://www.bork.embl.de/pal2nal/)与 [Suyama et al. (2006)](https://doi.org/10.1093/nar/gkl315)：蛋白比对到密码子比对的转换。上述严格一致性检查由本教程额外执行。
 - [GNU parallel](https://www.gnu.org/software/parallel/)：独立配对的批量并发；使用时请按其引用要求注明软件。
 
-这次新增的是上游准备脚本与教程。原 rc9 可执行包、14 模型、FP64、数值阈值、历史原始结果保持不变。真实外部工具与 Linux 已安装包的检查记录见项目交付中的 `Codex_test/kt_raw_input_20261018/`；新教程测试不是新增性能比较或生物学准确性证据。
+准备脚本保持计算引擎、14 模型、FP64 和数值阈值不变。公开的[流程验证记录](RAW_CDS_VALIDATION.md)与[机器可读摘要](RAW_CDS_VALIDATION.json)说明已测试的平台、输入与范围；这些检查用于验证教程，不代表性能比较或生物学准确性。
 
 本次验收的具体平台、通过项与局限见 [验证记录](RAW_CDS_VALIDATION.md)。

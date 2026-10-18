@@ -1,5 +1,5 @@
 {
-  "scope": "software source, documentation, licenses and synthetic examples only",
+  "scope": "Software source/documentation/licenses/synthetic examples, plus two user-authorized scientific overview/performance figures and aggregate timing tables",
   "files": [
     {
       "path": ".gitattributes",
@@ -2522,19 +2522,64 @@
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
     },
     {
+      "path": "docs/assets/figure_provenance.json",
+      "bytes": 638,
+      "sha256": "46637082a736660fcad7650c2402599ae5d1cca1b82c796998567529aa0698bc"
+    },
+    {
+      "path": "docs/assets/performance.png",
+      "bytes": 436493,
+      "sha256": "84e70d01b1b41ee1c00f4c71243d7c932b98dfbade5914e46d5d938a9d1e9c65"
+    },
+    {
+      "path": "docs/assets/workflow.png",
+      "bytes": 2872191,
+      "sha256": "735900d810b4dd1521b33ce74dd8bba80f72a4ce75850b7e9d2eaf33161c4882"
+    },
+    {
       "path": "docs/BUILDING_NATIVE.md",
       "bytes": 1724,
       "sha256": "90a6f13741facdd8a92c7b76ef9910b8a67867a14b2dd90f9e71c6842aa3b50a"
     },
     {
       "path": "docs/COMPATIBLE_EXPORT.txt",
-      "bytes": 4714,
-      "sha256": "e3c6417a74cb8d889cfd1f6f8666b4913b8e3d09d45d768d9f331bacd083bb1f"
+      "bytes": 4830,
+      "sha256": "cc57d25f7eb764f38814859ef1ae004aa1d912c945135bc8e350b4e2aa67d36f"
     },
     {
       "path": "docs/COMPATIBLE_EXPORT_ZH.txt",
-      "bytes": 4955,
-      "sha256": "5696a3763c20c47d5003a10a98d29103513d8a8013a988083c3100e36bd5616e"
+      "bytes": 5029,
+      "sha256": "7ebb661818acdf1e2e42a5b007d0a322ffbfeb2d7c892190098531d474554745"
+    },
+    {
+      "path": "docs/data/cohort_cpu_runs.tsv",
+      "bytes": 2536,
+      "sha256": "ed8b69bb89ef0b4d2646efba89d954bfe5de16d63e3139cc168f1d689b07e9d0"
+    },
+    {
+      "path": "docs/data/performance_summary.tsv",
+      "bytes": 578,
+      "sha256": "d0d39fba4b2dff4c193c74589f4eb623e39b4932ea0d15252c9edb210949835a"
+    },
+    {
+      "path": "docs/data/public1000_runs.tsv",
+      "bytes": 1507,
+      "sha256": "56f64f0e8f695f323d227bd43277b12634164515cd62e65821cb5bd2b39ea063"
+    },
+    {
+      "path": "docs/data/README.md",
+      "bytes": 1051,
+      "sha256": "32884f61c5c15320a3fb365e99ff7f4183660909f231555c4e88433c3ef12557"
+    },
+    {
+      "path": "docs/data/scaling_runs.tsv",
+      "bytes": 705,
+      "sha256": "1c9333d88b4d63c2cc35038243bf12f527105ae09334e2bb667567cc8213a0c2"
+    },
+    {
+      "path": "docs/data/scaling_summary.tsv",
+      "bytes": 647,
+      "sha256": "068f9d5464135baa964935b2420064ca4e787a11e390cd536e7117428a21e550"
     },
     {
       "path": "docs/DEVICE_GUIDE_ZH.txt",
@@ -2542,34 +2587,54 @@
       "sha256": "e155d4940dcfb09e650efe82411e4999cdc89a80b1357626d96aff221b8f353e"
     },
     {
+      "path": "docs/DEVICES.md",
+      "bytes": 2571,
+      "sha256": "e5f67e08e9fdfc551205a26ba59e8b13590e97e96c650becd58b6aed70ea5183"
+    },
+    {
       "path": "docs/INPUT_OUTPUT.md",
-      "bytes": 2142,
-      "sha256": "0f72fb2d85f3fe214ab2cbb68c7718a14db150609801c89418ee83fe189c6ace"
+      "bytes": 5925,
+      "sha256": "e2acaecec54595386cf29183bf763f5cd66a347d2350b65b07331c9e84a0fa77"
     },
     {
       "path": "docs/LINUX_COMPATIBILITY.md",
-      "bytes": 4601,
-      "sha256": "f8f0fa5c3577d2548e0f233dfb3773e0660b17ed1d4c9a07ee0352cfb924185b"
+      "bytes": 4086,
+      "sha256": "e275804a0c910bdeab97f684fb26bfed9990ca6c3bd28192e3909b2a8f5d561e"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "bytes": 5344,
+      "sha256": "008db46e4c568bbda23beb66a667d6746d40a066d70ca569cc96243a88ae1761"
     },
     {
       "path": "docs/MIGRATION.md",
-      "bytes": 879,
-      "sha256": "58a597fbc0d1bae041056ecc12d3f6f7616a0a5303afb7b9a411645a841ba2b3"
+      "bytes": 1835,
+      "sha256": "2f19e0d8c9b9dc56ca4b9a752c57c879c546aa7d53968519e687293f61966ada"
     },
     {
       "path": "docs/NUMERICAL_SMOKE.md",
-      "bytes": 1048,
-      "sha256": "2052446cf962c8d8ce118334c626187f08acc21d3ee6ffe0e0baa17b075d6910"
+      "bytes": 1149,
+      "sha256": "ea80ae2a0ca9710907fa18c8d0c54da7dcf48d56c6fb447a48cd32db2477f5d9"
+    },
+    {
+      "path": "docs/NUMERICAL_VALIDATION.md",
+      "bytes": 3810,
+      "sha256": "ad08499f77eb2682c266a92523e884ecfa7d1b8f0855f5d916627e09953453c5"
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "bytes": 5814,
+      "sha256": "62543ef2b6edbd5270d54acf6783803c87a462d229768c012176ac0a31fdbf45"
     },
     {
       "path": "docs/RAW_CDS_TUTORIAL.md",
-      "bytes": 10880,
-      "sha256": "1a077c50c4a673eb589a6bb0b98183414b0cd106300bd94d659330f9f538c499"
+      "bytes": 10929,
+      "sha256": "5d79acea7e28552ca101606d04ce57965662e95958127f1e499fa5d1dafdbeb2"
     },
     {
       "path": "docs/RAW_CDS_TUTORIAL_ZH.md",
-      "bytes": 12120,
-      "sha256": "f5b91d3e8e6d6cf5757d463d69dbd7995b1c426dfe0c9f0e7ef3064579ca91b2"
+      "bytes": 12095,
+      "sha256": "3247c6e0706b7a778cf83d143c2c371cbab9481fa2d5de04ed6d014d8ae640bd"
     },
     {
       "path": "docs/RAW_CDS_VALIDATION.json",
@@ -2578,23 +2643,28 @@
     },
     {
       "path": "docs/RAW_CDS_VALIDATION.md",
-      "bytes": 2933,
-      "sha256": "4674579a89251edbbe495f6a9d6414dd4474d86b64bf62ee44798e94c6f6a092"
+      "bytes": 2906,
+      "sha256": "481780863762891a99ccaf88d1e74557d6f038ed71414ffb62976124efcdccc9"
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 1757,
-      "sha256": "ff93d329971bdd924a641f590956bae02010bb419d995c53d7ae32c6eb5e6307"
+      "bytes": 2200,
+      "sha256": "a21d444da19311a2edd78605557ae75fd576ae591f050e34e0068f72848da150"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 721,
-      "sha256": "b4578c3dd48b7b7396f74d514159ef3c76e23117d9b153fb970e9780d25f8169"
+      "bytes": 2302,
+      "sha256": "113fbb716496b5b6fb7ed191685b857d0d8825c1738a5259c193d34380d65176"
     },
     {
       "path": "docs/SOURCE_LAYOUT.md",
-      "bytes": 1106,
-      "sha256": "50063d3a69b843a4c6a6417e3b978e3ff7ed83de4c1c21e97ab723eb1d1fa75e"
+      "bytes": 1296,
+      "sha256": "019215a0ee52aeb4b8e87135a2cd8ac6d551a728dde023c2b9f165f41e1c4cb0"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 3696,
+      "sha256": "67546d5c37a0cf2dff3ac8484a6b1b7b4f0c6bd5d8585c71ba8b7631b6811b4a"
     },
     {
       "path": "docs/WINDOWS_PATHS.md",
@@ -2665,6 +2735,31 @@
       "path": "examples/README.md",
       "bytes": 749,
       "sha256": "0e00466611e90f068ede8f392c657ea9a6ce1259896326f07d7b8c110af2aa3e"
+    },
+    {
+      "path": "examples/results/provenance.json",
+      "bytes": 798,
+      "sha256": "c70de8af185f702f0c2711fea0170b0fd65db1e2c875c0c15284f39210da95a8"
+    },
+    {
+      "path": "examples/results/README.md",
+      "bytes": 1081,
+      "sha256": "09919c960020eb42ce5af90beb73b3a4680810616f042abccd9e51cf08ae698b"
+    },
+    {
+      "path": "examples/results/three_pair_cpu.jsonl",
+      "bytes": 1913,
+      "sha256": "478a0a272731e1a71e71176b5e4199e7cb4b060baf700260e7e93ad7d75be376"
+    },
+    {
+      "path": "examples/results/three_pair_cpu.tsv",
+      "bytes": 665,
+      "sha256": "6dfdf48771fb985c70b9eb0bf75088d2e04ffb4bd2157c93c2a60db391272834"
+    },
+    {
+      "path": "examples/results/three_pair_cpu_quality.txt",
+      "bytes": 934,
+      "sha256": "8eb8a0f2073a2bdaa12ff35eae7a405629865be38ecb6478f9843bd6d3af0136"
     },
     {
       "path": "examples/three_pair_smoke.axt",
@@ -3198,18 +3293,23 @@
     },
     {
       "path": "QUICKSTART.md",
-      "bytes": 3894,
-      "sha256": "308e9ffb20230081e61a7ab10b5568e57bb2ed5ddf6605813593c70b5ee22634"
+      "bytes": 4886,
+      "sha256": "3ccb9d61d862b958b1682f59fef20b32ffefdbd5a1535b0bc6438f489c5cdcab"
     },
     {
       "path": "QUICKSTART_ZH.md",
-      "bytes": 3627,
-      "sha256": "933cb35348198d3418f4ecefaa0a53721c1ae3cafabaf4716d014b798ef09b7e"
+      "bytes": 4490,
+      "sha256": "56a2cbf15aa4d934d9a56ca78433a8f164d6dcb3e621c610a720fe5b1ca53af9"
     },
     {
       "path": "README.md",
-      "bytes": 7859,
-      "sha256": "58beb488109061b9c9088218a6becfadbce8637e086427f45365fd105f5b757b"
+      "bytes": 12658,
+      "sha256": "893253a53ea6c797c4e38c6bbd8f7261aac389895f98663e82f05546b8dc3cdd"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 7068,
+      "sha256": "900a628072ff4bbfdb30132dd81ec4232a50e47698d5201739f879d3be24dba6"
     },
     {
       "path": "release_identity.json",
@@ -3518,8 +3618,8 @@
     },
     {
       "path": "USER_GUIDE_ZH.txt",
-      "bytes": 8171,
-      "sha256": "5b87e1f43afae27f2fbcf1cb9037a3350ed7b129047be19626fae9bc28ff2609"
+      "bytes": 8173,
+      "sha256": "fe01ee536ba3af46e06e4f46112ae6b37176ba2287a9b27aae1491a3752fbe5e"
     },
     {
       "path": "workflow/raw_cds_environment.yml",

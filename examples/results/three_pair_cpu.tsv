@@ -1,0 +1,4 @@
+pair_id	seq1_id	seq2_id	method	mode	backend	Ka	Ks	Ka_Ks	aligned_codons	eligible_codons	observed_SNP	status	reason	lnL	best_model	iteration_capped_models	boundary_models
+forward			MA	robust	cpu	0.066008048039390047	0.065604350207517134	1.0061535222983835	122	122	23	available		-608.55358075505796	HKY	[]	[]
+reverse			MA	robust	cpu	0.066008048039390047	0.065604350207517134	1.0061535222983835	122	122	23	available		-608.55358075505796	HKY	[]	[]
+identical			MA	robust	cpu	NA	NA	NA	122	122	0	unidentifiable	zero_observed_substitutions; All fourteen model points, valid criteria, and finite-fit gates are required; no subset averaging; reported_NA:Ka,Ks,Ka_Ks	NA		[]	NA

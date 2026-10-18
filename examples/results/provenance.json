@@ -1,0 +1,20 @@
+{
+  "scope": "Three-pair synthetic installation example, not biological or performance evidence",
+  "program_version": "1.1.0rc10",
+  "platform": "Windows x86-64",
+  "backend": "cpu",
+  "mode": "robust",
+  "input": "../three_pair_smoke.axt",
+  "input_sha256": "8d386eea66aad0a5d9e55a31769b3e806e5c304ce4675295527d7df55a4f0e85",
+  "pairs": 3,
+  "model_slots": 42,
+  "finite_Ka_Ks": 2,
+  "NA_Ka_Ks": 1,
+  "source_qualification_passed": true,
+  "new_fit_performed_for_documentation": false,
+  "files": {
+    "three_pair_cpu.tsv": "6dfdf48771fb985c70b9eb0bf75088d2e04ffb4bd2157c93c2a60db391272834",
+    "three_pair_cpu.jsonl": "478a0a272731e1a71e71176b5e4199e7cb4b060baf700260e7e93ad7d75be376",
+    "three_pair_cpu_quality.txt": "8eb8a0f2073a2bdaa12ff35eae7a405629865be38ecb6478f9843bd6d3af0136"
+  }
+}

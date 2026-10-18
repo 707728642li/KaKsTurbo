@@ -1,9 +1,17 @@
 # Release status
 
-Current portable pre-release: Windows **1.1.0rc10** and Linux **1.1.0rc9-tutorial1**. See the repository README and GitHub Release for downloads and SHA256 values. The Linux program is retained from its qualified build; it has not been relabeled rc10.
+The public [GitHub pre-release](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10) provides **Windows 1.1.0rc10** and **Linux 1.1.0rc9-tutorial1**, their corresponding source archives, a Windows extraction helper and SHA256SUMS. PyPI and Bioconda publication remain pending. The platform program versions are intentionally distinct.
 
-Windows long-path qualification covers spaces/Chinese characters, 389-character input paths, 374-character output directories, 519-character result files, direct EXE launch from a 199-character installation and PowerShell 5.1 launch from a 334-character installation. LongPathsEnabled remained zero. CPU/GPU/reproduction, metadata, gzip, compatible export and actual interrupted recovery were checked; 58 interface tests passed. Nine standard scientific files were byte-identical to the corresponding rc9 backend/mode. These are small installation regressions, not new scientific or performance claims.
+## Qualification retained
 
-Linux retains its glibc2.17 ABI target, native Ubuntu22.04 CPU and Ubuntu22.04 GPU-container qualification, including 1000-pair and 49-pair backend-specific regressions. Four hard-panel models remain above the strict projected-gradient threshold. The Linux raw-CDS tutorial passed the full alignment-to-fitting workflow on four synthetic requests (three finite estimates, one NA). See LINUX_COMPATIBILITY.md and RAW_CDS_VALIDATION.md for scope.
+Windows rc10 covers spaces/Chinese characters, 389-character input paths, 374-character output directories, 519-character result files, direct EXE launch from a 199-character installation and PowerShell 5.1 launch from a 334-character installation. LongPathsEnabled remained zero. CPU/GPU/reproduction, metadata, gzip, compatible export and actual interrupted recovery were checked; 58 interface tests passed. Nine standard scientific files were byte-identical to the corresponding rc9 backend/mode.
 
-For publication, explanatory documents and inventories were updated. Scientific binaries, PTX, Python runtime/interface code, scripts and model settings remain unchanged from the qualified portable archives; PUBLICATION_PACKAGING.json records this distinction. Prior local archives are retained. No private sequence data, manuscript or benchmark intermediates are included in this repository. PyPI/Bioconda distribution is not claimed.
+Linux retains its glibc 2.17 ABI target, native Ubuntu 22.04 CPU and Ubuntu 22.04 GPU-container qualification, including 1,000-pair and 49-pair backend-specific regressions. Four hard-panel model fits remain above the strict projected-gradient threshold. The raw-CDS tutorial passed the full alignment-to-fitting workflow on four synthetic requests: three finite estimates and one NA. [Platform details](LINUX_COMPATIBILITY.md) · [Tutorial qualification](RAW_CDS_VALIDATION.md)
+
+These checks qualify installation and compatibility; they are not new performance measurements or global-convergence claims.
+
+## Public documentation update
+
+The repository homepage now includes the explicitly authorized workflow and performance figures, traceable aggregate timing tables, methods documentation, mode selection and a real synthetic-result preview. Original figure bytes, historical measurements, scientific source and release assets are preserved. The release-tagged source/archives remain immutable snapshots; the current online documentation lives on `main`.
+
+The repository includes no private research sequences, manuscript documents or large benchmark intermediates. Only the two requested scientific figures and their aggregate performance evidence have been added to the public software presentation.

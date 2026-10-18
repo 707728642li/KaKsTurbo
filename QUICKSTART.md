@@ -1,4 +1,25 @@
-# Start here: raw CDS to Ka/Ks
+<!-- homepage-refresh -->
+# Quick start
+
+**Choose your starting point:** [aligned input](#aligned-input-run-immediately) · [raw CDS and proteins](#start-here-raw-cds-to-kaks) · [中文](QUICKSTART_ZH.md)
+
+## Aligned input: run immediately
+
+Download the [Linux portable package](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10), extract it, and enter the package directory. No Conda/alignment installation is needed for this example:
+
+```bash
+./kaksturbo doctor --backend cpu
+./kaksturbo run --input examples/three_pair_smoke.axt --output results_demo --backend cpu --threads 8
+head -n 4 results_demo/result.tsv
+```
+
+Expect three ordered requests, two finite ratios and one identical-pair NA. [Actual output preview](examples/results/README.md) · [Windows instructions](docs/WINDOWS_PATHS.md) · [CLI options](docs/USAGE.md)
+
+For your own aligned AXT, replace `--input`. For FASTA, provide `--pairs` with explicit directed IDs. [Input formats](docs/INPUT_OUTPUT.md)
+
+---
+
+## Start here: raw CDS to Ka/Ks
 
 [中文快速入门](QUICKSTART_ZH.md) · [Full tutorial](docs/RAW_CDS_TUTORIAL.md) · [Batch helper](scripts/prepare_cds_pairs.py)
 

@@ -1,4 +1,4 @@
-KaKsTurbo optional KaKs_Calculator export (1.1.0rc9)
+KaKsTurbo optional KaKs_Calculator export (introduced in 1.1.0rc9)
 
 Keep result.tsv and results.jsonl as the canonical outputs. Export is a separate,
 read-only command on a completed public run; it performs no fitting:
@@ -71,4 +71,5 @@ positive-selection significance. Keep the standard results, quality summaries
 and model diagnostics, including unresolved projected gradients and NA cases.
 The calculation engine, fourteen models, FP64, boundaries, iterations and
 correctness thresholds are unchanged. See release QUALIFICATION.json for the
-precise installed-package checks. The release remains local; no upload occurred.
+precise installed-package checks. Public downloads: https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10
+Windows rc10 and Linux rc9-tutorial1 retain this export contract.

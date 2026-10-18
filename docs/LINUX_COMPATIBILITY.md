@@ -1,47 +1,51 @@
 # Linux installation and compatibility
 
-KaKsTurbo 1.1.0rc9 adds optional read-only compatibility export on Windows and Linux. Windows rc7 and Linux rc8 remain preserved. The native engines and bundled runtimes are byte-identical to those releases, so their numerical/ABI qualification below is inherited. New installed rc9 CLI/export checks are recorded separately in the release QUALIFICATION.json. No artifact has been uploaded.
+Linux is the primary tutorial platform. The public portable package is **1.1.0rc9-tutorial1**, available from the [GitHub Release](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10). The release tag also carries Windows rc10; the separately qualified Linux executable is intentionally not relabeled rc10.
 
-## Portable Linux download
+## Install the portable package
 
-Extract the entire `KaKsTurbo-1.1.0rc9-linux-x86_64.tar.gz` archive and keep `runtime/` next to the executable:
+Download [the Linux TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-linux-x86_64.tar.gz) and check it against [SHA256SUMS](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS.txt). Extract the entire archive:
 
-```sh
-tar -xzf KaKsTurbo-1.1.0rc9-linux-x86_64.tar.gz
-cd KaKsTurbo-1.1.0rc9
+```bash
+tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-linux-x86_64.tar.gz
+cd KaKsTurbo-1.1.0rc9-tutorial1
 ./kaksturbo --version
 ./kaksturbo doctor --backend cpu
 ./kaksturbo run --input examples/three_pair_smoke.axt --output results --backend cpu --threads 2
 ./kaksturbo resume results
 ```
 
-The private Python interpreter is included. Neither a system Python nor Conda is needed. This package targets x86-64 Linux with glibc >=2.17; it does not bundle or replace system glibc. ARM, macOS and musl/Alpine are not supported by this binary. The complete portable payload contains 95 ELF files, all requiring no symbol newer than glibc2.17. `auditwheel show` confirms the wheel's `manylinux_2_17_x86_64` tag. A symbol audit is an ABI check, not a promise that every distribution or driver works.
+Keep `runtime/` beside the executable. No system Python or Conda is needed for core execution. The optional [raw-CDS preparation tutorial](RAW_CDS_TUTORIAL.md) uses a separate Conda environment for external aligners.
 
-Inherited rc8 numerical tests (not rerun for the export-only rc9 update): native Ubuntu22.04/glibc2.35 CPU (1000 pairs plus49 hard cases), Ubuntu22.04/glibc2.35 container GPU userspace on the Ubuntu24.04 GPU VM (same1000+49), and CentOS7/glibc2.17 container CPU installation/small fit/resume. The GPU container mounts only NVIDIA devices and specific NVIDIA driver libraries, not host libc. It uses the host kernel and driver; this does not certify a native Ubuntu22 GPU kernel/driver installation. All nine scientific outputs of each full run are byte-identical to the previously independently audited reference for that backend. All original inputs/results remain unchanged. These are installation regressions, not new performance benchmarks.
+## ABI target and verified systems
 
-## GPU
+The binary targets **x86-64 Linux with glibc ≥2.17** and does not replace system glibc. All 95 ELF files in the qualified runtime require no symbol newer than glibc 2.17. ARM, macOS and musl/Alpine are not supported by this binary. The ABI floor is not blanket certification of every distribution or NVIDIA driver.
 
-```sh
+| Environment | Verified scope |
+|:---|:---|
+| Native Ubuntu 22.04, glibc 2.35 | CPU installation and 1,000-pair / 49-pair numerical regression |
+| Ubuntu 22.04 container on Ubuntu 24.04 NVIDIA host | GPU installation and the same 1,000-pair / 49-pair backend-specific regression |
+| CentOS 7 container, glibc 2.17 | CPU installation, small fit and resume smoke check |
+| Native Ubuntu 22.04.5 | Raw CDS/PEP → MAFFT/PAL2NAL → prepare → CPU fit on four synthetic requests |
+
+The GPU container uses the host kernel and NVIDIA driver; it mounts driver libraries rather than host libc. It does not certify every native Ubuntu 22.04 kernel/driver combination. Each full regression's nine standard outputs matched its previously validated **same-backend** reference byte-for-byte. These are installation regressions, not new performance measurements.
+
+## GPU readiness
+
+```bash
 nvidia-smi
 ./kaksturbo doctor --backend gpu --probe-gpu
 ./kaksturbo run --input examples/three_pair_smoke.axt --output gpu_results --backend gpu --device cuda:0
 ```
 
-CPU operation requires no NVIDIA software. GPU operation requires an NVIDIA driver supporting CUDA12.9 or newer, compute capability8.6 or newer, and at least8GiB free memory at admission (including a2GiB reserve). The frozen PTX is unchanged. A CUDA Toolkit installation is unnecessary. A recent driver may impose a higher OS/kernel requirement than the application's glibc2.17 ABI floor. Ubuntu22.04 GPU userspace has been actually exercised; older GPU systems are not certified merely because the package starts there.
+The precompiled backend requires compute capability ≥8.6, NVIDIA driver CUDA compatibility ≥12.9 and at least 8 GiB free GPU memory, including its reserve. No separate CUDA Toolkit installation is needed. Explicit GPU requests report unavailable devices, unsupported drivers/architecture or insufficient memory; they do not silently fall back to CPU. `auto` selects CPU. [Device guidance](DEVICES.md)
 
-`--backend auto` selects CPU. Explicit GPU requests never silently fall back: missing/hidden devices, unavailable or old drivers, unsupported architecture, invalid device selection and insufficient memory produce a reason and corrective action. `doctor` checks availability; it is not a fit or convergence proof. The verification includes actual GPU fitting, hidden-device/invalid-device errors and resume. Use terminal progress or JSON output; no web preview is needed.
+## Distribution channels and source
 
-## Python installation and historical Conda package
+The **portable archive is the public ready-to-run download**. Corresponding source is attached to the Release; the main repository includes the Windows rc10 interface snapshot and the pinned platform-native source. A source checkout needs a version-matched engine for packaging. See [source layout](SOURCE_LAYOUT.md) and [native build guidance](BUILDING_NATIVE.md).
 
-For a Python3.11+ environment, install the supplied Linux wheel offline:
-
-```sh
-python -m pip install --no-index --no-deps kaksturbo-1.1.0rc9-py3-none-manylinux_2_17_x86_64.whl
-kaksturbo doctor --backend cpu
-```
-
-The rc9 source archive is a local release material. The previously qualified Bioconda/Conda build remains rc8 and does not include this export command; it is retained as an older artifact, not presented as a new rc9 download. Use the rc9 portable or wheel for compatible export. The older source archive and Bioconda recipe remain preserved. A local recipe check or container build is not approval by Bioconda, and the proposed GitHub download URL is not live. See the accompanying qualification file for the precise installation/build checks completed for each artifact.
+PyPI and Bioconda publication have not been completed. Historical local wheel/Conda checks do not mean those artifacts are present in a public channel; no `pip install` or `conda install` command is advertised as a current KaKsTurbo distribution method.
 
 ## Numerical limits retained
 
-Fourteen models, FP64, parameter bounds,500 iterations, finite-coordinate gates and projected-gradient threshold1e-8 are unchanged. The1000-pair regressions retain14NA; the49-pair regression retains0NA and4 models above the strict gradient threshold. CPU and GPU have their pre-existing distinct gradient-flag counts; byte identity is asserted within each backend, not between CPU and GPU. A finite Ka/Ks or reproducible output is not a convergence/global-optimum certificate.
+The earlier 1,000-pair installation panel retains 14 NA; the 49-pair hard panel retains zero MA NA and four model fits above the strict gradient threshold. These are different inputs from the newer public 1,000-pair timing panel. CPU/GPU diagnostic differences remain recorded. Finite or repeated output does not prove convergence or global optimality. [Numerical validation](NUMERICAL_VALIDATION.md)

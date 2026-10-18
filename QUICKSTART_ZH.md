@@ -1,4 +1,23 @@
-# 从这里开始：原始 CDS 到 Ka/Ks
+<!-- homepage-refresh -->
+# 快速入门
+
+已有密码子比对输入，可直接使用下列最小示例；只有原始 CDS/蛋白时，继续阅读下面的比对准备流程。
+
+在完整解压的 [Linux 便携包](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10)目录执行，无需安装额外比对环境：
+
+```bash
+./kaksturbo doctor --backend cpu
+./kaksturbo run --input examples/three_pair_smoke.axt --output results_demo --backend cpu --threads 8
+head -n 4 results_demo/result.tsv
+```
+
+该合成示例为三条有向请求，预期两个有限比值和一个相同序列对 NA。[真实输出预览](examples/results/README.md) · [Windows 操作](docs/WINDOWS_PATHS_ZH.md) · [完整中文 CLI](USER_GUIDE_ZH.txt)
+
+自己的 AXT 可直接替换 `--input`；FASTA 必须通过 `--pairs` 指定配对。输出目录须新建。
+
+---
+
+## 从这里开始：原始 CDS 到 Ka/Ks
 
 [English](QUICKSTART.md) · [完整中文教程](docs/RAW_CDS_TUTORIAL_ZH.md) · [批量脚本](scripts/prepare_cds_pairs.py)
 

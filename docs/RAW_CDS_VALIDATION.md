@@ -21,6 +21,6 @@ The fixture covers original ID mapping, a reverse request, codon gaps and lowerc
 
 MAFFT/PAL2NAL/Python were installed in the project preparation environment; an already-installed GNU parallel was reused through an explicit path. The environment recipe can install these optional tools together on a new system. No alignment program is bundled into the KaKsTurbo binary runtime.
 
-Machine-readable summary: [RAW_CDS_VALIDATION.json](RAW_CDS_VALIDATION.json). Tutorials: [English](RAW_CDS_TUTORIAL.md), [中文](RAW_CDS_TUTORIAL_ZH.md). Full raw logs and the exact Linux environment lock remain in the local project audit directory `Codex_test/kt_raw_input_20261018/`; they have not been uploaded.
+Machine-readable summary: [RAW_CDS_VALIDATION.json](RAW_CDS_VALIDATION.json). Tutorials: [English](RAW_CDS_TUTORIAL.md), [中文](RAW_CDS_TUTORIAL_ZH.md). The published summary records tool versions and passed/failed checks; raw local execution logs are not part of the software download.
 
 该流程已在 Linux 使用真实软件和现有安装包跑通；这份记录是上游输入准备的验收，不增加论文性能或生物学准确性主张。原始结果、原发布归档及科学标准保持不变。

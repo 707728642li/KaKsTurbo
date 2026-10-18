@@ -1,4 +1,4 @@
-KaKsTurbo 可选 KaKs_Calculator 兼容导出（1.1.0rc9）
+KaKsTurbo 可选 KaKs_Calculator 兼容导出（自 1.1.0rc9 引入）
 
 用途
 保留原 result.tsv/results.jsonl，不重新拟合，不改变任何估计值、14模型、FP64或正确性门槛。
@@ -58,4 +58,5 @@ Python: from read_kaks_compatible import read_kaks_compatible
 验证范围
 以已保存CPU/GPU结果进行只读导出，使用固定提交的GeneFamilies原版readKaKsCalculatorOutput函数、随包R/Python读取器实际验收。
 具体通过项目和已知读取限制见本次发布QUALIFICATION.json。不能推断所有下游软件均兼容。
-当前发布仅本地保存，旧Windows rc7/Linux rc8和原论文/原始结果保持不变；不上传。
+当前公开下载为 Windows rc10 / Linux rc9-tutorial1，保留相同的兼容导出约定。
+下载：https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10

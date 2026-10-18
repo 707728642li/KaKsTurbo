@@ -1,0 +1,21 @@
+cohort	pairs	arm	repeat	seconds	pairs_per_second	platform	physical_cores	logical_threads	protocol
+plants29028	29028	official3	1	17208.356817933265	1.6868548407683637	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	official3	2	17238.81048068218	1.6838748840895257	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	official3	3	17648.029690756928	1.6448295083730098	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	official3	4	17385.788798450027	1.6696395163035629	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	official3	5	17722.884920308832	1.6378823273143597	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	cpu	1	1520.3027517599985	19.09356538781197	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	cpu	2	1538.035778379999	18.873423107604793	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	cpu	3	1537.509164493065	18.87988746367627	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	cpu	4	1497.442817165982	19.385047406977165	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+plants29028	29028	cpu	5	1510.5840429500677	19.216408471593738	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	official3	1	57657.119578286074	0.40881334642455747	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	official3	2	57692.18792906916	0.408564848138189	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	official3	3	55691.7168682348	0.42324067788695385	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	official3	4	55989.67110885726	0.4209883632674384	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	official3	5	55397.305758039	0.42549000673339576	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	cpu	1	1221.2935470850207	19.300028282519943	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	cpu	2	1118.395116962958	21.075735795420755	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	cpu	3	1245.5288031278178	18.924492103922155	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	cpu	4	1005.3944922108204	23.444528672688826	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
+flies23571	23571	cpu	5	1339.7889478756117	17.593069443791514	bioserver Ubuntu	8	16	concurrent_batch_disjoint_CPU_cores
