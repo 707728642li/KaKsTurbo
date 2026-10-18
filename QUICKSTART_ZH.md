@@ -1,7 +1,18 @@
 <!-- homepage-refresh -->
 # 快速入门
 
-已有密码子比对输入，可直接使用下列最小示例；只有原始 CDS/蛋白时，继续阅读下面的比对准备流程。
+已有 Python ≥3.11 时，可在 Linux x86-64（glibc ≥2.17）或 Windows x86-64 中安装 PyPI 预发布版：
+
+```bash
+python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10
+kaksturbo doctor --backend cpu
+curl -fL https://raw.githubusercontent.com/707728642li/KaKsTurbo/v1.1.0rc10/examples/three_pair_smoke.axt -o demo.axt
+kaksturbo run --input demo.axt --output demo_results --backend cpu --threads 2
+```
+
+该命令从固定发布标签下载三对合成示例，预期两个有限比值和一个 NA。Windows PowerShell 中请用 `curl.exe` 替代 `curl`。Bioconda 配方仍在审核，尚不能视为公开频道安装已就绪。[安装与平台说明](docs/PACKAGE_INDEX.md)
+
+已有密码子比对输入，也可使用下列便携包示例；只有原始 CDS/蛋白时，继续阅读下面的比对准备流程。
 
 在完整解压的 [Linux 便携包](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10)目录执行，无需安装额外比对环境：
 

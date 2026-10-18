@@ -58,7 +58,16 @@ Download and extract the **whole portable package**. Both platforms include thei
 
 The `docs1` downloads include this README, bilingual tutorials, methods/performance figures and the synthetic result preview for offline reading. `docs1` is a documentation-only archive revision: the Windows and Linux program versions below remain unchanged, and the original packages remain available in the same Release.
 
-The downloads are **release candidates**. Windows rc10 adds path handling to the qualified interface; Linux retains its separately qualified rc9-tutorial1 build. A source checkout is for development and is not a stand-alone installation. PyPI and Bioconda packages are not published.
+The downloads are **release candidates**. Windows rc10 adds path handling to the qualified interface; Linux retains its separately qualified rc9-tutorial1 build. A source checkout is for development and is not a stand-alone installation. PyPI **1.1.0rc10** is now available for Linux and Windows; the separately qualified portable versions above remain unchanged. The [Bioconda recipe](https://github.com/bioconda/bioconda-recipes/pull/70404) is submitted and awaits review/channel publication. [Package-index installation and qualification](docs/PACKAGE_INDEX.md).
+
+### Install into an existing Python environment
+
+```bash
+python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10
+kaksturbo doctor --backend cpu
+```
+
+Requires Python ≥3.11 and Linux x86-64/glibc ≥2.17 or Windows x86-64. CPU use needs no CUDA. See the [pip quick start](docs/PACKAGE_INDEX.md#quick-start-with-the-installed-command); no working Bioconda-channel installation is claimed until the recipe is merged and uploaded.
 
 ## Run your first analysis
 

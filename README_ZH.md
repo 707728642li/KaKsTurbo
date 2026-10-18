@@ -50,7 +50,7 @@ Figure 1 原图保持不变。计算保留全部 61 个有义密码子状态；�
 
 `docs1` 是文档打包修订：已包含本首页、中英文教程、方法/性能图和合成结果预览，可在解压目录阅读。Windows/Linux 程序版本和计算文件保持不变，旧包继续保留在同一个 Release。
 
-当前为预发布版。完整解压后即可使用；核心 CPU 计算无需另外安装 Python、Conda 或 CUDA。两个平台保留各自已验收的版本；PyPI/Bioconda 尚未发布。[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt)
+当前为预发布版。完整解压后即可使用；核心 CPU 计算无需另外安装 Python、Conda 或 CUDA。两个平台的便携包保留各自已验收版本。[PyPI 1.1.0rc10](https://pypi.org/project/kaksturbo/1.1.0rc10/) 已提供 Linux/Windows wheel；[Bioconda 配方](https://github.com/bioconda/bioconda-recipes/pull/70404)已提交，尚待审核和频道上架。[pip 安装及验收说明](docs/PACKAGE_INDEX.md)。[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt)
 
 ## 快速运行
 

@@ -44,7 +44,7 @@ The precompiled backend requires compute capability ≥8.6, NVIDIA driver CUDA c
 
 The **portable archive is the public ready-to-run download**. Corresponding source is attached to the Release; the main repository includes the Windows rc10 interface snapshot and the pinned platform-native source. A source checkout needs a version-matched engine for packaging. See [source layout](SOURCE_LAYOUT.md) and [native build guidance](BUILDING_NATIVE.md).
 
-PyPI and Bioconda publication have not been completed. Historical local wheel/Conda checks do not mean those artifacts are present in a public channel; no `pip install` or `conda install` command is advertised as a current KaKsTurbo distribution method.
+PyPI now provides **1.1.0rc10** native Linux/Windows wheels. The Linux wheel is tagged manylinux_2_17_x86_64; auditwheel confirms that ABI requirement. A fresh installation from PyPI on native Ubuntu 22.04.5 passed the CPU example and complete raw-CDS tutorial. The version-matched local wheel and independently source-built Conda package also passed the 1,000 + 49 pair CPU regression. Bioconda remains [under review](https://github.com/bioconda/bioconda-recipes/pull/70404), so local Conda verification must not be confused with public-channel availability. [Commands and exact scope](PACKAGE_INDEX.md). GPU numerical qualification is inherited through the unchanged pinned engine; the index-release tests did not rerun GPU fitting.
 
 ## Numerical limits retained
 

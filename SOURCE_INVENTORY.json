@@ -8,8 +8,8 @@
     },
     {
       "path": ".github/workflows/publish-pypi.yml",
-      "bytes": 900,
-      "sha256": "f9ecfd5d8a591b64f3e7852532ba5a53f0a6bbdb1eaf4e409dbdbe417353bb75"
+      "bytes": 1068,
+      "sha256": "5151e37461a1395407830a2f167aa70fee12d25803005a64921be41420665dc7"
     },
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 886,
-      "sha256": "b62944e3ba61eb68f8a848c273a3bbab1884300710d72bf4df3ea62b702fd3a8"
+      "bytes": 1519,
+      "sha256": "b94a54f028dba6be63e4e58605041e886b01c72d15de483b593c4c564a2608ed"
     },
     {
       "path": "CITATION.cff",
@@ -48,18 +48,18 @@
     },
     {
       "path": "QUICKSTART.md",
-      "bytes": 4886,
-      "sha256": "3ccb9d61d862b958b1682f59fef20b32ffefdbd5a1535b0bc6438f489c5cdcab"
+      "bytes": 5501,
+      "sha256": "fe02b389078103b74df614f88abe3860b50ff0309e86b59434cec8c918cdb691"
     },
     {
       "path": "QUICKSTART_ZH.md",
-      "bytes": 4490,
-      "sha256": "56a2cbf15aa4d934d9a56ca78433a8f164d6dcb3e621c610a720fe5b1ca53af9"
+      "bytes": 5186,
+      "sha256": "d7e6ce2229fb5ff656e374335d24c5881eae2836ff159d0a064a4059a7a42bee"
     },
     {
       "path": "README.md",
-      "bytes": 13062,
-      "sha256": "c4cc70417434e7cdd9225dcebe4490af3b8efa2fca70a0fb56a5a3599f3fe84f"
+      "bytes": 13780,
+      "sha256": "ae0b0737df1d5d954d1896dcc12ce11a042bb5741c50d17bbc7231ccf6eedd1e"
     },
     {
       "path": "README_PYPI.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "README_ZH.md",
-      "bytes": 7323,
-      "sha256": "bc0d3d34acd717105385a6f9a762ee265de53579a1ab643b7a2912fb4190f316"
+      "bytes": 7568,
+      "sha256": "9048199edebf98d2e2bb70b849197aecbed0d951814e35c18c7518addc813cde"
     },
     {
       "path": "SECURITY.md",
@@ -2583,8 +2583,8 @@
     },
     {
       "path": "docs/BUILDING_NATIVE.md",
-      "bytes": 1724,
-      "sha256": "90a6f13741facdd8a92c7b76ef9910b8a67867a14b2dd90f9e71c6842aa3b50a"
+      "bytes": 1934,
+      "sha256": "b473aa3f58026ad59b4ec9cdc98601968e14217916920a0223a918c5929e837f"
     },
     {
       "path": "docs/COMPATIBLE_EXPORT.txt",
@@ -2613,8 +2613,8 @@
     },
     {
       "path": "docs/LINUX_COMPATIBILITY.md",
-      "bytes": 4104,
-      "sha256": "1474159b845c34e0b1b7701deeaef88e83cbf00b303809afc9ee80b8e4f6a710"
+      "bytes": 4585,
+      "sha256": "1e4a27b70865d4c5a415e4ac12093e4d04943d9d388e3c78509640710500a634"
     },
     {
       "path": "docs/METHODS.md",
@@ -2635,6 +2635,11 @@
       "path": "docs/NUMERICAL_VALIDATION.md",
       "bytes": 3810,
       "sha256": "ad08499f77eb2682c266a92523e884ecfa7d1b8f0855f5d916627e09953453c5"
+    },
+    {
+      "path": "docs/PACKAGE_INDEX.md",
+      "bytes": 6020,
+      "sha256": "89fbdeb4017447326b0359c366b890615fbc51597393b9038e22c9d06d964e9d"
     },
     {
       "path": "docs/PERFORMANCE.md",
@@ -2663,8 +2668,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 2931,
-      "sha256": "107a4d9c1f2c879d03f6df58581cc02a4eb4d94b70a07913e099967be32f2c83"
+      "bytes": 3206,
+      "sha256": "ddaaede909a24ea90bfadaec353b9a7f252573221fae7bac0e1a3c194d8c9e74"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -3337,6 +3342,11 @@
       "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
     },
     {
+      "path": "packaging/index_qualification.json",
+      "bytes": 4858,
+      "sha256": "a336be784451338dba7ee7f4621f0847c0162e28ee5531b26f190d3f718529b8"
+    },
+    {
       "path": "packaging/pypi_artifacts.json",
       "bytes": 1036,
       "sha256": "206285b1deb4cc5014dd7d06fab4c403ecca4e94bdbffd02a86db093bf740019"
@@ -3350,6 +3360,11 @@
       "path": "release_identity.json",
       "bytes": 1084,
       "sha256": "1dbb50da1b394022fea1de1e0a610c69b9f51a5d8457d02325e7e5d438e832f8"
+    },
+    {
+      "path": "scripts/check_distribution_metadata.py",
+      "bytes": 1306,
+      "sha256": "8a1f3bb498f7753081e67efefef0b3865616fc808497ab5e06898d30e0c76836"
     },
     {
       "path": "scripts/fetch_pypi_artifacts.py",

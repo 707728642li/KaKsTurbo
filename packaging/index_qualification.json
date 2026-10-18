@@ -1,0 +1,178 @@
+{
+  "version": "1.1.0rc10",
+  "pypi_url": "https://pypi.org/project/kaksturbo/1.1.0rc10/",
+  "bioconda_pr": "https://github.com/bioconda/bioconda-recipes/pull/70404",
+  "bioconda_channel_published": false,
+  "linux_wheel": {
+    "PASS": true,
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "datasets": [
+      {
+        "dataset": "aligned",
+        "requested": 3,
+        "finite": 2,
+        "NA": 1,
+        "model_slots": 42,
+        "all_scientific_files_exact": null
+      },
+      {
+        "dataset": "main1000",
+        "requested": 1000,
+        "finite": 986,
+        "NA": 14,
+        "model_slots": 14000,
+        "all_scientific_files_exact": true
+      },
+      {
+        "dataset": "selected49",
+        "requested": 49,
+        "finite": 49,
+        "NA": 0,
+        "model_slots": 686,
+        "all_scientific_files_exact": true
+      }
+    ],
+    "raw_cds_tutorial": {
+      "pairs": 4,
+      "finite": 3,
+      "NA": 1,
+      "files_exact": {
+        "result.tsv": true,
+        "results.jsonl": true,
+        "native_result.tsv": true,
+        "models.tsv": true,
+        "models.jsonl": true
+      }
+    },
+    "gpu_unavailable_fails_explicitly": true
+  },
+  "windows_wheel": {
+    "PASS": true,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "datasets": [
+      {
+        "dataset": "aligned",
+        "requested": 3,
+        "finite": 2,
+        "NA": 1,
+        "model_slots": 42,
+        "all_scientific_files_exact": null
+      }
+    ],
+    "raw_cds_tutorial": null,
+    "gpu_unavailable_fails_explicitly": null
+  },
+  "linux_fresh_pypi": {
+    "PASS": true,
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "datasets": [
+      {
+        "dataset": "aligned",
+        "requested": 3,
+        "finite": 2,
+        "NA": 1,
+        "model_slots": 42,
+        "all_scientific_files_exact": null
+      }
+    ],
+    "raw_cds_tutorial": {
+      "pairs": 4,
+      "finite": 3,
+      "NA": 1,
+      "files_exact": {
+        "result.tsv": true,
+        "results.jsonl": true,
+        "native_result.tsv": true,
+        "models.tsv": true,
+        "models.jsonl": true
+      }
+    },
+    "gpu_unavailable_fails_explicitly": true
+  },
+  "linux_conda_candidate": {
+    "PASS": true,
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "datasets": [
+      {
+        "dataset": "aligned",
+        "requested": 3,
+        "finite": 2,
+        "NA": 1,
+        "model_slots": 42,
+        "all_scientific_files_exact": null
+      },
+      {
+        "dataset": "main1000",
+        "requested": 1000,
+        "finite": 986,
+        "NA": 14,
+        "model_slots": 14000,
+        "all_scientific_files_exact": true
+      },
+      {
+        "dataset": "selected49",
+        "requested": 49,
+        "finite": 49,
+        "NA": 0,
+        "model_slots": 686,
+        "all_scientific_files_exact": true
+      }
+    ],
+    "raw_cds_tutorial": {
+      "pairs": 4,
+      "finite": 3,
+      "NA": 1,
+      "files_exact": {
+        "result.tsv": true,
+        "results.jsonl": true,
+        "native_result.tsv": true,
+        "models.tsv": true,
+        "models.jsonl": true
+      }
+    },
+    "gpu_unavailable_fails_explicitly": true
+  },
+  "bioconda_build": {
+    "PASS": true,
+    "exit_code": 0,
+    "seconds": 154.1680160490796,
+    "image": "quay.io/bioconda/bioconda-utils-build-env-cos7@sha256:825a4564437a9340e5ff752c14999cad876eb7274da3b2f7308474800aea3769",
+    "artifacts": [
+      "conda-artifacts/linux-64/kaksturbo-1.1.0rc10-py311h94c5b36_0.conda"
+    ]
+  },
+  "bioconda_lint": "All checks OK",
+  "license_paths": {
+    "PASS": true,
+    "artifacts": [
+      {
+        "name": "kaksturbo-1.1.0rc10-py3-none-manylinux_2_17_x86_64.whl",
+        "license_paths": 99,
+        "missing": [],
+        "PASS": true,
+        "sha256": "3f4f9dc57a0ab415c6dd59a681f1789e35d8883643fa1c86038eb7f56dff563a"
+      },
+      {
+        "name": "kaksturbo-1.1.0rc10-py3-none-win_amd64.whl",
+        "license_paths": 99,
+        "missing": [],
+        "PASS": true,
+        "sha256": "a44afcdb445297de359fae7ab1743092e2c9815021dede5b0399051a061ba9bb"
+      },
+      {
+        "name": "kaksturbo-1.1.0rc10.tar.gz",
+        "license_paths": 103,
+        "missing": [],
+        "PASS": true,
+        "sha256": "851aea9ca0660777477de262809fd384a693317e51002209331afd354f79bdaa"
+      }
+    ]
+  },
+  "scientific_algorithm_changed": false,
+  "manuscript_changed": false,
+  "existing_GitHub_portable_packages_preserved": true,
+  "remaining_numerical_limits": "Four retained hard-panel models remain above the strict projected-gradient diagnostic threshold; no global-convergence claim.",
+  "bioconda_recipe_commit": "a9807a61264032448defc82725eb94e24a49d6a3",
+  "bioconda_upstream_checks_url": "https://github.com/bioconda/bioconda-recipes/pull/70404/checks",
+  "local_conda_qualification_python": "3.11"
+}

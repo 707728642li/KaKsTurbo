@@ -3,6 +3,19 @@
 
 **Choose your starting point:** [aligned input](#aligned-input-run-immediately) · [raw CDS and proteins](#start-here-raw-cds-to-kaks) · [中文](QUICKSTART_ZH.md)
 
+## pip installation
+
+For Python ≥3.11, Linux x86-64/glibc ≥2.17 or Windows x86-64:
+
+```bash
+python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10
+kaksturbo doctor --backend cpu
+curl -fL https://raw.githubusercontent.com/707728642li/KaKsTurbo/v1.1.0rc10/examples/three_pair_smoke.axt -o demo.axt
+kaksturbo run --input demo.axt --output demo_results --backend cpu --threads 2
+```
+
+This downloads the three-pair synthetic example from the fixed release tag: expect two finite ratios and one NA. In Windows PowerShell, use `curl.exe` instead of `curl`. [Package-index requirements](docs/PACKAGE_INDEX.md)
+
 ## Aligned input: run immediately
 
 Download the [Linux portable package](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10), extract it, and enter the package directory. No Conda/alignment installation is needed for this example:
