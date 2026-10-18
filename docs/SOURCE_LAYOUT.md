@@ -1,5 +1,7 @@
 # Source layout
 
+The directories below describe the **GitHub source checkout**. Portable downloads instead provide a platform launcher, `runtime/`, documentation, helpers and examples. They need no separate source checkout to run. Version-matched corresponding-source archives are attached to the [Release](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10); source/build-record directories are not promised inside every portable bundle.
+
 - `src/`: public Python CLI and APIs, including retained compatibility aliases.
 - `corresponding-source/`: pinned native translation units and headers, platform glue and build scripts. The unused external CUDA SDK header is intentionally excluded.
 - `build-records/`: native build commands and engine manifests; historical local paths are provenance, not datasets.

@@ -5,7 +5,7 @@ Long input/output directories, spaces and Unicode are handled inside the program
 Use `Install-KaKsTurbo.ps1` next to the ZIP for long-path-safe extraction and SHA256 verification:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Destination "D:\My projects\KaKsTurbo"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Archive .\KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip -Destination "D:\My projects\KaKsTurbo"
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" run --input "D:\data\pairs.axt" --output "D:\My projects\results\run 1" --backend cpu --threads 2
 ```
 

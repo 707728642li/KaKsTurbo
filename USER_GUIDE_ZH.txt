@@ -1,7 +1,7 @@
 KaKsTurbo — Windows 1.1.0rc10 / Linux 1.1.0rc9-tutorial1
 
-当前唯一开发源码：src/kaksturbo；版本来源：src/kaksturbo/_version.py。
-本源码快照对应 Windows rc10；Linux 保留单独验收的 rc9-tutorial1 包。下载入口见 README.md。
+GitHub 源码仓库中的开发源码为 src/kaksturbo，版本来源为 src/kaksturbo/_version.py；便携包使用已捆绑的 runtime，不要求用户另行寻找 src 目录。
+GitHub 主分支的源码快照对应 Windows rc10；Linux 保留单独验收的 rc9-tutorial1 包。下载入口见 README.md。
 便携发行入口：Windows 解压目录的 kaksturbo.exe；Linux 解压目录的 ./kaksturbo。
 Python API 和 CLI 来自同一套源码。构建脚本读取同一版本号，不再独立硬编码版本。
 Windows rc10 已修复长路径 IO/启动；Linux rc9-tutorial1 保留独立验收版本，均已在 GitHub Release 发布。Linux CPU 原生 Ubuntu 22.04

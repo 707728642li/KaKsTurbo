@@ -51,10 +51,12 @@ Download and extract the **whole portable package**. Both platforms include thei
 
 | Platform | Program version | Download |
 |:---|:---|:---|
-| **Linux x86-64** · glibc ≥2.17 | 1.1.0rc9-tutorial1 | [Portable TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-linux-x86_64.tar.gz) |
-| **Windows x86-64** | 1.1.0rc10 | [Portable ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-windows-x86_64.zip) · [Extraction helper](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
+| **Linux x86-64** · glibc ≥2.17 | 1.1.0rc9-tutorial1 | [Portable TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz) |
+| **Windows x86-64** | 1.1.0rc10 | [Portable ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip) · [Extraction helper](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
 
-[SHA256 checksums](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS.txt) · [Verified platforms](docs/LINUX_COMPATIBILITY.md) · [Windows long paths](docs/WINDOWS_PATHS.md)
+[SHA256 checksums](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt) · [Verified platforms](docs/LINUX_COMPATIBILITY.md) · [Windows long paths](docs/WINDOWS_PATHS.md)
+
+The `docs1` downloads include this README, bilingual tutorials, methods/performance figures and the synthetic result preview for offline reading. `docs1` is a documentation-only archive revision: the Windows and Linux program versions below remain unchanged, and the original packages remain available in the same Release.
 
 The downloads are **release candidates**. Windows rc10 adds path handling to the qualified interface; Linux retains its separately qualified rc9-tutorial1 build. A source checkout is for development and is not a stand-alone installation. PyPI and Bioconda packages are not published.
 
@@ -65,7 +67,7 @@ The downloads are **release candidates**. Windows rc10 adds path handling to the
 After downloading the Linux archive:
 
 ```bash
-tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-linux-x86_64.tar.gz
+tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz
 cd KaKsTurbo-1.1.0rc9-tutorial1
 ./kaksturbo doctor --backend cpu
 ./kaksturbo run --input examples/three_pair_smoke.axt \
@@ -81,7 +83,7 @@ Use a new output directory. To analyze your own aligned AXT, replace the example
 Put the ZIP and extraction helper in the same folder:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Destination "D:\My projects\KaKsTurbo"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Archive .\KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip -Destination "D:\My projects\KaKsTurbo"
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" doctor --backend cpu
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" run --input "D:\My projects\KaKsTurbo\examples\three_pair_smoke.axt" --output "D:\My results\run 1" --backend cpu --threads 8
 ```

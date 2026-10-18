@@ -2598,8 +2598,8 @@
     },
     {
       "path": "docs/LINUX_COMPATIBILITY.md",
-      "bytes": 4086,
-      "sha256": "e275804a0c910bdeab97f684fb26bfed9990ca6c3bd28192e3909b2a8f5d561e"
+      "bytes": 4104,
+      "sha256": "1474159b845c34e0b1b7701deeaef88e83cbf00b303809afc9ee80b8e4f6a710"
     },
     {
       "path": "docs/METHODS.md",
@@ -2648,8 +2648,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 2200,
-      "sha256": "a21d444da19311a2edd78605557ae75fd576ae591f050e34e0068f72848da150"
+      "bytes": 2931,
+      "sha256": "107a4d9c1f2c879d03f6df58581cc02a4eb4d94b70a07913e099967be32f2c83"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -2658,8 +2658,8 @@
     },
     {
       "path": "docs/SOURCE_LAYOUT.md",
-      "bytes": 1296,
-      "sha256": "019215a0ee52aeb4b8e87135a2cd8ac6d551a728dde023c2b9f165f41e1c4cb0"
+      "bytes": 1733,
+      "sha256": "dfea97cb0f67e5550bbc9e7b1040c4eada219b31dbca2e53a2410c71ab37723d"
     },
     {
       "path": "docs/USAGE.md",
@@ -2668,13 +2668,13 @@
     },
     {
       "path": "docs/WINDOWS_PATHS.md",
-      "bytes": 2214,
-      "sha256": "6d32c416b22687ba615a0bc7f87b77665e090d0ef9f5b500281d905c87a74a29"
+      "bytes": 2270,
+      "sha256": "627776e4998f4022da686c0b55a7ed99a402236c89bfcb6358eb60d226cf661c"
     },
     {
       "path": "docs/WINDOWS_PATHS_ZH.md",
-      "bytes": 2899,
-      "sha256": "4db86d65a6b413a77da3e8ef48e7602c39e23e24dec866944654b5b4f318ab6d"
+      "bytes": 2955,
+      "sha256": "3749df21fbaa269594d1503ee039ac16f4e44952611126654cec5b6e0e131744"
     },
     {
       "path": "engine_pins.json",
@@ -3303,13 +3303,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 12658,
-      "sha256": "893253a53ea6c797c4e38c6bbd8f7261aac389895f98663e82f05546b8dc3cdd"
+      "bytes": 13062,
+      "sha256": "c4cc70417434e7cdd9225dcebe4490af3b8efa2fca70a0fb56a5a3599f3fe84f"
     },
     {
       "path": "README_ZH.md",
-      "bytes": 7068,
-      "sha256": "900a628072ff4bbfdb30132dd81ec4232a50e47698d5201739f879d3be24dba6"
+      "bytes": 7323,
+      "sha256": "bc0d3d34acd717105385a6f9a762ee265de53579a1ab643b7a2912fb4190f316"
     },
     {
       "path": "release_identity.json",
@@ -3618,8 +3618,8 @@
     },
     {
       "path": "USER_GUIDE_ZH.txt",
-      "bytes": 8173,
-      "sha256": "fe01ee536ba3af46e06e4f46112ae6b37176ba2287a9b27aae1491a3752fbe5e"
+      "bytes": 8283,
+      "sha256": "5d977e39bdfbc2fd44237738ba032da84073d6a3957861a486009573a937e8b2"
     },
     {
       "path": "workflow/raw_cds_environment.yml",

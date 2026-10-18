@@ -7,7 +7,7 @@
 完整 ZIP 与同目录的 `Install-KaKsTurbo.ps1` 配套使用。如果 Windows 资源管理器报告路径过长，使用此解压器，不必搬动或重新规划项目目录。它逐文件验证 SHA256，拒绝覆盖现有目标；出错保留部分文件供检查。
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Destination "D:\My projects\KaKsTurbo"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Archive .\KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip -Destination "D:\My projects\KaKsTurbo"
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" doctor --backend cpu
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" run --input "D:\My projects\data\pairs.axt" --output "D:\My projects\results\run 1" --backend cpu --threads 2
 ```

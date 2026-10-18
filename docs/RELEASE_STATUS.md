@@ -12,6 +12,8 @@ These checks qualify installation and compatibility; they are not new performanc
 
 ## Public documentation update
 
-The repository homepage now includes the explicitly authorized workflow and performance figures, traceable aggregate timing tables, methods documentation, mode selection and a real synthetic-result preview. Original figure bytes, historical measurements, scientific source and release assets are preserved. The release-tagged source/archives remain immutable snapshots; the current online documentation lives on `main`.
+The repository homepage now includes the explicitly authorized workflow and performance figures, traceable aggregate timing tables, methods documentation, mode selection and a real synthetic-result preview. Original figure bytes, historical measurements and scientific source are preserved. New `docs1` portable archives include the updated documentation, figures, aggregate data and synthetic preview. Their executables, runtime code, helper scripts and scientific settings are byte-identical to the original portable archives. The original six assets and release tag are preserved. The versioned source archives remain their original snapshots; current documentation also lives on `main`.
+
+Use `SHA256SUMS-docs1.txt` for the new archives, and retain the original `SHA256SUMS.txt` for the original downloads. Each new archive includes `DOCUMENTATION_UPDATE.json` and a complete `FILES.sha256.json`; historical qualification records remain unchanged. New extraction, local-link and actual small CPU workflow checks are reported separately in `KaKsTurbo-docs1-QUALIFICATION.json` on the Release. These checks rerun no performance benchmark or GPU fit.
 
 The repository includes no private research sequences, manuscript documents or large benchmark intermediates. Only the two requested scientific figures and their aggregate performance evidence have been added to the public software presentation.

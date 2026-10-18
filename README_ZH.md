@@ -45,10 +45,12 @@ Figure 1 原图保持不变。计算保留全部 61 个有义密码子状态；�
 
 | 平台 | 当前程序版本 | 下载 |
 |:---|:---|:---|
-| Linux x86-64，glibc ≥2.17 | 1.1.0rc9-tutorial1 | [TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-linux-x86_64.tar.gz) |
-| Windows x86-64 | 1.1.0rc10 | [ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-windows-x86_64.zip) · [长路径解压器](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
+| Linux x86-64，glibc ≥2.17 | 1.1.0rc9-tutorial1 | [TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz) |
+| Windows x86-64 | 1.1.0rc10 | [ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip) · [长路径解压器](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
 
-当前为预发布版。完整解压后即可使用；核心 CPU 计算无需另外安装 Python、Conda 或 CUDA。两个平台保留各自已验收的版本；PyPI/Bioconda 尚未发布。[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS.txt)
+`docs1` 是文档打包修订：已包含本首页、中英文教程、方法/性能图和合成结果预览，可在解压目录阅读。Windows/Linux 程序版本和计算文件保持不变，旧包继续保留在同一个 Release。
+
+当前为预发布版。完整解压后即可使用；核心 CPU 计算无需另外安装 Python、Conda 或 CUDA。两个平台保留各自已验收的版本；PyPI/Bioconda 尚未发布。[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt)
 
 ## 快速运行
 
