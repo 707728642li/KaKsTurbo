@@ -2638,8 +2638,8 @@
     },
     {
       "path": "docs/PACKAGE_INDEX.md",
-      "bytes": 6020,
-      "sha256": "89fbdeb4017447326b0359c366b890615fbc51597393b9038e22c9d06d964e9d"
+      "bytes": 6403,
+      "sha256": "f2e16a84a364bc5ab568ae8956704c90cf6bb6da94c1f98c56322726b02e35ec"
     },
     {
       "path": "docs/PERFORMANCE.md",
@@ -2668,8 +2668,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 3206,
-      "sha256": "ddaaede909a24ea90bfadaec353b9a7f252573221fae7bac0e1a3c194d8c9e74"
+      "bytes": 3297,
+      "sha256": "a9d8f99fb79ddc41d350825618f65f9926b85d43879d75d8121a8aa5da2445c3"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -3343,8 +3343,8 @@
     },
     {
       "path": "packaging/index_qualification.json",
-      "bytes": 4858,
-      "sha256": "a336be784451338dba7ee7f4621f0847c0162e28ee5531b26f190d3f718529b8"
+      "bytes": 5469,
+      "sha256": "dbc4fa708bca5c040b36c729d1c88656363eca2875c109e98e58ba76fdf911c7"
     },
     {
       "path": "packaging/pypi_artifacts.json",

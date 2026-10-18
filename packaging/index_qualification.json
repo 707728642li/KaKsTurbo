@@ -172,7 +172,23 @@
   "manuscript_changed": false,
   "existing_GitHub_portable_packages_preserved": true,
   "remaining_numerical_limits": "Four retained hard-panel models remain above the strict projected-gradient diagnostic threshold; no global-convergence claim.",
-  "bioconda_recipe_commit": "a9807a61264032448defc82725eb94e24a49d6a3",
+  "bioconda_recipe_commit": "ea19e0665bc2a5637069e9d78b92fdeae020895f",
   "bioconda_upstream_checks_url": "https://github.com/bioconda/bioconda-recipes/pull/70404/checks",
-  "local_conda_qualification_python": "3.11"
+  "local_conda_qualification_python": "3.11",
+  "bioconda_upstream_linux_ci": {
+    "PASS": true,
+    "url": "https://github.com/bioconda/bioconda-recipes/actions/runs/39115068076",
+    "recipe_commit": "ea19e0665bc2a5637069e9d78b92fdeae020895f",
+    "tested_python": [
+      "3.11",
+      "3.12",
+      "3.13"
+    ],
+    "tested_artifacts": [
+      "kaksturbo-1.1.0rc10-py311hb7cf345_0.conda",
+      "kaksturbo-1.1.0rc10-py312h7a03e42_0.conda",
+      "kaksturbo-1.1.0rc10-py313h821c183_0.conda"
+    ],
+    "scope": "Native builds and recipe three-pair CPU smoke on each Python version; full 1000+49 regression is separately qualified on Python 3.11."
+  }
 }

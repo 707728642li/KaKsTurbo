@@ -1,6 +1,6 @@
 # Release status
 
-The public [GitHub pre-release](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10) provides **Windows 1.1.0rc10** and **Linux 1.1.0rc9-tutorial1**, their corresponding source archives, a Windows extraction helper and SHA256SUMS. [PyPI 1.1.0rc10](https://pypi.org/project/kaksturbo/1.1.0rc10/) now provides qualified Linux/Windows wheels and a source archive. [Bioconda PR #70404](https://github.com/bioconda/bioconda-recipes/pull/70404) is open; channel availability still depends on upstream review, merge and upload. The portable platform versions remain intentionally distinct; both PyPI wheels use rc10.
+The public [GitHub pre-release](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10) provides **Windows 1.1.0rc10** and **Linux 1.1.0rc9-tutorial1**, their corresponding source archives, a Windows extraction helper and SHA256SUMS. [PyPI 1.1.0rc10](https://pypi.org/project/kaksturbo/1.1.0rc10/) now provides qualified Linux/Windows wheels and a source archive. [Bioconda PR #70404](https://github.com/bioconda/bioconda-recipes/pull/70404) has passed upstream lint, Linux native builds and three-pair recipe tests on Python 3.11/3.12/3.13; channel availability still depends on upstream review, merge and upload. The portable platform versions remain intentionally distinct; both PyPI wheels use rc10.
 
 ## Qualification retained
 
