@@ -7,9 +7,89 @@
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
     },
     {
+      "path": ".github/workflows/publish-pypi.yml",
+      "bytes": 900,
+      "sha256": "f9ecfd5d8a591b64f3e7852532ba5a53f0a6bbdb1eaf4e409dbdbe417353bb75"
+    },
+    {
       "path": ".gitignore",
       "bytes": 205,
       "sha256": "34c98e9a37baa9fb42abf3f049d3e1f7ab50aa4934fd1d71991655a4645ce11e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 886,
+      "sha256": "b62944e3ba61eb68f8a848c273a3bbab1884300710d72bf4df3ea62b702fd3a8"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 410,
+      "sha256": "ef040fc8cd2ff989c973e3e69ba6a88976e20d1ba79e89c572c7d4876610f28d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 393,
+      "sha256": "1fb6c334fc0e887db96f2252539f61ad6dfaa84089971ac4d509f1bffa6e447e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 501,
+      "sha256": "ae8e313dcbf2ec3da1bb1bd481b6fac86cce9b65ca8853c1ff29acea8c4029ce"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 357,
+      "sha256": "f1e5380d5942990f73173dbd1f2fee6a4edf1401c925cb40bf33d72f7c37eed7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 4886,
+      "sha256": "3ccb9d61d862b958b1682f59fef20b32ffefdbd5a1535b0bc6438f489c5cdcab"
+    },
+    {
+      "path": "QUICKSTART_ZH.md",
+      "bytes": 4490,
+      "sha256": "56a2cbf15aa4d934d9a56ca78433a8f164d6dcb3e621c610a720fe5b1ca53af9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13062,
+      "sha256": "c4cc70417434e7cdd9225dcebe4490af3b8efa2fca70a0fb56a5a3599f3fe84f"
+    },
+    {
+      "path": "README_PYPI.md",
+      "bytes": 5407,
+      "sha256": "5db31439b1c87396b49803940f474cbcb61a68f28faafa4c62c8349143079000"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 7323,
+      "sha256": "bc0d3d34acd717105385a6f9a762ee265de53579a1ab643b7a2912fb4190f316"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 372,
+      "sha256": "7ff2cf98fa47c1bc87a8d6b932ebcedc914fd5b11c9f5ccdd835706355daa7ff"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 313,
+      "sha256": "aded4ba5933d9be72574679df447c926fe653af96a5fa1bda7e621f31250d500"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2504,
+      "sha256": "c86474a4b9aabee1303cd42e4d644f172a3bb88eaa1122a11e8b6c928749be2e"
+    },
+    {
+      "path": "USER_GUIDE_ZH.txt",
+      "bytes": 8283,
+      "sha256": "5d977e39bdfbc2fd44237738ba032da84073d6a3957861a486009573a937e8b2"
     },
     {
       "path": "build-records/index.json",
@@ -97,16 +177,6 @@
       "sha256": "f621e9359ab425bb76b7ebb4029d505f2a959562e26d39660a4d87380418e08a"
     },
     {
-      "path": "build-records/windows/build/cpu-reference/build.json",
-      "bytes": 1185,
-      "sha256": "1f66cb810aa109cf96a7fd3f251068615e704272fa26b11e58dd939a161c2d96"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference/product-original-linux-build.json",
-      "bytes": 5030,
-      "sha256": "c62071fabfba39bef57277af5f7095d9ebbac1931c6f3ef9eccdc3d2fca87e4e"
-    },
-    {
       "path": "build-records/windows/build/cpu-reference-cached/build.json",
       "bytes": 7618,
       "sha256": "d891e3e5e5b1a67382a1902063636f1631e6d55683eae2b113f509e7cadead01"
@@ -120,6 +190,16 @@
       "path": "build-records/windows/build/cpu-reference-cached/source_manifest.json",
       "bytes": 5635,
       "sha256": "edfc205166dd40e2d0dc4c88b9374e11bf3634c6b44b9b7f3c7858b816c1dc4e"
+    },
+    {
+      "path": "build-records/windows/build/cpu-reference/build.json",
+      "bytes": 1185,
+      "sha256": "1f66cb810aa109cf96a7fd3f251068615e704272fa26b11e58dd939a161c2d96"
+    },
+    {
+      "path": "build-records/windows/build/cpu-reference/product-original-linux-build.json",
+      "bytes": 5030,
+      "sha256": "c62071fabfba39bef57277af5f7095d9ebbac1931c6f3ef9eccdc3d2fca87e4e"
     },
     {
       "path": "build-records/windows/build/driver-staging-round3-v1/build.json",
@@ -332,26 +412,6 @@
       "sha256": "973f72f13dd9f5ff3801c6d145b0ebe5c8618ca648ee612a4038bb4a67356173"
     },
     {
-      "path": "CHANGELOG.md",
-      "bytes": 886,
-      "sha256": "b62944e3ba61eb68f8a848c273a3bbab1884300710d72bf4df3ea62b702fd3a8"
-    },
-    {
-      "path": "CITATION.cff",
-      "bytes": 410,
-      "sha256": "ef040fc8cd2ff989c973e3e69ba6a88976e20d1ba79e89c572c7d4876610f28d"
-    },
-    {
-      "path": "CODE_OF_CONDUCT.md",
-      "bytes": 393,
-      "sha256": "1fb6c334fc0e887db96f2252539f61ad6dfaa84089971ac4d509f1bffa6e447e"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "bytes": 501,
-      "sha256": "ae8e313dcbf2ec3da1bb1bd481b6fac86cce9b65ca8853c1ff29acea8c4029ce"
-    },
-    {
       "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.cpp",
       "bytes": 18634,
       "sha256": "4f13160f79fa03581977932bac64de670f9f4f9ccb5b4607f9ef5828da735bf7"
@@ -422,24 +482,9 @@
       "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
     },
     {
-      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/adapter_bridge.h",
-      "bytes": 512,
-      "sha256": "1bba6765c057e1ba6faceead2a1237a8590b07d94699ed4e553b89a715971bc6"
-    },
-    {
       "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/AXTConvertor.cpp",
       "bytes": 10552,
       "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
-    },
-    {
-      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.cpp",
-      "bytes": 18395,
-      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
-    },
-    {
-      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.h",
-      "bytes": 5872,
-      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
     },
     {
       "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/ConcatenatePairs.cpp",
@@ -465,16 +510,6 @@
       "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs.h",
       "bytes": 3253,
       "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
-    },
-    {
-      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.cpp",
-      "bytes": 22121,
-      "sha256": "17adf484e4ee3c25bacb3791369cc9e40b72ab4b15481def340a03ef416826f0"
-    },
-    {
-      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.h",
-      "bytes": 4164,
-      "sha256": "7e75021e7a5e103a183a29b366e2969b39e61cc59cd74091ded4a3f380c95951"
     },
     {
       "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs_Calculator.cpp",
@@ -540,6 +575,31 @@
       "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/YN00.h",
       "bytes": 3094,
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+    },
+    {
+      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/adapter_bridge.h",
+      "bytes": 512,
+      "sha256": "1bba6765c057e1ba6faceead2a1237a8590b07d94699ed4e553b89a715971bc6"
+    },
+    {
+      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+    },
+    {
+      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+    },
+    {
+      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.cpp",
+      "bytes": 22121,
+      "sha256": "17adf484e4ee3c25bacb3791369cc9e40b72ab4b15481def340a03ef416826f0"
+    },
+    {
+      "path": "corresponding-source/linux/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.h",
+      "bytes": 4164,
+      "sha256": "7e75021e7a5e103a183a29b366e2969b39e61cc59cd74091ded4a3f380c95951"
     },
     {
       "path": "corresponding-source/linux/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.cpp",
@@ -1012,16 +1072,6 @@
       "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
     },
     {
-      "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.cpp",
-      "bytes": 18395,
-      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
-    },
-    {
-      "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.h",
-      "bytes": 5872,
-      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
-    },
-    {
       "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/ConcatenatePairs.cpp",
       "bytes": 2170,
       "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
@@ -1110,6 +1160,16 @@
       "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/YN00.h",
       "bytes": 3094,
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+    },
+    {
+      "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+    },
+    {
+      "path": "corresponding-source/windows/build/cpu-reference-cached/compiled_source_snapshot/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
     },
     {
       "path": "corresponding-source/windows/build/driver-staging-round3-v1/compiled_source_snapshot/request_staging.cpp",
@@ -1427,16 +1487,6 @@
       "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
     },
     {
-      "path": "corresponding-source/windows/build/native-adapter-src/base.cpp",
-      "bytes": 18395,
-      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
-    },
-    {
-      "path": "corresponding-source/windows/build/native-adapter-src/base.h",
-      "bytes": 5872,
-      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
-    },
-    {
       "path": "corresponding-source/windows/build/native-adapter-src/ConcatenatePairs.cpp",
       "bytes": 2170,
       "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
@@ -1527,6 +1577,16 @@
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
     },
     {
+      "path": "corresponding-source/windows/build/native-adapter-src/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+    },
+    {
+      "path": "corresponding-source/windows/build/native-adapter-src/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+    },
+    {
       "path": "corresponding-source/windows/build/publication-graph-host-v1/compiled_source_snapshot/publication_graph_host.cpp",
       "bytes": 941,
       "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
@@ -1605,16 +1665,6 @@
       "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/AXTConvertor.cpp",
       "bytes": 10552,
       "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
-    },
-    {
-      "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.cpp",
-      "bytes": 18395,
-      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
-    },
-    {
-      "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.h",
-      "bytes": 5872,
-      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
     },
     {
       "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/ConcatenatePairs.cpp",
@@ -1705,6 +1755,16 @@
       "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/YN00.h",
       "bytes": 3094,
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+    },
+    {
+      "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+    },
+    {
+      "path": "corresponding-source/windows/corresponding-source/cpu-reference-cached-src/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
     },
     {
       "path": "corresponding-source/windows/corresponding-source/platform_v1_linux/openblas64_bridge.cpp",
@@ -2422,16 +2482,6 @@
       "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
     },
     {
-      "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.cpp",
-      "bytes": 18395,
-      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
-    },
-    {
-      "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.h",
-      "bytes": 5872,
-      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
-    },
-    {
       "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/ConcatenatePairs.cpp",
       "bytes": 2170,
       "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
@@ -2522,19 +2572,14 @@
       "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
     },
     {
-      "path": "docs/assets/figure_provenance.json",
-      "bytes": 638,
-      "sha256": "46637082a736660fcad7650c2402599ae5d1cca1b82c796998567529aa0698bc"
+      "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
     },
     {
-      "path": "docs/assets/performance.png",
-      "bytes": 436493,
-      "sha256": "84e70d01b1b41ee1c00f4c71243d7c932b98dfbade5914e46d5d938a9d1e9c65"
-    },
-    {
-      "path": "docs/assets/workflow.png",
-      "bytes": 2872191,
-      "sha256": "735900d810b4dd1521b33ce74dd8bba80f72a4ce75850b7e9d2eaf33161c4882"
+      "path": "corresponding-source/windows/tools/kakscalculator2-2.0.1/src/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
     },
     {
       "path": "docs/BUILDING_NATIVE.md",
@@ -2552,44 +2597,14 @@
       "sha256": "7ebb661818acdf1e2e42a5b007d0a322ffbfeb2d7c892190098531d474554745"
     },
     {
-      "path": "docs/data/cohort_cpu_runs.tsv",
-      "bytes": 2536,
-      "sha256": "ed8b69bb89ef0b4d2646efba89d954bfe5de16d63e3139cc168f1d689b07e9d0"
-    },
-    {
-      "path": "docs/data/performance_summary.tsv",
-      "bytes": 578,
-      "sha256": "d0d39fba4b2dff4c193c74589f4eb623e39b4932ea0d15252c9edb210949835a"
-    },
-    {
-      "path": "docs/data/public1000_runs.tsv",
-      "bytes": 1507,
-      "sha256": "56f64f0e8f695f323d227bd43277b12634164515cd62e65821cb5bd2b39ea063"
-    },
-    {
-      "path": "docs/data/README.md",
-      "bytes": 1051,
-      "sha256": "32884f61c5c15320a3fb365e99ff7f4183660909f231555c4e88433c3ef12557"
-    },
-    {
-      "path": "docs/data/scaling_runs.tsv",
-      "bytes": 705,
-      "sha256": "1c9333d88b4d63c2cc35038243bf12f527105ae09334e2bb667567cc8213a0c2"
-    },
-    {
-      "path": "docs/data/scaling_summary.tsv",
-      "bytes": 647,
-      "sha256": "068f9d5464135baa964935b2420064ca4e787a11e390cd536e7117428a21e550"
+      "path": "docs/DEVICES.md",
+      "bytes": 2571,
+      "sha256": "e5f67e08e9fdfc551205a26ba59e8b13590e97e96c650becd58b6aed70ea5183"
     },
     {
       "path": "docs/DEVICE_GUIDE_ZH.txt",
       "bytes": 1547,
       "sha256": "e155d4940dcfb09e650efe82411e4999cdc89a80b1357626d96aff221b8f353e"
-    },
-    {
-      "path": "docs/DEVICES.md",
-      "bytes": 2571,
-      "sha256": "e5f67e08e9fdfc551205a26ba59e8b13590e97e96c650becd58b6aed70ea5183"
     },
     {
       "path": "docs/INPUT_OUTPUT.md",
@@ -2677,6 +2692,51 @@
       "sha256": "3749df21fbaa269594d1503ee039ac16f4e44952611126654cec5b6e0e131744"
     },
     {
+      "path": "docs/assets/figure_provenance.json",
+      "bytes": 638,
+      "sha256": "46637082a736660fcad7650c2402599ae5d1cca1b82c796998567529aa0698bc"
+    },
+    {
+      "path": "docs/assets/performance.png",
+      "bytes": 436493,
+      "sha256": "84e70d01b1b41ee1c00f4c71243d7c932b98dfbade5914e46d5d938a9d1e9c65"
+    },
+    {
+      "path": "docs/assets/workflow.png",
+      "bytes": 2872191,
+      "sha256": "735900d810b4dd1521b33ce74dd8bba80f72a4ce75850b7e9d2eaf33161c4882"
+    },
+    {
+      "path": "docs/data/README.md",
+      "bytes": 1051,
+      "sha256": "32884f61c5c15320a3fb365e99ff7f4183660909f231555c4e88433c3ef12557"
+    },
+    {
+      "path": "docs/data/cohort_cpu_runs.tsv",
+      "bytes": 2536,
+      "sha256": "ed8b69bb89ef0b4d2646efba89d954bfe5de16d63e3139cc168f1d689b07e9d0"
+    },
+    {
+      "path": "docs/data/performance_summary.tsv",
+      "bytes": 578,
+      "sha256": "d0d39fba4b2dff4c193c74589f4eb623e39b4932ea0d15252c9edb210949835a"
+    },
+    {
+      "path": "docs/data/public1000_runs.tsv",
+      "bytes": 1507,
+      "sha256": "56f64f0e8f695f323d227bd43277b12634164515cd62e65821cb5bd2b39ea063"
+    },
+    {
+      "path": "docs/data/scaling_runs.tsv",
+      "bytes": 705,
+      "sha256": "1c9333d88b4d63c2cc35038243bf12f527105ae09334e2bb667567cc8213a0c2"
+    },
+    {
+      "path": "docs/data/scaling_summary.tsv",
+      "bytes": 647,
+      "sha256": "068f9d5464135baa964935b2420064ca4e787a11e390cd536e7117428a21e550"
+    },
+    {
       "path": "engine_pins.json",
       "bytes": 172,
       "sha256": "e0f8e3b2eb6acb82e930709bd30bc89c6c3373092647dd5c69f8626d89d406d2"
@@ -2685,6 +2745,16 @@
       "path": "environment.yml",
       "bytes": 178,
       "sha256": "a45772fb9499a8e04dc4033f917dd64bb5d5de7edb58a3262e1914b12ce6a473"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 749,
+      "sha256": "0e00466611e90f068ede8f392c657ea9a6ce1259896326f07d7b8c110af2aa3e"
+    },
+    {
+      "path": "examples/aligned/README.txt",
+      "bytes": 332,
+      "sha256": "8a58bca3e580db9075405b250a630c93d4344a9d774f664149f3b49c3c4f5e8c"
     },
     {
       "path": "examples/aligned/aligned.fasta",
@@ -2707,9 +2777,9 @@
       "sha256": "406e9e40a31444055669c662640fa14fb0f25c3dd660890a0f3bf43c5867b30b"
     },
     {
-      "path": "examples/aligned/README.txt",
-      "bytes": 332,
-      "sha256": "8a58bca3e580db9075405b250a630c93d4344a9d774f664149f3b49c3c4f5e8c"
+      "path": "examples/raw_cds_demo/README.txt",
+      "bytes": 410,
+      "sha256": "c07c846abe39c9ccd92819adcaa5ec109ebda98026afa64d353d6d0b974eadca"
     },
     {
       "path": "examples/raw_cds_demo/cds.fa",
@@ -2727,24 +2797,14 @@
       "sha256": "1ae271bf481dd6d966a12d02a22f8ec5b62d7c91740cec3c577004824416349f"
     },
     {
-      "path": "examples/raw_cds_demo/README.txt",
-      "bytes": 410,
-      "sha256": "c07c846abe39c9ccd92819adcaa5ec109ebda98026afa64d353d6d0b974eadca"
-    },
-    {
-      "path": "examples/README.md",
-      "bytes": 749,
-      "sha256": "0e00466611e90f068ede8f392c657ea9a6ce1259896326f07d7b8c110af2aa3e"
+      "path": "examples/results/README.md",
+      "bytes": 1081,
+      "sha256": "09919c960020eb42ce5af90beb73b3a4680810616f042abccd9e51cf08ae698b"
     },
     {
       "path": "examples/results/provenance.json",
       "bytes": 798,
       "sha256": "c70de8af185f702f0c2711fea0170b0fd65db1e2c875c0c15284f39210da95a8"
-    },
-    {
-      "path": "examples/results/README.md",
-      "bytes": 1081,
-      "sha256": "09919c960020eb42ce5af90beb73b3a4680810616f042abccd9e51cf08ae698b"
     },
     {
       "path": "examples/results/three_pair_cpu.jsonl",
@@ -2767,29 +2827,9 @@
       "sha256": "8d386eea66aad0a5d9e55a31769b3e806e5c304ce4675295527d7df55a4f0e85"
     },
     {
-      "path": "GOVERNANCE.md",
-      "bytes": 357,
-      "sha256": "f1e5380d5942990f73173dbd1f2fee6a4edf1401c925cb40bf33d72f7c37eed7"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 35149,
-      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-    },
-    {
-      "path": "licenses/intel-openmp-2025.0.0-haa95532_1165.json",
-      "bytes": 18196,
-      "sha256": "99002541c19c3ebb473a5394a6adfb65a2176ede8c76fe6eb802de58f6b2d76d"
-    },
-    {
       "path": "licenses/KaKs_Calculator_2_LICENSE",
       "bytes": 35149,
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-    },
-    {
-      "path": "licenses/mkl-2023.1.0-h6a75c08_48682.json",
-      "bytes": 11974,
-      "sha256": "5c4d492c08f9d5ba44cbbbe48fe9cce5c2c1151a9f8f6b9c981089fe440cbdba"
     },
     {
       "path": "licenses/OpenBLAS-bundle/LICENSE.txt",
@@ -2877,19 +2917,119 @@
       "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9"
     },
     {
+      "path": "licenses/Windows-OpenBLAS-bundle/LICENSE.txt",
+      "bytes": 45831,
+      "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "bytes": 1039,
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "bytes": 704,
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/highway/LICENSE",
+      "bytes": 21155,
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "bytes": 1441,
+      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "bytes": 1542,
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/umath/svml/LICENSE",
+      "bytes": 1573,
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/fft/pocketfft/LICENSE.md",
+      "bytes": 1523,
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/linalg/lapack_lite/LICENSE.txt",
+      "bytes": 2314,
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/ma/LICENSE",
+      "bytes": 1616,
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/LICENSE.md",
+      "bytes": 3582,
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/distributions/LICENSE.md",
+      "bytes": 2805,
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/mt19937/LICENSE.md",
+      "bytes": 2986,
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/pcg64/LICENSE.md",
+      "bytes": 1176,
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/philox/LICENSE.md",
+      "bytes": 1540,
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/sfc64/LICENSE.md",
+      "bytes": 1253,
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+    },
+    {
+      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/splitmix64/LICENSE.md",
+      "bytes": 340,
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    },
+    {
+      "path": "licenses/intel-openmp-2025.0.0-haa95532_1165.json",
+      "bytes": 18196,
+      "sha256": "99002541c19c3ebb473a5394a6adfb65a2176ede8c76fe6eb802de58f6b2d76d"
+    },
+    {
+      "path": "licenses/mkl-2023.1.0-h6a75c08_48682.json",
+      "bytes": 11974,
+      "sha256": "5c4d492c08f9d5ba44cbbbe48fe9cce5c2c1151a9f8f6b9c981089fe440cbdba"
+    },
+    {
+      "path": "licenses/recovered-v1/README.txt",
+      "bytes": 417,
+      "sha256": "7b8fb5b24bc75b86a98aab55783c7a131f506001a672363a2e8b6082c080dd21"
+    },
+    {
       "path": "licenses/recovered-v1/bzip2-1.0.8/installed-header-copyright.txt",
       "bytes": 809,
       "sha256": "19cac2ec1888536903618ae9a6637bc47a5132b0a541104867ca975d75385dfb"
     },
     {
-      "path": "licenses/recovered-v1/expat/conda-package.json",
-      "bytes": 1762,
-      "sha256": "afd6f4096d20050f2aa79dd9307a516d6dca985fed6f3d5d2a8e84b3e6fe72b6"
-    },
-    {
       "path": "licenses/recovered-v1/expat/COPYING",
       "bytes": 1144,
       "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+    },
+    {
+      "path": "licenses/recovered-v1/expat/conda-package.json",
+      "bytes": 1762,
+      "sha256": "afd6f4096d20050f2aa79dd9307a516d6dca985fed6f3d5d2a8e84b3e6fe72b6"
     },
     {
       "path": "licenses/recovered-v1/gcc-runtime/RUNTIME.LIBRARY.EXCEPTION",
@@ -3132,11 +3272,6 @@
       "sha256": "47a26beb94e3f6b333a3677fc85d546f1fdfd2f0b3686c26d2fb5b10e0134165"
     },
     {
-      "path": "licenses/recovered-v1/README.txt",
-      "bytes": 417,
-      "sha256": "7b8fb5b24bc75b86a98aab55783c7a131f506001a672363a2e8b6082c080dd21"
-    },
-    {
       "path": "licenses/recovered-v1/sqlite-3.53.4/LICENSE.md",
       "bytes": 269,
       "sha256": "c6e0d0f8df7ed01f16fcb3e196094904145f3605e2b42796a23c4e056117bffa"
@@ -3202,119 +3337,24 @@
       "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
     },
     {
-      "path": "licenses/Windows-OpenBLAS-bundle/LICENSE.txt",
-      "bytes": 45831,
-      "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/include/numpy/libdivide/LICENSE.txt",
-      "bytes": 1039,
-      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/common/pythoncapi-compat/COPYING",
-      "bytes": 704,
-      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/highway/LICENSE",
-      "bytes": 21155,
-      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
-      "bytes": 1441,
-      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
-      "bytes": 1542,
-      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/_core/src/umath/svml/LICENSE",
-      "bytes": 1573,
-      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/fft/pocketfft/LICENSE.md",
-      "bytes": 1523,
-      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/linalg/lapack_lite/LICENSE.txt",
-      "bytes": 2314,
-      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/ma/LICENSE",
-      "bytes": 1616,
-      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/LICENSE.md",
-      "bytes": 3582,
-      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/distributions/LICENSE.md",
-      "bytes": 2805,
-      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/mt19937/LICENSE.md",
-      "bytes": 2986,
-      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/pcg64/LICENSE.md",
-      "bytes": 1176,
-      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/philox/LICENSE.md",
-      "bytes": 1540,
-      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/sfc64/LICENSE.md",
-      "bytes": 1253,
-      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
-    },
-    {
-      "path": "licenses/Windows-OpenBLAS-bundle/numpy/random/src/splitmix64/LICENSE.md",
-      "bytes": 340,
-      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+      "path": "packaging/pypi_artifacts.json",
+      "bytes": 972,
+      "sha256": "92ca663b1c530e11b4e68d295d06abf8047811988a860e7d7b242c9ed3d88568"
     },
     {
       "path": "pyproject.toml",
-      "bytes": 880,
-      "sha256": "1c40769ca97783ffb30e4b15d86cae9afc6e8401adc263b0632ecda5967a58fb"
-    },
-    {
-      "path": "QUICKSTART.md",
-      "bytes": 4886,
-      "sha256": "3ccb9d61d862b958b1682f59fef20b32ffefdbd5a1535b0bc6438f489c5cdcab"
-    },
-    {
-      "path": "QUICKSTART_ZH.md",
-      "bytes": 4490,
-      "sha256": "56a2cbf15aa4d934d9a56ca78433a8f164d6dcb3e621c610a720fe5b1ca53af9"
-    },
-    {
-      "path": "README.md",
-      "bytes": 13062,
-      "sha256": "c4cc70417434e7cdd9225dcebe4490af3b8efa2fca70a0fb56a5a3599f3fe84f"
-    },
-    {
-      "path": "README_ZH.md",
-      "bytes": 7323,
-      "sha256": "bc0d3d34acd717105385a6f9a762ee265de53579a1ab643b7a2912fb4190f316"
+      "bytes": 885,
+      "sha256": "73f8a4ebdaddad4076237887a932c80473929ba758fad6739fd1cb92a6a49fe6"
     },
     {
       "path": "release_identity.json",
       "bytes": 1084,
       "sha256": "1dbb50da1b394022fea1de1e0a610c69b9f51a5d8457d02325e7e5d438e832f8"
+    },
+    {
+      "path": "scripts/fetch_pypi_artifacts.py",
+      "bytes": 896,
+      "sha256": "29d8c75aacd608ba49fd4fcbbae0a33c2c78a3028d47e5201e82fb3c5fc563e9"
     },
     {
       "path": "scripts/native_smoke.py",
@@ -3327,14 +3367,14 @@
       "sha256": "5c4b57b885d209c29ceb6a1a945e36c660d9adbc3d2e2eaa08e988e82c6eb2a8"
     },
     {
-      "path": "scripts/read_kaks_compatible.py",
-      "bytes": 1092,
-      "sha256": "574554942e4912af53a1078febad136b8720c82649b6e08b9962e4a5dd53218c"
-    },
-    {
       "path": "scripts/read_kaks_compatible.R",
       "bytes": 972,
       "sha256": "e6a8baf0df1f320f35170a3cc4617112bcf5257eac609a9e57db7d69d2c3898f"
+    },
+    {
+      "path": "scripts/read_kaks_compatible.py",
+      "bytes": 1092,
+      "sha256": "574554942e4912af53a1078febad136b8720c82649b6e08b9962e4a5dd53218c"
     },
     {
       "path": "scripts/rebuild_linux_native.py",
@@ -3343,18 +3383,13 @@
     },
     {
       "path": "scripts/release_backend.py",
-      "bytes": 5689,
-      "sha256": "cad2ab51429bd372ce7d1aaf8de127d2a8458360c5eb7b0907ef677f5828676c"
+      "bytes": 5750,
+      "sha256": "b1cf6680beb0b968d7c9938bc22239f80a14463ac9813128483d9b07b1f31424"
     },
     {
       "path": "scripts/run_raw_cds_demo_linux.sh",
       "bytes": 4155,
       "sha256": "00efb83be156790bb5a4db70c1877afc2c3469079dedf594a7b2b38cecbf45cf"
-    },
-    {
-      "path": "SECURITY.md",
-      "bytes": 372,
-      "sha256": "7ff2cf98fa47c1bc87a8d6b932ebcedc914fd5b11c9f5ccdd835706355daa7ff"
     },
     {
       "path": "src/kaksforge/__init__.py",
@@ -3582,11 +3617,6 @@
       "sha256": "b95c6d38005e9c34cb992cb2f384a9a9957a3ff88e552280eb3fcd89543e19f9"
     },
     {
-      "path": "SUPPORT.md",
-      "bytes": 313,
-      "sha256": "aded4ba5933d9be72574679df447c926fe653af96a5fa1bda7e621f31250d500"
-    },
-    {
       "path": "tests/test_compat_export.py",
       "bytes": 8317,
       "sha256": "61711067c7d54e423d28e90fb50759a300c9c0048b21052a696b93d21d919480"
@@ -3612,24 +3642,14 @@
       "sha256": "9274ab318a0aaee4fe1b09c8ac01c6d4c07e8568d33c504f0a2df41267ab0260"
     },
     {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2504,
-      "sha256": "c86474a4b9aabee1303cd42e4d644f172a3bb88eaa1122a11e8b6c928749be2e"
-    },
-    {
-      "path": "USER_GUIDE_ZH.txt",
-      "bytes": 8283,
-      "sha256": "5d977e39bdfbc2fd44237738ba032da84073d6a3957861a486009573a937e8b2"
+      "path": "workflow/Snakefile",
+      "bytes": 371,
+      "sha256": "5ac79cb078fdb2840a96d345de9c5596bf2eca1f2439912f02d1e2a5c2e93f28"
     },
     {
       "path": "workflow/raw_cds_environment.yml",
       "bytes": 203,
       "sha256": "a6818c77e6077e9f7f63ebd2d9f33fc85c5188a1450a6c6a096cc70435ae11c7"
-    },
-    {
-      "path": "workflow/Snakefile",
-      "bytes": 371,
-      "sha256": "5ac79cb078fdb2840a96d345de9c5596bf2eca1f2439912f02d1e2a5c2e93f28"
     }
   ]
 }

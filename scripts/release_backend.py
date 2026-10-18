@@ -41,7 +41,7 @@ def metadata(platform):
  'Classifier: Development Status :: 4 - Beta\nClassifier: Programming Language :: Python :: 3\n'
  'Project-URL: Source, https://github.com/707728642li/KaKsTurbo\n'
  'Project-URL: Issues, https://github.com/707728642li/KaKsTurbo/issues\n'
- 'Description-Content-Type: text/markdown\n\n'+(ROOT/'README.md').read_text(encoding='utf8'))
+ 'Description-Content-Type: text/markdown\n\n'+(ROOT/('README_PYPI.md' if (ROOT/'README_PYPI.md').is_file() else 'README.md')).read_text(encoding='utf8'))
  return {DIST+'/METADATA':text.encode(),DIST+'/WHEEL':f'Wheel-Version: 1.0\nGenerator: KaKsTurbo offline pinned-engine builder\nRoot-Is-Purelib: false\nTag: py3-none-{wheel_tag(platform)}\n'.encode(),DIST+'/entry_points.txt':b'[console_scripts]\nkaksturbo = kaksturbo.cli:main\n'}
 def prepare_metadata_for_build_wheel(metadata_directory,config_settings=None):
  for n,data in metadata(platform_name(config_settings)).items():

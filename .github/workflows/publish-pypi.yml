@@ -1,0 +1,28 @@
+name: Publish qualified packages to PyPI
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pypi-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == '707728642li/KaKsTurbo' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-22.04
+    environment:
+      name: pypi
+      url: https://pypi.org/project/kaksturbo/
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Retrieve only qualified, hash-pinned distributions
+        run: python3 -I -B scripts/fetch_pypi_artifacts.py
+      - name: Publish through PyPI Trusted Publishing
+        uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # release/v1
+        with:
+          packages-dir: dist/
+          skip-existing: true
+          attestations: true

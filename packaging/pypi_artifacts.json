@@ -1,0 +1,23 @@
+{
+  "version": "1.1.0rc10",
+  "artifacts": [
+    {
+      "name": "kaksturbo-1.1.0rc10-py3-none-manylinux_2_17_x86_64.whl",
+      "sha256": "3f4f9dc57a0ab415c6dd59a681f1789e35d8883643fa1c86038eb7f56dff563a",
+      "bytes": 17268739,
+      "url": "https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/kaksturbo-1.1.0rc10-py3-none-manylinux_2_17_x86_64.whl"
+    },
+    {
+      "name": "kaksturbo-1.1.0rc10-py3-none-win_amd64.whl",
+      "sha256": "a44afcdb445297de359fae7ab1743092e2c9815021dede5b0399051a061ba9bb",
+      "bytes": 30125103,
+      "url": "https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/kaksturbo-1.1.0rc10-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "kaksturbo-1.1.0rc10.tar.gz",
+      "sha256": "b3c559cf60fb6b76546b93f6d0404f80d8c93187500a031492e91c52975b4143",
+      "bytes": 21037643,
+      "url": "https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/kaksturbo-1.1.0rc10.tar.gz"
+    }
+  ]
+}
