@@ -4,10 +4,10 @@ Linux is the primary tutorial platform. The public portable package is **1.1.0rc
 
 ## Install the portable package
 
-Download [the Linux TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz) and check it against [SHA256SUMS](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt). Extract the entire archive:
+Download [the Linux TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs2-linux-x86_64.tar.gz) and check it against [SHA256SUMS](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs2.txt). Extract the entire archive:
 
 ```bash
-tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz
+tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-docs2-linux-x86_64.tar.gz
 cd KaKsTurbo-1.1.0rc9-tutorial1
 ./kaksturbo --version
 ./kaksturbo doctor --backend cpu

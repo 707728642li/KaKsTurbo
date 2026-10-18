@@ -6,7 +6,7 @@
 |---|---|---|
 | [PyPI](https://pypi.org/project/kaksturbo/1.1.0rc10/) | 1.1.0rc10 | Published: Linux/Windows wheels and source archive |
 | [Bioconda recipe PR #70404](https://github.com/bioconda/bioconda-recipes/pull/70404) | 1.1.0rc10 | Submitted; review, merge and public-channel upload pending |
-| [GitHub portable downloads](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10) | Windows rc10 / Linux rc9-tutorial1 | Existing original and docs1 archives retained |
+| [GitHub portable downloads](https://github.com/707728642li/KaKsTurbo/releases/tag/v1.1.0rc10) | Windows rc10 / Linux rc9-tutorial1 | Current docs2 archives; original and docs1 archives retained |
 
 These versions are release candidates. The PyPI wheel uses your Python environment; a portable archive supplies its own Python runtime. Historical portable documentation is a snapshot, so consult this page for current channel availability. Do not mix old checkpoints with a different release.
 

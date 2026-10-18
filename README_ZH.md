@@ -65,17 +65,17 @@ kaksturbo doctor --backend cpu
 
 | 平台 | 当前程序版本 | 下载 |
 |:---|:---|:---|
-| Linux x86-64，glibc ≥2.17 | 1.1.0rc9-tutorial1 | [TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz) |
-| Windows x86-64 | 1.1.0rc10 | [ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip) · [长路径解压器](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
+| Linux x86-64，glibc ≥2.17 | 1.1.0rc9-tutorial1 | [TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs2-linux-x86_64.tar.gz) |
+| Windows x86-64 | 1.1.0rc10 | [ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs2-windows-x86_64.zip) · [长路径解压器](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
 
-[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt) · [已验证平台](docs/LINUX_COMPATIBILITY.md) · [Windows 路径说明](docs/WINDOWS_PATHS_ZH.md)
+[校验值](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs2.txt) · [已验证平台](docs/LINUX_COMPATIBILITY.md) · [Windows 路径说明](docs/WINDOWS_PATHS_ZH.md)
 
 <details>
 <summary><strong>版本与离线文档说明</strong></summary>
 
 当前下载为预发布版。Windows rc10 包含已验收的路径处理改进；Linux 便携包保留单独验收的 rc9-tutorial1 构建。PyPI 在两个平台均提供 **1.1.0rc10**。源码仓库用于开发。
 
-`docs1` 表示文档打包修订，包含随包 README、中英文教程、方法/性能图和合成结果预览，可离线阅读。程序版本见上表，旧包继续保留在同一个 Release。
+`docs2` 表示文档打包修订，包含随包 README、中英文教程、方法/性能图和合成结果预览，可离线阅读。程序版本见上表，旧包继续保留在同一个 Release。
 
 </details>
 

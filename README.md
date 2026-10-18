@@ -64,17 +64,17 @@ Download and extract the **whole portable package**. Both platforms include thei
 
 | Platform | Program version | Download |
 |:---|:---|:---|
-| **Linux x86-64** · glibc ≥2.17 | 1.1.0rc9-tutorial1 | [Portable TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz) |
-| **Windows x86-64** | 1.1.0rc10 | [Portable ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip) · [Extraction helper](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
+| **Linux x86-64** · glibc ≥2.17 | 1.1.0rc9-tutorial1 | [Portable TAR.GZ](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc9-tutorial1-docs2-linux-x86_64.tar.gz) |
+| **Windows x86-64** | 1.1.0rc10 | [Portable ZIP](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/KaKsTurbo-1.1.0rc10-docs2-windows-x86_64.zip) · [Extraction helper](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/Install-KaKsTurbo.ps1) |
 
-[SHA256 checksums](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt) · [Verified platforms](docs/LINUX_COMPATIBILITY.md) · [Windows long paths](docs/WINDOWS_PATHS.md)
+[SHA256 checksums](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs2.txt) · [Verified platforms](docs/LINUX_COMPATIBILITY.md) · [Windows long paths](docs/WINDOWS_PATHS.md)
 
 <details>
 <summary><strong>Package versions and offline documentation</strong></summary>
 
 The downloads are **release candidates**. Windows rc10 includes path handling for the qualified interface; Linux retains its separately qualified rc9-tutorial1 portable build. The PyPI package is version **1.1.0rc10** on both platforms. A source checkout is intended for development.
 
-The `docs1` archives include a bundled README, bilingual tutorials, methods/performance figures, and a synthetic result preview for offline reading. This suffix identifies a documentation-only revision; program versions are shown in the table above. Original packages remain available in the same Release.
+The `docs2` archives include a bundled README, bilingual tutorials, methods/performance figures, and a synthetic result preview for offline reading. This suffix identifies a documentation-only revision; program versions are shown in the table above. Original packages remain available in the same Release.
 
 </details>
 
@@ -89,7 +89,7 @@ The examples below use the portable package. For the PyPI installation, see the 
 After downloading the Linux archive:
 
 ```bash
-tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-docs1-linux-x86_64.tar.gz
+tar -xzf KaKsTurbo-1.1.0rc9-tutorial1-docs2-linux-x86_64.tar.gz
 cd KaKsTurbo-1.1.0rc9-tutorial1
 ./kaksturbo doctor --backend cpu
 ./kaksturbo run --input examples/three_pair_smoke.axt \
@@ -105,7 +105,7 @@ Use a new output directory. To analyze your own aligned AXT, replace the example
 Put the ZIP and extraction helper in the same folder:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Archive .\KaKsTurbo-1.1.0rc10-docs1-windows-x86_64.zip -Destination "D:\My projects\KaKsTurbo"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-KaKsTurbo.ps1 -Archive .\KaKsTurbo-1.1.0rc10-docs2-windows-x86_64.zip -Destination "D:\My projects\KaKsTurbo"
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" doctor --backend cpu
 & "D:\My projects\KaKsTurbo\kaksturbo.exe" run --input "D:\My projects\KaKsTurbo\examples\three_pair_smoke.axt" --output "D:\My results\run 1" --backend cpu --threads 8
 ```

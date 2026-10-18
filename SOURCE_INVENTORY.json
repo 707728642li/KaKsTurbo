@@ -59,7 +59,7 @@
     {
       "path": "README.md",
       "bytes": 13951,
-      "sha256": "5e0ef12425b4b76e03c7895d07cc83bdbbd6ece5470f721edfe11c5ba9c79ba3"
+      "sha256": "3601e5caece8dab0b39137e0630d2ef7c889758d178d13b00efab175683d5cf3"
     },
     {
       "path": "README_PYPI.md",
@@ -69,7 +69,7 @@
     {
       "path": "README_ZH.md",
       "bytes": 10263,
-      "sha256": "1c8214b9ea58f31b20ec4c652d774cf88e704c0f031e6d3ea0932b669494f78c"
+      "sha256": "9759a5543f5a0dbd540d3b6a983f76a1557b528600227f83e6feccd36b9241b2"
     },
     {
       "path": "SECURITY.md",
@@ -2614,7 +2614,7 @@
     {
       "path": "docs/LINUX_COMPATIBILITY.md",
       "bytes": 4585,
-      "sha256": "1e4a27b70865d4c5a415e4ac12093e4d04943d9d388e3c78509640710500a634"
+      "sha256": "dff879f13611f3e802b225c007a6d249ab5d7db6468c1b4c3b9c4f7cc9e20fc4"
     },
     {
       "path": "docs/METHODS.md",
@@ -2638,8 +2638,8 @@
     },
     {
       "path": "docs/PACKAGE_INDEX.md",
-      "bytes": 6403,
-      "sha256": "f2e16a84a364bc5ab568ae8956704c90cf6bb6da94c1f98c56322726b02e35ec"
+      "bytes": 6418,
+      "sha256": "5531c9adeec63c208bf163c1e1b60a1b70142c36fd1f29e824d76a278fd333b6"
     },
     {
       "path": "docs/PERFORMANCE.md",
@@ -2668,8 +2668,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 3297,
-      "sha256": "a9d8f99fb79ddc41d350825618f65f9926b85d43879d75d8121a8aa5da2445c3"
+      "bytes": 3436,
+      "sha256": "5dd50bb8f7cbadd02f97ec3df30ace57f574a1211b079fcfde4cd60681c42f53"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -2689,12 +2689,12 @@
     {
       "path": "docs/WINDOWS_PATHS.md",
       "bytes": 2270,
-      "sha256": "627776e4998f4022da686c0b55a7ed99a402236c89bfcb6358eb60d226cf661c"
+      "sha256": "6e5006f67ec2010c13b9bd55284c3d5ac67357f7ae59d98933e01fe3bc46888a"
     },
     {
       "path": "docs/WINDOWS_PATHS_ZH.md",
       "bytes": 2955,
-      "sha256": "3749df21fbaa269594d1503ee039ac16f4e44952611126654cec5b6e0e131744"
+      "sha256": "6b91f121fa1c4121e14c62129eef4932bf69b7973aee6621de530802e1a46c74"
     },
     {
       "path": "docs/assets/figure_provenance.json",
