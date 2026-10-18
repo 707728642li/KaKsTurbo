@@ -58,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13780,
-      "sha256": "ae0b0737df1d5d954d1896dcc12ce11a042bb5741c50d17bbc7231ccf6eedd1e"
+      "bytes": 13951,
+      "sha256": "5e0ef12425b4b76e03c7895d07cc83bdbbd6ece5470f721edfe11c5ba9c79ba3"
     },
     {
       "path": "README_PYPI.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "README_ZH.md",
-      "bytes": 7568,
-      "sha256": "9048199edebf98d2e2bb70b849197aecbed0d951814e35c18c7518addc813cde"
+      "bytes": 10263,
+      "sha256": "1c8214b9ea58f31b20ec4c652d774cf88e704c0f031e6d3ea0932b669494f78c"
     },
     {
       "path": "SECURITY.md",
@@ -2608,8 +2608,8 @@
     },
     {
       "path": "docs/INPUT_OUTPUT.md",
-      "bytes": 5925,
-      "sha256": "e2acaecec54595386cf29183bf763f5cd66a347d2350b65b07331c9e84a0fa77"
+      "bytes": 5939,
+      "sha256": "03307578d96b3df1fe77502ca9b893038153776b7aa30bd99c40ec55d9955a1f"
     },
     {
       "path": "docs/LINUX_COMPATIBILITY.md",
@@ -2618,8 +2618,8 @@
     },
     {
       "path": "docs/METHODS.md",
-      "bytes": 5344,
-      "sha256": "008db46e4c568bbda23beb66a667d6746d40a066d70ca569cc96243a88ae1761"
+      "bytes": 5339,
+      "sha256": "5f45f4c12a442b9d680c09e4bda6900ea1647c388b50569f1dfe09c6c2085974"
     },
     {
       "path": "docs/MIGRATION.md",
@@ -2633,8 +2633,8 @@
     },
     {
       "path": "docs/NUMERICAL_VALIDATION.md",
-      "bytes": 3810,
-      "sha256": "ad08499f77eb2682c266a92523e884ecfa7d1b8f0855f5d916627e09953453c5"
+      "bytes": 3840,
+      "sha256": "871efc4da4f3ec33135a35c2279f972bc128dd5b6b885160decfeadb94139b78"
     },
     {
       "path": "docs/PACKAGE_INDEX.md",
@@ -2643,8 +2643,8 @@
     },
     {
       "path": "docs/PERFORMANCE.md",
-      "bytes": 5814,
-      "sha256": "62543ef2b6edbd5270d54acf6783803c87a462d229768c012176ac0a31fdbf45"
+      "bytes": 5889,
+      "sha256": "4a1a74c5b2f24a5c958d0928d1b68f559c6ca337218e9a31d2f0b7f4e8928d03"
     },
     {
       "path": "docs/RAW_CDS_TUTORIAL.md",

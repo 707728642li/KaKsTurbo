@@ -2,9 +2,9 @@
 
 # KaKsTurbo
 
-### High-performance, model-averaged Ka/Ks estimation on CPUs and GPUs
+### Accelerated Ka/Ks estimation for comparative genomics
 
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-1b4353?style=flat-square)](#installation)
+[![Backends](https://img.shields.io/badge/backends-CPU%20%7C%20GPU-1b4353?style=flat-square)](docs/METHODS.md)
 [![Precision](https://img.shields.io/badge/arithmetic-FP64-13858f?style=flat-square)](docs/METHODS.md)
 [![Models](https://img.shields.io/badge/candidate%20models-14-13858f?style=flat-square)](docs/METHODS.md#complete-model-averaging)
 [![License](https://img.shields.io/badge/license-GPL--3.0--only-617681?style=flat-square)](LICENSE)
@@ -13,27 +13,27 @@
 
 </div>
 
-KaKsTurbo estimates nonsynonymous and synonymous substitution rates (**Ka**, **Ks**) and their ratio for batches of homologous, codon-aligned gene pairs. It brings structured FP64 matrix computation and boundary-constrained optimization to a complete fourteen-model averaging workflow, with CPU and single-GPU backends that share the same model definitions and numerical policies.
+KaKsTurbo estimates nonsynonymous (**Ka**) and synonymous (**Ks**) substitution rates and their ratio from codon-aligned homologous gene pairs. It combines **complete fourteen-model averaging**, **structured FP64 matrix computation**, and **boundary-constrained optimization** with parallel CPU and batched GPU execution. Both backends share the same model definitions and numerical policies.
 
-Built for comparative-genomics workflows, KaKsTurbo combines high-throughput execution with **model-level diagnostics, resumable jobs, and analysis-ready TSV/JSONL results**. A Linux-first tutorial takes raw CDS and protein sequences through alignment to the standard input format.
+Each analysis retains candidate-model weights, optimization diagnostics, and explicit reasons for unavailable estimates. **Resumable runs and standardized TSV/JSONL results** support reproducible batch analyses, while the [CDS/PEP workflow](docs/RAW_CDS_TUTORIAL.md) connects raw sequence preparation to Ka/Ks estimation.
 
-| Compute efficiently | Retain the model average | Inspect every estimate |
+| Structured computation | Complete model averaging | Numerical diagnostics |
 |:---|:---|:---|
-| Persistent CPU workers, batched GPU evaluation and reused workspaces | All fourteen candidates, FP64 arithmetic and one reconstructed averaged GTR process | Saved model weights, boundary/iteration flags, projected gradients and explicit NA reasons |
+| FP64 likelihood and derivative evaluation, persistent CPU workers, and batched GPU execution | Fourteen candidates and AICc-weighted parameters that reconstruct one averaged GTR process | Model weights, bound and iteration flags, projected gradients, and explicit NA reasons |
 
-## From aligned genes to interpretable results
+## Analysis workflow
 
 [![KaKsTurbo workflow: codon filtering, structured CPU/GPU likelihoods, bounded optimization, complete model averaging and numerical follow-up.](docs/assets/workflow.png)](docs/assets/workflow.png)
 
-**Figure 1.** The shared numerical workflow and its implementation. All 61 sense-codon states are retained. Model weights and feasible-region drawings are schematic. Independent extended fitting is a validation procedure, not an automatic step in every production run. [Explore the method →](docs/METHODS.md)
+**Workflow overview.** Codon-aligned gene pairs are processed through likelihood evaluation, bounded optimization, and complete model averaging. All 61 sense-codon states are retained; model weights and feasible-region drawings are schematic. Extended refitting is used in independent validation and is not part of a default CLI run. [Methods →](docs/METHODS.md)
 
-The statistical model families and model-averaging framework build on [established KaKs methods](docs/METHODS.md#statistical-foundations-and-baseline). KaKsTurbo's work focuses on their computational implementation, boundary-aware optimization and transparent numerical validation; it does not introduce a new biological selection test.
+The substitution-model families and model-averaging framework follow [established KaKs methods](docs/METHODS.md#statistical-foundations-and-baseline). KaKsTurbo focuses on their numerical implementation: structured matrix calculations, boundary-aware optimization, and parallel execution, supported by [explicit diagnostics and documented validation](docs/NUMERICAL_VALIDATION.md).
 
-## Measured performance
+## Performance and scaling
 
 [![Complete-workflow timings on a public 1,000-pair panel and archived plant/fly cohorts, with physical-core scaling on 10,000 pairs.](docs/assets/performance.png)](docs/assets/performance.png)
 
-**Figure 2.** Complete CLI wall times and physical-core scaling. **A: N = 3; B/C: N = 5 technical runs.** Diamonds are medians; timing error bars show the full observed minimum–maximum range. KAKS3 denotes **KaKs_Calculator 3.0, MA**. The panels retain their distinct datasets, builds and execution conditions.
+**Performance overview.** Complete CLI wall times and physical-core scaling. **A: N = 3; B/C: N = 5 technical runs.** Diamonds are medians; timing error bars show the observed minimum–maximum range. KAKS3 denotes **KaKs_Calculator 3.0, MA**. Each panel represents its stated dataset, build, and execution conditions.
 
 | Dataset / timing cohort | N | KaKs_Calculator 3.0 | KaKsTurbo CPU | KaKsTurbo GPU | Ratio of median times |
 |:---|---:|---:|---:|---:|:---|
@@ -43,9 +43,22 @@ The statistical model families and model-averaging framework build on [establish
 
 These comparisons allocate **eight physical CPU cores / sixteen logical processors per arm**; the GPU arm additionally uses one GPU. The Linux cohort jobs used disjoint CPU allocations within a concurrent batch. On a separate fixed 10,000-pair scaling panel, 64 physical cores reached **22.12×** the two-core speed (**69.1% parallel efficiency**).
 
-These are workload-specific **complete-workflow comparisons**, including estimator-policy differences from the baseline. They are not a universal speedup or an assertion that CPU and GPU results are bitwise identical. The GPU is slightly slower than the CPU on the same-host 1,000-pair panel. No cross-platform GPU speedup is claimed. [Timing protocol, all observations and limitations →](docs/PERFORMANCE.md)
+Speedups are ratios of median **end-to-end CLI times**, specific to these workloads and including estimator-policy differences from the baseline. GPU comparisons are limited to the same-host 1,000-pair panel, where CPU is slightly faster. [Timing protocol, all observations, and limitations →](docs/PERFORMANCE.md)
 
 ## Installation
+
+### PyPI
+
+Install into an existing Python environment:
+
+```bash
+python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10
+kaksturbo doctor --backend cpu
+```
+
+Requires Python ≥3.11 and Linux x86-64/glibc ≥2.17 or Windows x86-64. CPU execution needs no CUDA. [Package-index installation and qualification](docs/PACKAGE_INDEX.md).
+
+### Portable packages
 
 Download and extract the **whole portable package**. Both platforms include their runtime and CPU/GPU backends; core CPU execution needs neither Python, Conda nor CUDA installed separately.
 
@@ -56,22 +69,22 @@ Download and extract the **whole portable package**. Both platforms include thei
 
 [SHA256 checksums](https://github.com/707728642li/KaKsTurbo/releases/download/v1.1.0rc10/SHA256SUMS-docs1.txt) · [Verified platforms](docs/LINUX_COMPATIBILITY.md) · [Windows long paths](docs/WINDOWS_PATHS.md)
 
-The `docs1` downloads include this README, bilingual tutorials, methods/performance figures and the synthetic result preview for offline reading. `docs1` is a documentation-only archive revision: the Windows and Linux program versions below remain unchanged, and the original packages remain available in the same Release.
+<details>
+<summary><strong>Package versions and offline documentation</strong></summary>
 
-The downloads are **release candidates**. Windows rc10 adds path handling to the qualified interface; Linux retains its separately qualified rc9-tutorial1 build. A source checkout is for development and is not a stand-alone installation. PyPI **1.1.0rc10** is now available for Linux and Windows; the separately qualified portable versions above remain unchanged. The [Bioconda recipe](https://github.com/bioconda/bioconda-recipes/pull/70404) is submitted and awaits review/channel publication. [Package-index installation and qualification](docs/PACKAGE_INDEX.md).
+The downloads are **release candidates**. Windows rc10 includes path handling for the qualified interface; Linux retains its separately qualified rc9-tutorial1 portable build. The PyPI package is version **1.1.0rc10** on both platforms. A source checkout is intended for development.
 
-### Install into an existing Python environment
+The `docs1` archives include a bundled README, bilingual tutorials, methods/performance figures, and a synthetic result preview for offline reading. This suffix identifies a documentation-only revision; program versions are shown in the table above. Original packages remain available in the same Release.
 
-```bash
-python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10
-kaksturbo doctor --backend cpu
-```
+</details>
 
-Requires Python ≥3.11 and Linux x86-64/glibc ≥2.17 or Windows x86-64. CPU use needs no CUDA. See the [pip quick start](docs/PACKAGE_INDEX.md#quick-start-with-the-installed-command); no working Bioconda-channel installation is claimed until the recipe is merged and uploaded.
+**Bioconda:** the [recipe](https://github.com/bioconda/bioconda-recipes/pull/70404) awaits review and public-channel publication. Current installation routes are PyPI and the portable packages above.
 
-## Run your first analysis
+## Quick start
 
-### Already have codon-aligned sequences?
+The examples below use the portable package. For the PyPI installation, see the [installed-command quick start](docs/PACKAGE_INDEX.md#quick-start-with-the-installed-command).
+
+### Codon-aligned input
 
 After downloading the Linux archive:
 
@@ -101,7 +114,7 @@ Spaces, Unicode and long input/output paths are supported. For deep installation
 
 </details>
 
-### Starting from raw CDS and proteins?
+### Raw CDS and protein sequences
 
 Provide `cds.fa`, `pep.fa` and an explicit list of homologous pairs. The [batch tutorial](docs/RAW_CDS_TUTORIAL.md) checks translation consistency, runs **MAFFT → PAL2NAL**, prepares codon-aligned inputs and launches KaKsTurbo. The extracted packages include the scripts and synthetic examples.
 
@@ -113,7 +126,7 @@ bash scripts/run_raw_cds_demo_linux.sh --output "$PWD/tutorial_demo"
 
 The preparation tools are separate from the core runtime. Homology assignment is supplied by the user; this workflow does not infer orthology or repair frameshifts. [English tutorial](docs/RAW_CDS_TUTORIAL.md) · [中文教程](docs/RAW_CDS_TUTORIAL_ZH.md)
 
-### Select CPU, GPU or historical reproduction
+### Execution modes and GPU configuration
 
 | Mode | Backend | Use |
 |:---|:---|:---|
@@ -131,9 +144,9 @@ nvidia-smi
 
 One run uses one NVIDIA GPU. The compiled backend requires compute capability **≥8.6**, driver CUDA compatibility **≥12.9**, and **≥8 GiB free memory**, including a 2 GiB reserve. A separate CUDA Toolkit is not needed. `auto` selects CPU; an explicit GPU request reports a device/driver/memory problem with corrective guidance instead of silently switching backends. [Device requirements](docs/DEVICES.md)
 
-## Results you can use
+## Results and numerical diagnostics
 
-The example above produces the following selected columns. These are **actual Windows CPU results from the bundled synthetic input**, rounded here to six decimal places; Linux last digits may differ.
+Selected columns from the bundled three-pair example are shown below (**Windows CPU**, rounded to six decimals; Linux last digits may differ).
 
 | pair_id | Ka | Ks | Ka_Ks | status |
 |:---|---:|---:|---:|:---|
@@ -143,7 +156,7 @@ The example above produces the following selected columns. These are **actual Wi
 
 [Full-precision TSV](examples/results/three_pair_cpu.tsv) · [JSONL](examples/results/three_pair_cpu.jsonl) · [Quality summary](examples/results/three_pair_cpu_quality.txt)
 
-The identical-sequence control retains **NA**, with its reason, rather than an invented zero ratio. `available` describes result availability, not a convergence certificate. The complete table also carries sequence IDs, codon counts, model selection and boundary/cap diagnostics. [Output schema and interpretation →](docs/INPUT_OUTPUT.md)
+The identical-sequence control has an undefined ratio and retains **NA** with its reason. The complete table also carries sequence IDs, codon counts, model selection, and boundary/cap diagnostics. `available` records result availability; convergence requires separate numerical assessment. [Output schema and interpretation →](docs/INPUT_OUTPUT.md)
 
 | Output | Purpose |
 |:---|:---|
@@ -160,7 +173,7 @@ Optional compatibility export preserves the standard results:
 
 It provides a KaKs_Calculator-style 22-column table; unsupported or unvalidated statistics are **NA with reasons**. Matching a file layout does not imply estimator equivalence. [Field mapping and reader examples](docs/COMPATIBLE_EXPORT.txt)
 
-## Built for batch workflows
+## Workflow integration
 
 - **Progress in the terminal:** committed pair count, throughput, elapsed time, ETA and processing stage.
 - **Checkpoints:** `status results_demo` inspects progress; `resume results_demo` continues a compatible interrupted run.
@@ -176,7 +189,9 @@ It provides a KaKs_Calculator-style 22-column table; unsupported or unvalidated 
 | [Input and output](docs/INPUT_OUTPUT.md) | [Numerical interpretation](docs/NUMERICAL_VALIDATION.md) | [Source and build](docs/BUILDING_NATIVE.md) |
 | [Linux compatibility](docs/LINUX_COMPATIBILITY.md) | [Reproducibility](docs/REPRODUCIBILITY.md) | [Version/checkpoint migration](docs/MIGRATION.md) |
 
-KaKsTurbo currently supports **MA under standard genetic code 1**. Finite-coordinate acceptance, projected-gradient diagnostics and independent reference fitting answer different questions. A finite result does not establish a global optimum, and Ka/Ks > 1 alone is not a positive-selection significance test. Known unresolved cases are retained in the [validation scope](docs/NUMERICAL_VALIDATION.md).
+## Scope and interpretation
+
+KaKsTurbo supports **MA under standard genetic code 1**. Finite-coordinate acceptance, projected-gradient diagnostics, and independent reference fitting provide distinct levels of numerical evidence. CPU and GPU may return slightly different endpoints; a finite result does not establish a global optimum. **Ka/Ks > 1 alone is not a positive-selection significance test.** Known unresolved cases are documented in the [validation scope](docs/NUMERICAL_VALIDATION.md).
 
 ## Citation, license and support
 

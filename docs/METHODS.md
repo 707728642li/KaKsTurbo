@@ -2,7 +2,7 @@
 
 [Workflow figure](assets/workflow.png) · [Numerical interpretation](NUMERICAL_VALIDATION.md) · [Input/output](INPUT_OUTPUT.md)
 
-KaKsTurbo is a numerical implementation of pairwise codon-model fitting and model averaging. It uses established substitution-model families and the MA framework; these are not claimed as newly invented statistical models. The implementation combines structure-aware matrix work, a shared bounded optimizer, CPU/GPU execution and explicit diagnostics.
+KaKsTurbo implements pairwise codon-model fitting and complete model averaging for Ka/Ks estimation. Its statistical foundations are established substitution-model families and the MA framework. The implementation combines structured matrix computation, boundary-constrained optimization, CPU/GPU execution, and model-level numerical diagnostics.
 
 ## 1. Preserve the requested comparison
 

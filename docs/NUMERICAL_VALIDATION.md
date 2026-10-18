@@ -36,4 +36,4 @@ For interpretation, a high-weight unstable model deserves particular attention, 
 
 Linux qualification covers native Ubuntu 22.04 CPU, Ubuntu 22.04 GPU container userspace on an Ubuntu 24.04 NVIDIA host, and a CentOS 7 CPU smoke test. Windows qualification covers CPU/GPU/reproduction, long and Unicode paths, compatible export and interrupted recovery. See [platform scope](LINUX_COMPATIBILITY.md), [Windows paths](WINDOWS_PATHS.md), [synthetic result observations](NUMERICAL_SMOKE.md) and [raw-CDS workflow checks](RAW_CDS_VALIDATION.md).
 
-This documentation update does not refit data, change thresholds or claim new accuracy evidence. The distributed engines and released archive bytes are preserved.
+Validation records identify the tested builds, inputs, and numerical policies. Interpretation should follow the stated diagnostic scope, including retained NA states and unresolved model fits.

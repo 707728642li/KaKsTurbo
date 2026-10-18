@@ -1,6 +1,6 @@
 # Inputs, outputs and interpretation
 
-[Home](../README.md#results-you-can-use) · [CLI reference](USAGE.md) · [Raw-CDS tutorial](RAW_CDS_TUTORIAL.md)
+[Home](../README.md#results-and-numerical-diagnostics) · [CLI reference](USAGE.md) · [Raw-CDS tutorial](RAW_CDS_TUTORIAL.md)
 
 ## Supported inputs
 

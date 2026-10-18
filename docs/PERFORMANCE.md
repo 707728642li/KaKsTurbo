@@ -1,8 +1,8 @@
 # Performance evidence
 
-[Home](../README.md#measured-performance) · [Underlying observations](data/) · [Methods](METHODS.md)
+[Home](../README.md#performance-and-scaling) · [Underlying observations](data/) · [Methods](METHODS.md)
 
-The software homepage reuses Figure 2 from the user-authorized audit package without changing its pixels or statistics. These measurements describe specific workloads and frozen builds, not guaranteed run times for every machine or a fresh benchmark of a documentation update.
+Performance is reported through three complementary experiments: a same-host comparison, complete plant/fly cohorts, and physical-core scaling. Each uses its stated input, frozen software build, and execution protocol. All technical repeats are retained, and timing covers the complete CLI workflow. Results describe these workloads and conditions.
 
 ## A. Public 1,000-pair panel: same-host comparison
 
