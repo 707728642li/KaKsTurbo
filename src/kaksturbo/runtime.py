@@ -87,6 +87,33 @@ def _relative_asset(root, relative, directories=None):
     return resolved
 
 
+def _verify_conda_assets(manifest, prefix=None):
+    """Verify build-time pinned Conda providers without changing their files."""
+    assets = manifest.get("conda_external_assets", {})
+    if not isinstance(assets, dict):
+        raise EngineIntegrityError("Invalid Conda dependency manifest")
+    root = absolute_path(prefix or sys.prefix)
+    for relative, record in assets.items():
+        parts = Path(relative).parts
+        if not parts or parts[0] != "lib" or not isinstance(record, dict):
+            raise EngineIntegrityError("Invalid Conda dependency path: " + str(relative))
+        try:
+            path = _relative_asset(root, relative)
+            flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+            with os.fdopen(os.open(path, flags), "rb") as handle:
+                info = os.fstat(handle.fileno())
+                if not stat.S_ISREG(info.st_mode) or info.st_size != record.get("bytes"):
+                    raise EngineIntegrityError("Conda dependency size changed: " + relative)
+                digest = hashlib.sha256()
+                for block in iter(lambda: handle.read(1024 * 1024), b""):
+                    digest.update(block)
+                if digest.hexdigest() != record.get("sha256"):
+                    raise EngineIntegrityError("Conda dependency missing or changed: " + relative)
+        except OSError as error:
+            raise EngineIntegrityError("Conda dependency missing or unsafe: " + relative) from error
+    return len(assets)
+
+
 def validate_manifest(root=None):
     root = absolute_path(root or resource_root())
     manifest_path = root / MANIFEST_NAME
@@ -148,6 +175,7 @@ def validate_manifest(root=None):
     finally:
         for fd in descriptors.values():
             os.close(fd)
+    _verify_conda_assets(manifest)
     return {"schema": "kaksturbo.engine_identity/1", "manifest_sha256": hashlib.sha256(raw).hexdigest(),
             "asset_count": len(files), "platform": manifest.get("platform", platform.system()),
             "release": manifest.get("version", "1.0.0"), "science_contract": manifest.get("science_contract"),

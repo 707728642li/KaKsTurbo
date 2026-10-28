@@ -1,5 +1,5 @@
 {
-  "scope": "Software source/documentation/licenses/synthetic examples, plus two user-authorized scientific overview/performance figures and aggregate timing tables",
+  "scope": "Software source, documentation, licenses and synthetic examples, plus user-authorized workflow and aggregate performance figures; no private datasets or manuscript.",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,13 +18,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1519,
-      "sha256": "b94a54f028dba6be63e4e58605041e886b01c72d15de483b593c4c564a2608ed"
+      "bytes": 2022,
+      "sha256": "e47e4eff7fd2945c576132d334bc89bad5dca87a914fe6cbed59b03a925d2467"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 410,
-      "sha256": "ef040fc8cd2ff989c973e3e69ba6a88976e20d1ba79e89c572c7d4876610f28d"
+      "bytes": 406,
+      "sha256": "f6cb3c4f18ed4ee5d83b7d53b659a5c6cffec6cca10fb1575d2d3475a5b60f2f"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -58,18 +58,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 13951,
-      "sha256": "3601e5caece8dab0b39137e0630d2ef7c889758d178d13b00efab175683d5cf3"
+      "bytes": 14161,
+      "sha256": "37bd0b0aa812c2c96bfdbd732f6719786995eb775fbbca0f9d7f814f3c161d68"
     },
     {
       "path": "README_PYPI.md",
-      "bytes": 5407,
-      "sha256": "5db31439b1c87396b49803940f474cbcb61a68f28faafa4c62c8349143079000"
+      "bytes": 5485,
+      "sha256": "bbe859488ed29d002d28ef67e6ef004f17d2f1ad6e206e17b150b6e4d84adbf7"
     },
     {
       "path": "README_ZH.md",
-      "bytes": 10263,
-      "sha256": "9759a5543f5a0dbd540d3b6a983f76a1557b528600227f83e6feccd36b9241b2"
+      "bytes": 10425,
+      "sha256": "84bf5765eabf599a26189752bc49b5a0a2ee64367b06c27cb557b30e0fb19306"
     },
     {
       "path": "SECURITY.md",
@@ -83,333 +83,13 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2504,
-      "sha256": "c86474a4b9aabee1303cd42e4d644f172a3bb88eaa1122a11e8b6c928749be2e"
+      "bytes": 2558,
+      "sha256": "f70a1c4553ca23bb81c6aaca2704f120013387b1aa60d49f66eaf5f54b0f4f51"
     },
     {
       "path": "USER_GUIDE_ZH.txt",
       "bytes": 8283,
       "sha256": "5d977e39bdfbc2fd44237738ba032da84073d6a3957861a486009573a937e8b2"
-    },
-    {
-      "path": "build-records/index.json",
-      "bytes": 5159,
-      "sha256": "cdc3ce114870303bbe7b8a3b1a0e59d5b38e8b9d67dac1afc807aa7c54d58132"
-    },
-    {
-      "path": "build-records/linux/build/cpu-backend-v1-reviewed/linux-build.json",
-      "bytes": 4992,
-      "sha256": "321e084ebc69d35c03bd3e4ef924eddd95d7508a565b7b54d8cae0a400ab91e8"
-    },
-    {
-      "path": "build-records/linux/build/cpu-backend-v1-reviewed/windows-origin-build.json",
-      "bytes": 3483,
-      "sha256": "5a44ef211a09705a74603268deb7b636e0e49613d9d99293b6dd047bd7f3ccf1"
-    },
-    {
-      "path": "build-records/linux/build/cpu-gradient-v2/linux-build.json",
-      "bytes": 5676,
-      "sha256": "ff96bce262a6fe0ed190f4b6b164c22e8b62a4fed19bed458ad755146872ccf1"
-    },
-    {
-      "path": "build-records/linux/build/cpu-gradient-v2/windows-origin-build.json",
-      "bytes": 5341,
-      "sha256": "a5fb5d59a47a15386e92554c72a8073d3510af9f3af773a91b1c6c7751a4233d"
-    },
-    {
-      "path": "build-records/linux/build/gradient-optimizer-schur-v1/linux-build.json",
-      "bytes": 3569,
-      "sha256": "c3dc5c5810c3b3fec4736660f7562f15dfba33a5b594663a59a3dc7243f6c591"
-    },
-    {
-      "path": "build-records/linux/build/gradient-optimizer-schur-v1/windows-origin-build.json",
-      "bytes": 2918,
-      "sha256": "427a28d4255acbe0f28392a18c1fa1a4ae7513f873ca0d1f67454729976ebb10"
-    },
-    {
-      "path": "build-records/linux/build/native-adapter-checked/linux-build.json",
-      "bytes": 11689,
-      "sha256": "816d28078d32b710a1f50484eb90abc24f93aa60a67141d5580ab82a17e2f544"
-    },
-    {
-      "path": "build-records/linux/build/native-adapter-checked/windows-origin-build.json",
-      "bytes": 7857,
-      "sha256": "57a02d9b036c26f45a08abf3a28614934117799753a897b3c6d81df0ddecd440"
-    },
-    {
-      "path": "build-records/linux/build/shared-statistics-v1-checked/linux-build.json",
-      "bytes": 4604,
-      "sha256": "8fceb088e1c253abf4a5c3f3dbc70d6a1ef4b437009e5ab8cc15e0c91d80e947"
-    },
-    {
-      "path": "build-records/linux/build/shared-statistics-v1-checked/windows-origin-build.json",
-      "bytes": 3079,
-      "sha256": "24d1ed5dfdf53de6c5b05629985b1b63d7e3d4381a44919807b3a87f0ad9a278"
-    },
-    {
-      "path": "build-records/linux/engine-assets.json",
-      "bytes": 28765,
-      "sha256": "ae27e447b6bd9f5bd08066dbcfb3ce3bb6e1873055e80f9fc7a8c015b8b35eb2"
-    },
-    {
-      "path": "build-records/windows/build/batched-optimizer-v1-reviewed/build.json",
-      "bytes": 1541,
-      "sha256": "63e538015e9c90df5d08847f03dc836e4c71d21de0e646fd983c30ac0761ebe9"
-    },
-    {
-      "path": "build-records/windows/build/cpu-backend-v1-reviewed/build.json",
-      "bytes": 3483,
-      "sha256": "5a44ef211a09705a74603268deb7b636e0e49613d9d99293b6dd047bd7f3ccf1"
-    },
-    {
-      "path": "build-records/windows/build/cpu-backend-v1-reviewed/product-original-linux-build.json",
-      "bytes": 5097,
-      "sha256": "f054809cf5e78f87acc2dcbfa2c51dd1cf6a4334a6708056058b7b1640d135de"
-    },
-    {
-      "path": "build-records/windows/build/cpu-gradient-v2/build.json",
-      "bytes": 5341,
-      "sha256": "a5fb5d59a47a15386e92554c72a8073d3510af9f3af773a91b1c6c7751a4233d"
-    },
-    {
-      "path": "build-records/windows/build/cpu-gradient-v2/product-original-linux-build.json",
-      "bytes": 5787,
-      "sha256": "f621e9359ab425bb76b7ebb4029d505f2a959562e26d39660a4d87380418e08a"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference-cached/build.json",
-      "bytes": 7618,
-      "sha256": "d891e3e5e5b1a67382a1902063636f1631e6d55683eae2b113f509e7cadead01"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference-cached/product-original-windows-build.json",
-      "bytes": 1808,
-      "sha256": "e5929a32fd4b566159c2b06a134eac383e0ad63d78baa092a503e9cb3d4980b9"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference-cached/source_manifest.json",
-      "bytes": 5635,
-      "sha256": "edfc205166dd40e2d0dc4c88b9374e11bf3634c6b44b9b7f3c7858b816c1dc4e"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference/build.json",
-      "bytes": 1185,
-      "sha256": "1f66cb810aa109cf96a7fd3f251068615e704272fa26b11e58dd939a161c2d96"
-    },
-    {
-      "path": "build-records/windows/build/cpu-reference/product-original-linux-build.json",
-      "bytes": 5030,
-      "sha256": "c62071fabfba39bef57277af5f7095d9ebbac1931c6f3ef9eccdc3d2fca87e4e"
-    },
-    {
-      "path": "build-records/windows/build/driver-staging-round3-v1/build.json",
-      "bytes": 3276,
-      "sha256": "a69fb4672e12a56eb912e017924e7cd54c74d86941b62cb4893842baa314017b"
-    },
-    {
-      "path": "build-records/windows/build/driver-staging-round3-v1/product-original-linux-build.json",
-      "bytes": 3441,
-      "sha256": "77b9cdc69ad0a69a9e973783f504eb3c461bbb3ae25ba95dda0a878449e04a65"
-    },
-    {
-      "path": "build-records/windows/build/driver-staging-round3-v1/product-original-windows-build.json",
-      "bytes": 1694,
-      "sha256": "9ae7287127ee4a4b4392aba75884611bfa6147b3bd6cc49a9cf1180726f892c2"
-    },
-    {
-      "path": "build-records/windows/build/gpu-fold-unroll-round5-literal-fp64-v1/build.json",
-      "bytes": 2441,
-      "sha256": "8f8e892774ead0b4c1031d4f4ebac4a31be4552a65b30225559797ecf8a1595c"
-    },
-    {
-      "path": "build-records/windows/build/gpu-fold-unroll-round5-pragma-fp64-v1/build.json",
-      "bytes": 2439,
-      "sha256": "34fa987388958cb303ad180bff670ba12e6b233469407736b3911b6b5cfaacb6"
-    },
-    {
-      "path": "build-records/windows/build/gpu-forward-matrix-fusion-round2-v1/build.json",
-      "bytes": 979,
-      "sha256": "a1c3020ec4598941e2162dd9e39fac0ad413396a5b0179c6ce90387a303ef02a"
-    },
-    {
-      "path": "build-records/windows/build/gpu-gemm-coalesced-round2-fp64-v1/build.json",
-      "bytes": 1173,
-      "sha256": "70582984fb8147bba1a484e8d125fc0f543acb96d426bfe41f5a52135e2a255d"
-    },
-    {
-      "path": "build-records/windows/build/gpu-gemm-round2-fp64-v1/build.json",
-      "bytes": 573,
-      "sha256": "89ea510f8e4dde4ac4ef60393fe829aea09092a2572575b6ac0d9cb94128b7a8"
-    },
-    {
-      "path": "build-records/windows/build/gpu-gemm-round5-register-fp64-v1/build.json",
-      "bytes": 1299,
-      "sha256": "49d2e136c4a6d9c2ff7128006e0ce9d08e95e8486a853e2df78d974f4e4ec0a4"
-    },
-    {
-      "path": "build-records/windows/build/gpu-gemm-round5-warp-fp64-v1/build.json",
-      "bytes": 1305,
-      "sha256": "b9af18bcf85e3bd494e29f919f978dcbd5e1b70df567beb9e9a3cb509120937b"
-    },
-    {
-      "path": "build-records/windows/build/gpu-matrix-contract-round2-v1/build.json",
-      "bytes": 581,
-      "sha256": "ce3d9e35716a17deafb55561b6bc0b462458d3108f4122ba124b217d0ff264fd"
-    },
-    {
-      "path": "build-records/windows/build/gpu-matrix-invariant-round4-fp64-v1/build.json",
-      "bytes": 1997,
-      "sha256": "fbdbf33f5fbdc8e013a5ccf3133b37f081d8390687257d1c4dc4b280d33a4408"
-    },
-    {
-      "path": "build-records/windows/build/gpu-matrix-structural-zero-round2-fp64-v1/build.json",
-      "bytes": 1532,
-      "sha256": "d3f4c395c0b6837d89d8cf2ce3252c6cddfabd67dce5a6271dd9906c794af1ce"
-    },
-    {
-      "path": "build-records/windows/build/gpu-native-intscale-t18-round2-fp64-v1/build.json",
-      "bytes": 1320,
-      "sha256": "088b65069683b9718070eb9c26629e315ad74f4aa76423ad241ca0e440525bd6"
-    },
-    {
-      "path": "build-records/windows/build/gpu-native-objective-round2-fp64-v1/build.json",
-      "bytes": 1198,
-      "sha256": "1f15b3cc7ffc11b0e9a7e478f2008081ef03ddf4e03ec99f2ccac1aa1c0bcbb0"
-    },
-    {
-      "path": "build-records/windows/build/gpu-native-t18-round2-fp64-v1/build.json",
-      "bytes": 1019,
-      "sha256": "d51a266cbf823a045110eda68333f6ed2f9873d2b58ca73b7e968cc600e62ce4"
-    },
-    {
-      "path": "build-records/windows/build/gpu-observed-adjoint-round6-fp64-v1/build.json",
-      "bytes": 1394,
-      "sha256": "c74ff3ad6ac7167b6d91c1825fd04f2bc83a86f29dba3c21e4a9332cb66d100f"
-    },
-    {
-      "path": "build-records/windows/build/gpu-observed-adjoint-round6-shared-fp64-v2/build.json",
-      "bytes": 1670,
-      "sha256": "8562260867ba11cef4197cf62f16b73d4219f62e78cc6d8822be35a0400e24a4"
-    },
-    {
-      "path": "build-records/windows/build/gpu-observed-output-round6-fp64-v3/build.json",
-      "bytes": 1727,
-      "sha256": "2b89c45aa769ef7b87067e42b759936f6e880f9a44aa7e67620ab5cc901bf178"
-    },
-    {
-      "path": "build-records/windows/build/gpu-selected-final-vjp-round6-fp64-v1/build.json",
-      "bytes": 2690,
-      "sha256": "d6fb7b6a97d6de612d9bc69a928d39306900a199d791e8865b5069936d2db9a8"
-    },
-    {
-      "path": "build-records/windows/build/gpu-selected-final-vjp-round6-fp64-v1/structural_map.json",
-      "bytes": 17093,
-      "sha256": "6f8aec9766dea07f6514fd7481b358c643a575a2b7ec12a961c3fddc3802c358"
-    },
-    {
-      "path": "build-records/windows/build/gpu-sparse-t18-round2-fp64-v1/build.json",
-      "bytes": 1023,
-      "sha256": "9e34303ec90ab8c96966f79b72a20f79af9b4a79a453752236b106bcebdf6ef2"
-    },
-    {
-      "path": "build-records/windows/build/gpu-sparse-t18-round2-fp64-v1/structural_csr.json",
-      "bytes": 2065,
-      "sha256": "235089287479e1a9d391972e41d293e572c3627bb7472e64ca77dffc555f5eca"
-    },
-    {
-      "path": "build-records/windows/build/gpu-t18-fusion-round2-v1/build.json",
-      "bytes": 1209,
-      "sha256": "e017acd557495d55becca8b3a0dd243dfbd894124080262b65203fc6b87cef6d"
-    },
-    {
-      "path": "build-records/windows/build/gradient-optimizer-active-free-v1/build.json",
-      "bytes": 2995,
-      "sha256": "18838cd408eeb4e4812dde407047e6e3f8bcef96fe3bf7030c0755c274e569fa"
-    },
-    {
-      "path": "build-records/windows/build/gradient-optimizer-schur-v1/build.json",
-      "bytes": 2918,
-      "sha256": "427a28d4255acbe0f28392a18c1fa1a4ae7513f873ca0d1f67454729976ebb10"
-    },
-    {
-      "path": "build-records/windows/build/gradient-optimizer-stagnation-v4b/build.json",
-      "bytes": 2640,
-      "sha256": "e182b3a970b35f9aca0d4309bfaa4099edf6cfe1e1099284f2a34d202b71d147"
-    },
-    {
-      "path": "build-records/windows/build/gradient-optimizer-stagnation-v4b/compiled_source_snapshot/variant.json",
-      "bytes": 1986,
-      "sha256": "eeb0efed3e10ac1498f510548510b10d90c98072a82abb5cdb0a8196dbfe4fda"
-    },
-    {
-      "path": "build-records/windows/build/gradient-optimizer-stagnation-v4b/product-original-linux-build.json",
-      "bytes": 4160,
-      "sha256": "150e285a86696d44ab787142cfebc50147cf9a5295a44bae935d5bb07878a1b0"
-    },
-    {
-      "path": "build-records/windows/build/native-adapter-checked/build.json",
-      "bytes": 7857,
-      "sha256": "57a02d9b036c26f45a08abf3a28614934117799753a897b3c6d81df0ddecd440"
-    },
-    {
-      "path": "build-records/windows/build/native-adapter-checked/build_plan.json",
-      "bytes": 7404,
-      "sha256": "f76a575c6f9130257575b0acbe8d1a4fd2afa1501734bab89fdec8ac566b7c27"
-    },
-    {
-      "path": "build-records/windows/build/native-adapter-checked/product-original-linux-build.json",
-      "bytes": 12245,
-      "sha256": "c276a49efbdfd9106031c20130d3cf474ee7fd78b834bb1fddb04eb2d66ac7b5"
-    },
-    {
-      "path": "build-records/windows/build/publication-graph-host-v1/build.json",
-      "bytes": 3444,
-      "sha256": "d1956e4c8d14950a5370474709b0316e6589007762f4b0aaf11b8b3d4b910852"
-    },
-    {
-      "path": "build-records/windows/build/publication-graph-host-v1/product-original-linux-build.json",
-      "bytes": 4081,
-      "sha256": "19d5282d6ad97204ea454a4204793285a1fce7b1dd71146b862156f53155c0e6"
-    },
-    {
-      "path": "build-records/windows/build/publication-graph-host-v1/product-original-windows-build.json",
-      "bytes": 1473,
-      "sha256": "934eaae0f11cadbeddb65128bb3e05b7b2a9dbd53dd8a867291548127f989191"
-    },
-    {
-      "path": "build-records/windows/build/publication-tight-round2-v1/build.json",
-      "bytes": 3290,
-      "sha256": "bb4c46a9b93e413e9073f26360fc684aba1c14aa8166c1f237cb35321fb0eda7"
-    },
-    {
-      "path": "build-records/windows/build/publication-tight-round2-v1/product-original-linux-build.json",
-      "bytes": 3448,
-      "sha256": "e991b4b4dd4fb791d410a163912ff6e11aa2d1fb8aa47baf5893527b4dffe010"
-    },
-    {
-      "path": "build-records/windows/build/publication-tight-round2-v1/product-original-windows-build.json",
-      "bytes": 1708,
-      "sha256": "90757bdea38ebeeef48204b785db1e200644e60764167ddfce2987bcd9858e99"
-    },
-    {
-      "path": "build-records/windows/build/shared-core-v1-reviewed/build.json",
-      "bytes": 1841,
-      "sha256": "761e9b78e53f49e074a436c1bf2c0c95d7905ab8e2fed96aee5a8a0b059ca206"
-    },
-    {
-      "path": "build-records/windows/build/shared-statistics-v1-checked/build.json",
-      "bytes": 3079,
-      "sha256": "24d1ed5dfdf53de6c5b05629985b1b63d7e3d4381a44919807b3a87f0ad9a278"
-    },
-    {
-      "path": "build-records/windows/build/shared-statistics-v1-checked/product-original-linux-build.json",
-      "bytes": 4844,
-      "sha256": "02535eee687b432e19f148553dc2bffff4f110df213eb3bcd971ebeab9a7b8c8"
-    },
-    {
-      "path": "build-records/windows/engine-assets.json",
-      "bytes": 100532,
-      "sha256": "973f72f13dd9f5ff3801c6d145b0ebe5c8618ca648ee612a4038bb4a67356173"
     },
     {
       "path": "corresponding-source/linux/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.cpp",
@@ -2583,8 +2263,8 @@
     },
     {
       "path": "docs/BUILDING_NATIVE.md",
-      "bytes": 1934,
-      "sha256": "b473aa3f58026ad59b4ec9cdc98601968e14217916920a0223a918c5929e837f"
+      "bytes": 2024,
+      "sha256": "66b7e99c4982044b69007228c124bdffc92e4deb12ffc3a7b46f0ca2c0d34416"
     },
     {
       "path": "docs/COMPATIBLE_EXPORT.txt",
@@ -2638,8 +2318,8 @@
     },
     {
       "path": "docs/PACKAGE_INDEX.md",
-      "bytes": 6418,
-      "sha256": "5531c9adeec63c208bf163c1e1b60a1b70142c36fd1f29e824d76a278fd333b6"
+      "bytes": 6540,
+      "sha256": "57675deabe9343d684a807093abefefee8ae27ba5035684698202e434720f198"
     },
     {
       "path": "docs/PERFORMANCE.md",
@@ -2668,8 +2348,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 3436,
-      "sha256": "5dd50bb8f7cbadd02f97ec3df30ace57f574a1211b079fcfde4cd60681c42f53"
+      "bytes": 3413,
+      "sha256": "658da6d8b60b5d80d883f8a84511177a344a294369f12cde7fa598d6b55d30c1"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -2678,8 +2358,8 @@
     },
     {
       "path": "docs/SOURCE_LAYOUT.md",
-      "bytes": 1733,
-      "sha256": "dfea97cb0f67e5550bbc9e7b1040c4eada219b31dbca2e53a2410c71ab37723d"
+      "bytes": 1791,
+      "sha256": "03b3052dbcba04a900aeb81367613c24627422a22bc8fc9e281db087264ce63b"
     },
     {
       "path": "docs/USAGE.md",
@@ -2742,9 +2422,1349 @@
       "sha256": "068f9d5464135baa964935b2420064ca4e787a11e390cd536e7117428a21e550"
     },
     {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux-build.json",
+      "bytes": 4433,
+      "sha256": "0db705e671cc994ccb9706a936504e6314e8c389bb50a3f476e220cf98b26a96"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.cpp",
+      "bytes": 18634,
+      "sha256": "4f13160f79fa03581977932bac64de670f9f4f9ccb5b4607f9ef5828da735bf7"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.h",
+      "bytes": 4117,
+      "sha256": "ccae82f4573c5d5209f337ec81a288c8efe33c218c14da3c8e4acc730d651a89"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/cpu_backend.hpp",
+      "bytes": 581,
+      "sha256": "d21e15ab74dae63f128ffee165bda2d069115bca738abdf6fd2cfddadea37c9c"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.cpp",
+      "bytes": 11632,
+      "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.h",
+      "bytes": 3549,
+      "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/linux_compiled_source_snapshot/shared_core.hpp",
+      "bytes": 2147,
+      "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+    },
+    {
+      "path": "engine/build/cpu-backend-v1-reviewed/windows-origin-build.json",
+      "bytes": 3483,
+      "sha256": "5a44ef211a09705a74603268deb7b636e0e49613d9d99293b6dd047bd7f3ccf1"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux-build.json",
+      "bytes": 5133,
+      "sha256": "cd30119ea32448247ef08567a0364053d20e4765a93bdf33bc3479c2a37101eb"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux_compiled_source_snapshot/cpu_gradient.cpp",
+      "bytes": 22541,
+      "sha256": "cf9a8e64759191bf4c602d5e344d8899f55bb673dc1fcbe1b1eaa90f53b43d48"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux_compiled_source_snapshot/cpu_gradient.h",
+      "bytes": 3237,
+      "sha256": "6d029c52fa9389ebb68ed21f2dbef058fdf6965d84e919ff32d0ebdd424ab8de"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.cpp",
+      "bytes": 11632,
+      "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.h",
+      "bytes": 3549,
+      "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/linux_compiled_source_snapshot/shared_core.hpp",
+      "bytes": 2147,
+      "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+    },
+    {
+      "path": "engine/build/cpu-gradient-v2/windows-origin-build.json",
+      "bytes": 5341,
+      "sha256": "a5fb5d59a47a15386e92554c72a8073d3510af9f3af773a91b1c6c7751a4233d"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/build.json",
+      "bytes": 3276,
+      "sha256": "a69fb4672e12a56eb912e017924e7cd54c74d86941b62cb4893842baa314017b"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/compiled_source_snapshot/request_staging.cpp",
+      "bytes": 2878,
+      "sha256": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/linux-build.json",
+      "bytes": 5395,
+      "sha256": "b73d85e4cf0855e77853cb4d3aa5f5833454076f530f30c1d49a8cd2fea0815a"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/linux_compiled_source_snapshot/request_staging.cpp",
+      "bytes": 2878,
+      "sha256": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/product-original-linux-build.json",
+      "bytes": 3441,
+      "sha256": "77b9cdc69ad0a69a9e973783f504eb3c461bbb3ae25ba95dda0a878449e04a65"
+    },
+    {
+      "path": "engine/build/driver-staging-round3-v1/product-original-windows-build.json",
+      "bytes": 1694,
+      "sha256": "9ae7287127ee4a4b4392aba75884611bfa6147b3bd6cc49a9cf1180726f892c2"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-literal-fp64-v1/build.json",
+      "bytes": 2441,
+      "sha256": "8f8e892774ead0b4c1031d4f4ebac4a31be4552a65b30225559797ecf8a1595c"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-literal-fp64-v1/t18_fold.cu",
+      "bytes": 2381,
+      "sha256": "8b1f08f9c863e6218f2479c44638922d2d405cc9f07c858ca994303d55b8f401"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-literal-fp64-v1/t18_fold.ptx",
+      "bytes": 7563,
+      "sha256": "57a3f0a7a967aace9618289015e73ef3523352535c41460074c8d2328c064ab7"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-pragma-fp64-v1/build.json",
+      "bytes": 2439,
+      "sha256": "34fa987388958cb303ad180bff670ba12e6b233469407736b3911b6b5cfaacb6"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-pragma-fp64-v1/t18_fold.cu",
+      "bytes": 1414,
+      "sha256": "4c52ad99abd9472cbf786e817beced8797d626cf7eb9f4c91bed99f085275267"
+    },
+    {
+      "path": "engine/build/gpu-fold-unroll-round5-pragma-fp64-v1/t18_fold.ptx",
+      "bytes": 9613,
+      "sha256": "a7208867674f59750ac9dd8eef26ebdad474bc2ba12b710999387f75ad27d23d"
+    },
+    {
+      "path": "engine/build/gpu-forward-matrix-fusion-round2-v1/build.json",
+      "bytes": 979,
+      "sha256": "a1c3020ec4598941e2162dd9e39fac0ad413396a5b0179c6ce90387a303ef02a"
+    },
+    {
+      "path": "engine/build/gpu-forward-matrix-fusion-round2-v1/matrix_forward.cu",
+      "bytes": 18256,
+      "sha256": "7d78332470432e79006042e9206b15f419f5e4b04cf90cd58d4aa67b461ec856"
+    },
+    {
+      "path": "engine/build/gpu-forward-matrix-fusion-round2-v1/matrix_forward.ptx",
+      "bytes": 115962,
+      "sha256": "767a8f97675ec7cb2fb27beda421e753d197ba349601f845f488b865182cf77f"
+    },
+    {
+      "path": "engine/build/gpu-forward-matrix-fusion-round2-v1/source_template.cu",
+      "bytes": 4897,
+      "sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13"
+    },
+    {
+      "path": "engine/build/gpu-gemm-coalesced-round2-fp64-v1/build.json",
+      "bytes": 1173,
+      "sha256": "70582984fb8147bba1a484e8d125fc0f543acb96d426bfe41f5a52135e2a255d"
+    },
+    {
+      "path": "engine/build/gpu-gemm-coalesced-round2-fp64-v1/gemm_coalesced.cu",
+      "bytes": 4021,
+      "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+    },
+    {
+      "path": "engine/build/gpu-gemm-coalesced-round2-fp64-v1/gemm_coalesced.ptx",
+      "bytes": 99920,
+      "sha256": "87804a69a784ad8ad8603ef1842c9d6ce818dbfb00f819268fb668e214c2bb9a"
+    },
+    {
+      "path": "engine/build/gpu-gemm-coalesced-round2-fp64-v1/nvrtc_input.cu",
+      "bytes": 4021,
+      "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round2-fp64-v1/build.json",
+      "bytes": 573,
+      "sha256": "89ea510f8e4dde4ac4ef60393fe829aea09092a2572575b6ac0d9cb94128b7a8"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round2-fp64-v1/gemm.cu",
+      "bytes": 2395,
+      "sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round2-fp64-v1/gemm.ptx",
+      "bytes": 25198,
+      "sha256": "6c787e4d054a1e0df270a94136ec0110a5ac6786c268e7a21a919cc462451c77"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-register-fp64-v1/build.json",
+      "bytes": 1299,
+      "sha256": "49d2e136c4a6d9c2ff7128006e0ce9d08e95e8486a853e2df78d974f4e4ec0a4"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-register-fp64-v1/gemm_register.ptx",
+      "bytes": 182160,
+      "sha256": "62bc83e2a00e9d1683349353d9b114e531a553e7ecdebbeb751fe77170153bc1"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-register-fp64-v1/nvrtc_input.cu",
+      "bytes": 2723,
+      "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-register-fp64-v1/source_template.cu",
+      "bytes": 2723,
+      "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-warp-fp64-v1/build.json",
+      "bytes": 1305,
+      "sha256": "b9af18bcf85e3bd494e29f919f978dcbd5e1b70df567beb9e9a3cb509120937b"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-warp-fp64-v1/gemm_register.ptx",
+      "bytes": 85932,
+      "sha256": "a73858eae03979304dfb0c37933c806012edcc052942271b6b8e510fa2705361"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-warp-fp64-v1/nvrtc_input.cu",
+      "bytes": 2751,
+      "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+    },
+    {
+      "path": "engine/build/gpu-gemm-round5-warp-fp64-v1/source_template.cu",
+      "bytes": 2751,
+      "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+    },
+    {
+      "path": "engine/build/gpu-matrix-contract-round2-v1/build.json",
+      "bytes": 581,
+      "sha256": "ce3d9e35716a17deafb55561b6bc0b462458d3108f4122ba124b217d0ff264fd"
+    },
+    {
+      "path": "engine/build/gpu-matrix-contract-round2-v1/matrix_contract.cu",
+      "bytes": 3207,
+      "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+    },
+    {
+      "path": "engine/build/gpu-matrix-contract-round2-v1/matrix_contract.ptx",
+      "bytes": 25717,
+      "sha256": "b6f90b444fcdd9c9522490a99f7e01c8a3a1a98055c5900099710bddafd1723d"
+    },
+    {
+      "path": "engine/build/gpu-matrix-invariant-round4-fp64-v1/build.json",
+      "bytes": 1997,
+      "sha256": "fbdbf33f5fbdc8e013a5ccf3133b37f081d8390687257d1c4dc4b280d33a4408"
+    },
+    {
+      "path": "engine/build/gpu-matrix-invariant-round4-fp64-v1/matrix_invariant.cu",
+      "bytes": 18801,
+      "sha256": "1bf033f0b5222bb05bcf017a8e76e85eabbfad03696d0bcae721491c7cea2f27"
+    },
+    {
+      "path": "engine/build/gpu-matrix-invariant-round4-fp64-v1/matrix_invariant.ptx",
+      "bytes": 115479,
+      "sha256": "5169a13b8ae5b41062f5e1b4d435d2a4e28404185e970473e6ae15e7c61039bc"
+    },
+    {
+      "path": "engine/build/gpu-matrix-invariant-round4-fp64-v1/source_template.cu",
+      "bytes": 5675,
+      "sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d"
+    },
+    {
+      "path": "engine/build/gpu-matrix-structural-zero-round2-fp64-v1/build.json",
+      "bytes": 1532,
+      "sha256": "d3f4c395c0b6837d89d8cf2ce3252c6cddfabd67dce5a6271dd9906c794af1ce"
+    },
+    {
+      "path": "engine/build/gpu-matrix-structural-zero-round2-fp64-v1/matrix_structural.cu",
+      "bytes": 18743,
+      "sha256": "0820d50669f235214211a64b5d31fec9d22318d0924e7aef8b81c683eedcb848"
+    },
+    {
+      "path": "engine/build/gpu-matrix-structural-zero-round2-fp64-v1/matrix_structural.ptx",
+      "bytes": 118528,
+      "sha256": "923a733780b16b172a68aab87c0e9ddfb9a78865c2afff0bbafa77e4f430d308"
+    },
+    {
+      "path": "engine/build/gpu-matrix-structural-zero-round2-fp64-v1/source_template.cu",
+      "bytes": 5495,
+      "sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb"
+    },
+    {
+      "path": "engine/build/gpu-native-intscale-t18-round2-fp64-v1/build.json",
+      "bytes": 1320,
+      "sha256": "088b65069683b9718070eb9c26629e315ad74f4aa76423ad241ca0e440525bd6"
+    },
+    {
+      "path": "engine/build/gpu-native-intscale-t18-round2-fp64-v1/native_t18_intscale.cu",
+      "bytes": 4572,
+      "sha256": "6a9b09c3d2d989ab3f60105dd6e087aeab4a30d6e239f3b5717eb3decc5dcf15"
+    },
+    {
+      "path": "engine/build/gpu-native-intscale-t18-round2-fp64-v1/native_t18_intscale.ptx",
+      "bytes": 42963,
+      "sha256": "2814bafb5b4eb5a1e8f36b056b0bc3c2fa0bf9cfd4bda5e32cdb9e9496301c4e"
+    },
+    {
+      "path": "engine/build/gpu-native-intscale-t18-round2-fp64-v1/source_template.cu",
+      "bytes": 4563,
+      "sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9"
+    },
+    {
+      "path": "engine/build/gpu-native-objective-round2-fp64-v1/build.json",
+      "bytes": 1198,
+      "sha256": "1f15b3cc7ffc11b0e9a7e478f2008081ef03ddf4e03ec99f2ccac1aa1c0bcbb0"
+    },
+    {
+      "path": "engine/build/gpu-native-objective-round2-fp64-v1/native_objective.cu",
+      "bytes": 2714,
+      "sha256": "6b1d00f23d15395814bd3b94a6d402693a89889131c04d0deeda49c8ec68f699"
+    },
+    {
+      "path": "engine/build/gpu-native-objective-round2-fp64-v1/native_objective.ptx",
+      "bytes": 12851,
+      "sha256": "8b72ec07afa83ee1a3bbfc763250760be5c0e6d65eecf0550f2c7858f6be2be4"
+    },
+    {
+      "path": "engine/build/gpu-native-t18-round2-fp64-v1/build.json",
+      "bytes": 1019,
+      "sha256": "d51a266cbf823a045110eda68333f6ed2f9873d2b58ca73b7e968cc600e62ce4"
+    },
+    {
+      "path": "engine/build/gpu-native-t18-round2-fp64-v1/native_t18.cu",
+      "bytes": 4218,
+      "sha256": "469b31b46ac8e1647f7a003f106cf1495d5c064091a8c6da2ec6eda31901f290"
+    },
+    {
+      "path": "engine/build/gpu-native-t18-round2-fp64-v1/native_t18.ptx",
+      "bytes": 47689,
+      "sha256": "5ca95c1b8dc6e4e8ca57d2ca5473a170e827bfde5cc7f39671c5dd4a72c97663"
+    },
+    {
+      "path": "engine/build/gpu-native-t18-round2-fp64-v1/source_template.cu",
+      "bytes": 4209,
+      "sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-fp64-v1/build.json",
+      "bytes": 1394,
+      "sha256": "c74ff3ad6ac7167b6d91c1825fd04f2bc83a86f29dba3c21e4a9332cb66d100f"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-fp64-v1/nvrtc_input.cu",
+      "bytes": 3849,
+      "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-fp64-v1/observed_adjoint.ptx",
+      "bytes": 37380,
+      "sha256": "7ca3d56384e0b253e929fb3553743c486bb9e5bc44240c2b39f4d761ac310026"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-fp64-v1/source_template.cu",
+      "bytes": 3849,
+      "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-shared-fp64-v2/build.json",
+      "bytes": 1670,
+      "sha256": "8562260867ba11cef4197cf62f16b73d4219f62e78cc6d8822be35a0400e24a4"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-shared-fp64-v2/nvrtc_input.cu",
+      "bytes": 4878,
+      "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-shared-fp64-v2/observed_adjoint_shared.ptx",
+      "bytes": 94146,
+      "sha256": "2f7fc01ee52dcfeebd1103833437f61463cbe4ea9419bf753d1cb64bad6a76bf"
+    },
+    {
+      "path": "engine/build/gpu-observed-adjoint-round6-shared-fp64-v2/source_template.cu",
+      "bytes": 4878,
+      "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+    },
+    {
+      "path": "engine/build/gpu-observed-output-round6-fp64-v3/build.json",
+      "bytes": 1727,
+      "sha256": "2b89c45aa769ef7b87067e42b759936f6e880f9a44aa7e67620ab5cc901bf178"
+    },
+    {
+      "path": "engine/build/gpu-observed-output-round6-fp64-v3/nvrtc_input.cu",
+      "bytes": 2485,
+      "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+    },
+    {
+      "path": "engine/build/gpu-observed-output-round6-fp64-v3/observed_output.ptx",
+      "bytes": 12898,
+      "sha256": "982589982d05f8150c960d5c3d1ebdc061ed4786d0ea7ccd9b1a6635a6c890e3"
+    },
+    {
+      "path": "engine/build/gpu-observed-output-round6-fp64-v3/source_template.cu",
+      "bytes": 2485,
+      "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/build.json",
+      "bytes": 2690,
+      "sha256": "d6fb7b6a97d6de612d9bc69a928d39306900a199d791e8865b5069936d2db9a8"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/original_matrix_contract.cu",
+      "bytes": 3207,
+      "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/selected_final_vjp.cu",
+      "bytes": 24559,
+      "sha256": "c17f9912fa59b1bf174e690e46a8c5136dfbdb77a82a97bba0b491034e698620"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/selected_final_vjp.ptx",
+      "bytes": 181416,
+      "sha256": "51687b1a145272a8128c533fd05d3977070d0a6539211e8ed6285deda6bc7655"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/source_template.cu",
+      "bytes": 5380,
+      "sha256": "548825c8e1f8c775c57f4039b9549890429f93c6b30dd9eadb9875155ab63384"
+    },
+    {
+      "path": "engine/build/gpu-selected-final-vjp-round6-fp64-v1/structural_map.json",
+      "bytes": 17093,
+      "sha256": "6f8aec9766dea07f6514fd7481b358c643a575a2b7ec12a961c3fddc3802c358"
+    },
+    {
+      "path": "engine/build/gpu-sparse-t18-round2-fp64-v1/build.json",
+      "bytes": 1023,
+      "sha256": "9e34303ec90ab8c96966f79b72a20f79af9b4a79a453752236b106bcebdf6ef2"
+    },
+    {
+      "path": "engine/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18.cu",
+      "bytes": 4438,
+      "sha256": "cac233d0a6bf3c355425eb43697db2073692ab6ca0176f9e5da1c87d103430f3"
+    },
+    {
+      "path": "engine/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18.ptx",
+      "bytes": 24815,
+      "sha256": "f7b843091f796e79d65b74941374fec7f9becedd13d6674e4102d0e7e8ca08c6"
+    },
+    {
+      "path": "engine/build/gpu-sparse-t18-round2-fp64-v1/sparse_t18_template.cu",
+      "bytes": 2568,
+      "sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8"
+    },
+    {
+      "path": "engine/build/gpu-sparse-t18-round2-fp64-v1/structural_csr.json",
+      "bytes": 2065,
+      "sha256": "235089287479e1a9d391972e41d293e572c3627bb7472e64ca77dffc555f5eca"
+    },
+    {
+      "path": "engine/build/gpu-t18-fusion-round2-v1/build.json",
+      "bytes": 1209,
+      "sha256": "e017acd557495d55becca8b3a0dd243dfbd894124080262b65203fc6b87cef6d"
+    },
+    {
+      "path": "engine/build/gpu-t18-fusion-round2-v1/t18_fold.cu",
+      "bytes": 1405,
+      "sha256": "d80915c0699a1c0c6055b3ae25b9989716cf00b90edeecdc78d019da3d6b0aac"
+    },
+    {
+      "path": "engine/build/gpu-t18-fusion-round2-v1/t18_fold.ptx",
+      "bytes": 9613,
+      "sha256": "a7208867674f59750ac9dd8eef26ebdad474bc2ba12b710999387f75ad27d23d"
+    },
+    {
+      "path": "engine/build/gradient-optimizer-schur-v1/linux-build.json",
+      "bytes": 3145,
+      "sha256": "dc443b6cb97ab2f490bda54db32a3d671a94fb8f0ab1b3b48dcf558696ce89fe"
+    },
+    {
+      "path": "engine/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/batched_optimizer.cpp",
+      "bytes": 19400,
+      "sha256": "a5a4251cedc40839aa9e32948922cfd1a22f613fdf330c1d0b36f12366ad5788"
+    },
+    {
+      "path": "engine/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/batched_optimizer.h",
+      "bytes": 2549,
+      "sha256": "67daa79a6c1b9a1b3c989140cb84e3f56a346866225704c7369878eb246a1616"
+    },
+    {
+      "path": "engine/build/gradient-optimizer-schur-v1/linux_compiled_source_snapshot/gradient_optimizer.h",
+      "bytes": 566,
+      "sha256": "d4c8425397c4323dd575d8f06e95b220f52b4272bdbc9b1d6553286fdbdf6305"
+    },
+    {
+      "path": "engine/build/gradient-optimizer-schur-v1/windows-origin-build.json",
+      "bytes": 2918,
+      "sha256": "427a28d4255acbe0f28392a18c1fa1a4ae7513f873ca0d1f67454729976ebb10"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux-build.json",
+      "bytes": 11134,
+      "sha256": "93487106534f9b1998f7112e7941cbdbfe049fdd456249470782c4c79fece689"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/AXTConvertor.cpp",
+      "bytes": 10552,
+      "sha256": "bbe0934f29f41e0aa8f8615b4228e364a25e65a88f90ed58ee5d55ba12785407"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/ConcatenatePairs.cpp",
+      "bytes": 2170,
+      "sha256": "2695f6c14ddc0c188424a22f417f82b3dd313a1761af2841bf64d32292545e47"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/GY94.cpp",
+      "bytes": 34415,
+      "sha256": "4267c6704e7bd852e1e9b60a0855d26275206ea267f1174114a3a61141451f5b"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/GY94.h",
+      "bytes": 3458,
+      "sha256": "9afdc1bfa6f7a8c14930541ef4a10a74f923315e194c568c18ccfed66eeb2859"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs.cpp",
+      "bytes": 21760,
+      "sha256": "caec72e8300bf95b10b5b8685f1d7a4a0e178eccff26615af1a1358dfdb28974"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs.h",
+      "bytes": 3253,
+      "sha256": "86529590ca97a4c9a694d3bdfa39a4f48c63c14df8e4a3504ffeb091e8dcc56f"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/KaKs_Calculator.cpp",
+      "bytes": 669,
+      "sha256": "3ebed3f6d7cd20bf4c51a74db98d823de68817cd6b187aeb202d3d0149c20872"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/LPB93.cpp",
+      "bytes": 2763,
+      "sha256": "b6f529bac671243b2bcf30b397f8ff56b4866710e448944446f1c3db12b5831c"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/LPB93.h",
+      "bytes": 1458,
+      "sha256": "2b320a95af86119e3447ddae8b3f5a6e5135b766cc32af6b7d42c8f494a1d50d"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/LWL85.cpp",
+      "bytes": 10955,
+      "sha256": "3c4a36a84bd82c9c693362df2cb49b945f890eae692eb58240698478e366d69b"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/LWL85.h",
+      "bytes": 3197,
+      "sha256": "afc562f228ec66465d985b73c68907ef6b41264bc86baf7a235b55d799726c71"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/MSMA.cpp",
+      "bytes": 7276,
+      "sha256": "7e2fc74b9c1fe3be93e5a2c16cf3c5dab5fdff92854f2f1a799bb2d3e0fa4016"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/MSMA.h",
+      "bytes": 1626,
+      "sha256": "bcd72a9290bcab7976e7dbc0bb5f540451621b6cbf87970c1aed07d98adb04ed"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/MYN.cpp",
+      "bytes": 15763,
+      "sha256": "3e707caceab60cc3d880046df43451b3a95d0c9dfea72f8c1ec08829c668a7fa"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/MYN.h",
+      "bytes": 1946,
+      "sha256": "a78db53f3d40bcfd40078dd25fb4053deac17ff2c5cb1b842020810c50d39d89"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/NG86.cpp",
+      "bytes": 4983,
+      "sha256": "fde179e2d9d671689470356188d2b78aff60a1351e561eef34aceed395662c7f"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/NG86.h",
+      "bytes": 1474,
+      "sha256": "be25b82febdd5007849d0f8bc037c2a21976c2b0c19c0cf6b28dd5385cb13312"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/YN00.cpp",
+      "bytes": 21037,
+      "sha256": "cc2a22283da0c5e9728dde4b8945186a0abeaab571a521066326b6b4781309be"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/YN00.h",
+      "bytes": 3094,
+      "sha256": "b95a02962094a24f00b4a9822e806a9c08f2ef5ac9b8dac32d59dfa1fecadcff"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/adapter_bridge.h",
+      "bytes": 512,
+      "sha256": "1bba6765c057e1ba6faceead2a1237a8590b07d94699ed4e553b89a715971bc6"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/base.cpp",
+      "bytes": 18395,
+      "sha256": "6ae294219fde557e07f96473553b742961a96484c0e3b07a9bedf46dae217e9d"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/base.h",
+      "bytes": 5872,
+      "sha256": "2a8023b3d4d4fb5cde702366febcb099eaeda62d70c7b12ebdbe13b0d9593bc6"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.cpp",
+      "bytes": 22121,
+      "sha256": "17adf484e4ee3c25bacb3791369cc9e40b72ab4b15481def340a03ef416826f0"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/linux_compiled_source_snapshot/kaks_adapter.h",
+      "bytes": 4164,
+      "sha256": "7e75021e7a5e103a183a29b366e2969b39e61cc59cd74091ded4a3f380c95951"
+    },
+    {
+      "path": "engine/build/native-adapter-checked/windows-origin-build.json",
+      "bytes": 7857,
+      "sha256": "57a02d9b036c26f45a08abf3a28614934117799753a897b3c6d81df0ddecd440"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/build.json",
+      "bytes": 3444,
+      "sha256": "d1956e4c8d14950a5370474709b0316e6589007762f4b0aaf11b8b3d4b910852"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/compiled_source_snapshot/publication_graph_host.cpp",
+      "bytes": 941,
+      "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host.cpp",
+      "bytes": 4996,
+      "sha256": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host.h",
+      "bytes": 1398,
+      "sha256": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host_grouped.cpp",
+      "bytes": 1320,
+      "sha256": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/compiled_source_snapshot/torch_graph_host_grouped.h",
+      "bytes": 652,
+      "sha256": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux-build.json",
+      "bytes": 6035,
+      "sha256": "5297a15951795332bff8d3ce9d85512d96e227a3445a654b150a8e6588b430c7"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux_compiled_source_snapshot/publication_graph_host.cpp",
+      "bytes": 941,
+      "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux_compiled_source_snapshot/torch_graph_host.cpp",
+      "bytes": 4996,
+      "sha256": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux_compiled_source_snapshot/torch_graph_host.h",
+      "bytes": 1398,
+      "sha256": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux_compiled_source_snapshot/torch_graph_host_grouped.cpp",
+      "bytes": 1320,
+      "sha256": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/linux_compiled_source_snapshot/torch_graph_host_grouped.h",
+      "bytes": 652,
+      "sha256": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/product-original-linux-build.json",
+      "bytes": 4081,
+      "sha256": "19d5282d6ad97204ea454a4204793285a1fce7b1dd71146b862156f53155c0e6"
+    },
+    {
+      "path": "engine/build/publication-graph-host-v1/product-original-windows-build.json",
+      "bytes": 1473,
+      "sha256": "934eaae0f11cadbeddb65128bb3e05b7b2a9dbd53dd8a867291548127f989191"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/build.json",
+      "bytes": 3290,
+      "sha256": "bb4c46a9b93e413e9073f26360fc684aba1c14aa8166c1f237cb35321fb0eda7"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/compiled_source_snapshot/tight_bound.cpp",
+      "bytes": 5278,
+      "sha256": "0dd435b6434edf4977fb9d42764b0e0dc7d25bd10eb0143bdee4da195dbcc223"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/linux-build.json",
+      "bytes": 5407,
+      "sha256": "0df8fe1f0ff867e8d34c3d9eb05474fa893f4d91fc5ee1678e08c0b7e650078e"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/linux_compiled_source_snapshot/tight_bound.cpp",
+      "bytes": 5278,
+      "sha256": "0dd435b6434edf4977fb9d42764b0e0dc7d25bd10eb0143bdee4da195dbcc223"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/product-original-linux-build.json",
+      "bytes": 3448,
+      "sha256": "e991b4b4dd4fb791d410a163912ff6e11aa2d1fb8aa47baf5893527b4dffe010"
+    },
+    {
+      "path": "engine/build/publication-tight-round2-v1/product-original-windows-build.json",
+      "bytes": 1708,
+      "sha256": "90757bdea38ebeeef48204b785db1e200644e60764167ddfce2987bcd9858e99"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux-build.json",
+      "bytes": 4113,
+      "sha256": "885a6db1b1c5969779c3ca1ce68ccaf7b82e228cbf78ef3fd9131f7ae8fd853a"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.cpp",
+      "bytes": 11632,
+      "sha256": "92dc0eeb8b289abe1e417ce975d1d3bf78886dd340b7d32e831c91e3a65c3ec2"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.h",
+      "bytes": 3549,
+      "sha256": "1ce71b6fa7a218a3c9d7739491108526efa34d0c3748bce4ec04f2b02c01685d"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/shared_core.hpp",
+      "bytes": 2147,
+      "sha256": "6231e0e321067256fcc82aae10d5eff20162a7675aacae86fa7805d9fe820664"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.cpp",
+      "bytes": 14535,
+      "sha256": "23d473b6a4ab2093b2e87c520c1106bba6c2342ad1b8c72ad9f86b4363693ae1"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.h",
+      "bytes": 4291,
+      "sha256": "5db0aeeb04adca1f928b04534c446ba7a62b83ac5a49df07c3b192612a03aaf2"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/linux_compiled_source_snapshot/statistics.hpp",
+      "bytes": 605,
+      "sha256": "c6ca22d89808a29093bad09b69399a55b3f79fa217b612315fe2200c4c7648e1"
+    },
+    {
+      "path": "engine/build/shared-statistics-v1-checked/windows-origin-build.json",
+      "bytes": 3079,
+      "sha256": "24d1ed5dfdf53de6c5b05629985b1b63d7e3d4381a44919807b3a87f0ad9a278"
+    },
+    {
+      "path": "engine/compiler-provenance.json",
+      "bytes": 388,
+      "sha256": "9dcb9278949887a7f10005e9e6f2f637c8bba85912f50b3b8bb8091ddf96dc88"
+    },
+    {
+      "path": "engine/engine-assets.json",
+      "bytes": 50308,
+      "sha256": "42f4b30343ec6da10f957816099881728be12aa2be1e361e41521aa7d9c897ea"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/LICENSE.txt",
+      "bytes": 46794,
+      "sha256": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "bytes": 1018,
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "bytes": 690,
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/src/highway/LICENSE",
+      "bytes": 20785,
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "bytes": 1414,
+      "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "bytes": 1514,
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "bytes": 1543,
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "bytes": 1498,
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "bytes": 2266,
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/ma/LICENSE",
+      "bytes": 1593,
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/LICENSE.md",
+      "bytes": 3511,
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/distributions/LICENSE.md",
+      "bytes": 2745,
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "bytes": 2926,
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "bytes": 1154,
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/philox/LICENSE.md",
+      "bytes": 1509,
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "bytes": 1226,
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f"
+    },
+    {
+      "path": "engine/envs-runtime/linux/blas/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "bytes": 332,
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9"
+    },
+    {
+      "path": "engine/envs/cuda-torch/Lib/site-packages/torch/include/ATen/native/cuda/Reduce.cuh",
+      "bytes": 49577,
+      "sha256": "86078c6f9b9147260c56b97ff870919be08f2533ea1ac849e400074592226856"
+    },
+    {
+      "path": "engine/external-sdk-provenance.json",
+      "bytes": 481,
+      "sha256": "dc9366f58f11501c68c7fd1a07fd6d73109e4dbc63d4a543ed2429110f7c82dc"
+    },
+    {
+      "path": "engine/scripts/batched_optimizer.py",
+      "bytes": 4521,
+      "sha256": "c71165c5369663b3651b4238fbedfebc030058f8b6a3aa453a8059020b771455"
+    },
+    {
+      "path": "engine/scripts/benchmark_cpu.py",
+      "bytes": 28435,
+      "sha256": "3d4a4bdbc53892a6b129e5d6e59322e547aecc59b4340c61bdca0e827b76f511"
+    },
+    {
+      "path": "engine/scripts/check_publication_simulations.py",
+      "bytes": 11451,
+      "sha256": "314476a9f464d3ae05fda62b4ea4926d46d3d4b065aae25f1b6f842dc367578f"
+    },
+    {
+      "path": "engine/scripts/cpu_backend.py",
+      "bytes": 11713,
+      "sha256": "51d97b1da664c8b9e8df29f8d69fb76d6aef4707d6bd2cd2a93da7d0a8331157"
+    },
+    {
+      "path": "engine/scripts/cpu_gradient.py",
+      "bytes": 10735,
+      "sha256": "5c55ae14f5b33c28d92095413f83fb6782b100e5541a35b664ae7dc49d04bc01"
+    },
+    {
+      "path": "engine/scripts/cuda_array_round3.py",
+      "bytes": 33566,
+      "sha256": "ab19366221411305ec11df21c6041e745728257af7b774868a98ab8404f04de2"
+    },
+    {
+      "path": "engine/scripts/cuda_driver.py",
+      "bytes": 9906,
+      "sha256": "290aff7ab480612b2989cd629e7ea1b82f35441486c3ed91d2855696168d5e6e"
+    },
+    {
+      "path": "engine/scripts/cuda_multistream_round4.py",
+      "bytes": 5074,
+      "sha256": "80277c2b4ed42bfcd7ec817a50f363789311aeeabc8f03e69c7cd761f4bda157"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer.py",
+      "bytes": 7902,
+      "sha256": "92577dd70994ab4d70ed640296dbb3d648af59f374e159165176d8893df983f4"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer_buffered.py",
+      "bytes": 4515,
+      "sha256": "5c06e5aed6ed1ec3216b6c3e404a6adde5390874b37d5f7b71a3455155a6974c"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer_stable.py",
+      "bytes": 1820,
+      "sha256": "71767858f95274932d026cf7ee0f01c7e36ed61b34aa95e8c3c4c8ada4f1ca30"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer_stagnation.py",
+      "bytes": 1643,
+      "sha256": "3d91ad88de40182b1ae262af8888ea8a63a39b6ceaaaccd14f1f86c3053d025a"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer_stagnation_v4.py",
+      "bytes": 1255,
+      "sha256": "b1a46b4fb6e57fb67492cbc73bb09d6de74c2cf7d3d9ef3a4f0ef9cd73e16f6a"
+    },
+    {
+      "path": "engine/scripts/fiber_optimizer_stagnation_v5.py",
+      "bytes": 1658,
+      "sha256": "ce6d16568b402b01a802446e7a9cc9725ff57fef44cca6bcdbe425bbcf3dc53d"
+    },
+    {
+      "path": "engine/scripts/gpu_coalesced_gemm_round2.py",
+      "bytes": 7149,
+      "sha256": "70dc302b181c01acf73607d116fcdf092489cf146a468677ea122a00307f5458"
+    },
+    {
+      "path": "engine/scripts/gpu_forward_matrix_fusion_round2.py",
+      "bytes": 8470,
+      "sha256": "a5733c3010c49450dbde1e7067ef065cc0e1b5457f6b481204d6c5e07eda7ce6"
+    },
+    {
+      "path": "engine/scripts/gpu_matrix_contract_round2.py",
+      "bytes": 7133,
+      "sha256": "59d248e527cf4d950c26ade46a89eeb94d58df3690b2366d75b577af61a63cb3"
+    },
+    {
+      "path": "engine/scripts/gpu_matrix_invariant_round4.py",
+      "bytes": 12556,
+      "sha256": "bd4e5a6665372626b2f2e46582a7367b7d8f00912a1eafbd92eeed6890c1db07"
+    },
+    {
+      "path": "engine/scripts/gpu_matrix_structural_zero_round2.py",
+      "bytes": 7608,
+      "sha256": "0c62b783aabeacd090369a054281c88e2a785140e3fb92e7d5eaa3157991d95e"
+    },
+    {
+      "path": "engine/scripts/gpu_native_intscale_t18_round2.py",
+      "bytes": 6834,
+      "sha256": "0528f18d477796ea6ad540daf9a759ea450af995318fb8e2ae83e8135c2962c9"
+    },
+    {
+      "path": "engine/scripts/gpu_native_objective_round2.py",
+      "bytes": 12161,
+      "sha256": "838a307a8fc1d45a6e4e6cc46820ed51fa4fdb43c9e65c88e63ee072cb49c7f2"
+    },
+    {
+      "path": "engine/scripts/gpu_native_t18_round2.py",
+      "bytes": 11905,
+      "sha256": "3db12f7e43c56bbfcb243358343e4cb23dd1b3c8551a1cf6c00e381d8e687841"
+    },
+    {
+      "path": "engine/scripts/gpu_observed_adjoint_round6.py",
+      "bytes": 13076,
+      "sha256": "5cbcca222978d60134e94a8d042ba14bbc88bc450c9ae6279ab5df3c69832d06"
+    },
+    {
+      "path": "engine/scripts/gpu_observed_adjoint_shared_round6.py",
+      "bytes": 10945,
+      "sha256": "b4d76d27c1dfeeb8ed6b39440513a61502fd57790fc43fff9bd294c46bfe2fc1"
+    },
+    {
+      "path": "engine/scripts/gpu_observed_output_round6.py",
+      "bytes": 9440,
+      "sha256": "d318b7ca9fe27da849c60c568e7c48ce99e37d812d865ac2298bdad9b5499b3f"
+    },
+    {
+      "path": "engine/scripts/gpu_register_gemm_round5.py",
+      "bytes": 9115,
+      "sha256": "e4c1f0fe96b993e102f37662ce852a66cba039bee1346cf3a629950139acc657"
+    },
+    {
+      "path": "engine/scripts/gpu_selected_vjp_round6.py",
+      "bytes": 16279,
+      "sha256": "9eaebbdf54cabd67c791b20223baa162ed318b824c5e94716ebec132875a7dae"
+    },
+    {
+      "path": "engine/scripts/gpu_small_gemm_round2.py",
+      "bytes": 6071,
+      "sha256": "4cbb7e61ab48431b5a5da0b8858f10f6b98e641f316416d85aa573d48137fe72"
+    },
+    {
+      "path": "engine/scripts/gpu_sparse_t18_round2.py",
+      "bytes": 11727,
+      "sha256": "65bcf680d2491e7f4fc5972c0c889d5891305dbac231b90ed200c6c380eec9c4"
+    },
+    {
+      "path": "engine/scripts/gpu_t18_fusion_round2.py",
+      "bytes": 7000,
+      "sha256": "e50f7c786bf5ddcb604ef6a53f7bdf7b0a2fe58fbd2520dcfe58185a582d37ed"
+    },
+    {
+      "path": "engine/scripts/gpu_telemetry.py",
+      "bytes": 4373,
+      "sha256": "0d4f8776c79cb8968b6fd4cc0166217af8050c51666fdce120bf0fd8a9e06b39"
+    },
+    {
+      "path": "engine/scripts/gradient_optimizer.py",
+      "bytes": 2748,
+      "sha256": "c972e736ea51a64bd6ebb65ea1c7cb3756fc4fb386c01ed1863f84bcc43f45dc"
+    },
+    {
+      "path": "engine/scripts/kakscuda.py",
+      "bytes": 31613,
+      "sha256": "ffef7d85b23366d0e130517a49375eb9f3bcf513f303dd03cece42af07f46665"
+    },
+    {
+      "path": "engine/scripts/ma_reporting.py",
+      "bytes": 1827,
+      "sha256": "771cc7eb5d60bd287238728e3d6637ecec88540dd677818cb0eec936f67b7f1f"
+    },
+    {
+      "path": "engine/scripts/native_adapter.py",
+      "bytes": 9148,
+      "sha256": "ec11af69e72556e3b8881fea6816223e223fe24bf126cc5c5d395c94d23d454f"
+    },
+    {
+      "path": "engine/scripts/product_v1_cached_assets.py",
+      "bytes": 436,
+      "sha256": "834e6d9bd63bc2a441354dfbd57e1948ad164367079f3a3fe45f486a87021124"
+    },
+    {
+      "path": "engine/scripts/product_v1_engine_fit.py",
+      "bytes": 20925,
+      "sha256": "ceb852b34ae9b5f7d2ca913ab69b1bc52288e51791b4d590263275a095d123a9"
+    },
+    {
+      "path": "engine/scripts/product_v1_engine_reproduce.py",
+      "bytes": 8282,
+      "sha256": "5d83eccf4eec4366eece289d436e812a498dfe5184f0ff1133b3ab0c90472e48"
+    },
+    {
+      "path": "engine/scripts/product_v1_engine_runtime.py",
+      "bytes": 19015,
+      "sha256": "27954c6faa5742fe70ab45c73808b4127d2d30c46631f06d9114295e76c4122c"
+    },
+    {
+      "path": "engine/scripts/product_v1_owned_job.py",
+      "bytes": 20955,
+      "sha256": "29c202f5deb2b81079e5c25bbea3960323f86b5fbee188098b6cdc6c1e949b7c"
+    },
+    {
+      "path": "engine/scripts/product_v1_platform.py",
+      "bytes": 2474,
+      "sha256": "06752cc2393b601879dcc3e04ae607235e9f24498102c33bb3c6d56485588e38"
+    },
+    {
+      "path": "engine/scripts/publication_fit_contract.py",
+      "bytes": 1319,
+      "sha256": "3a5adfe577335ae044fc5e02ec6f49fb952868adf94a04b074f5e21aa9277aef"
+    },
+    {
+      "path": "engine/scripts/publication_frequency_inputs_v2.py",
+      "bytes": 18312,
+      "sha256": "3ec4c866d868f5efcd27a12086323f2c2b4b2a25d6d71c7db05883a130cace4e"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_gradient.py",
+      "bytes": 14891,
+      "sha256": "ec9672231f4e57ae3bac9a5e384308df73f7449fd7868e107723fbe05c306e74"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_gradient_v2.py",
+      "bytes": 7260,
+      "sha256": "69c375522ce41ed859d49f2ecfca98edc80d598816f87a2c48650be2c2022dc3"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_likelihood.py",
+      "bytes": 8200,
+      "sha256": "3b863140eddebdd5fb063be2b1b4376dd8b65c47cc77fbae619783813955253a"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_multistream_coldreuse_round4.py",
+      "bytes": 11658,
+      "sha256": "06a2d3fa47f04d298e1e2f68ab5158b7738d89a87c00c27d89865a7a38721109"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_multistream_round4.py",
+      "bytes": 13467,
+      "sha256": "137a6e562c0e8c58a6c86145b7042cb0f71e89b03423481699a3bd99335e23a7"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_native_driver_round3.py",
+      "bytes": 40415,
+      "sha256": "359af3c4fb309667a30a3c2ede73e91dbdb183e6920078dc124e872f9a9ea5de"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_native_optimized_t18_round2.py",
+      "bytes": 2053,
+      "sha256": "7ee869278379d51ab6a6538613c8ac625e54fdaf41b8689084851d7a1c1bb464"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_reduced_output_round6.py",
+      "bytes": 9560,
+      "sha256": "e053c2ae335938f4b1097353750973f4ef8b400080b0f265027e8f08a839ee7c"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_reduced_round6.py",
+      "bytes": 9842,
+      "sha256": "adee7ca00e8390511656d160ee677a87557355d6cd4cc3c63e0040c0212cad24"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_reduced_shared_round6.py",
+      "bytes": 5900,
+      "sha256": "73693ddf38c2b4c442b121af1012d80b7dc1cd1cb95a5387d9a6581a2776f428"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_selected_round6.py",
+      "bytes": 7718,
+      "sha256": "544daeb72d8f507b99eba92f617731308715cfd39296e9018e1f6865d2ac5df3"
+    },
+    {
+      "path": "engine/scripts/publication_gpu_tight_round2.py",
+      "bytes": 6769,
+      "sha256": "a4b87b6a21f9ea72d49b313df5377d204c4e756e4e2c63dae09a98a29a7411e2"
+    },
+    {
+      "path": "engine/scripts/publication_output.py",
+      "bytes": 5027,
+      "sha256": "dffe0f0d426df5f9e1a1b89dc859ec242872a8f38ef79b1d59e59d92020b4ac1"
+    },
+    {
+      "path": "engine/scripts/publication_provenance.py",
+      "bytes": 2782,
+      "sha256": "c4a031a1ad0a2e249429fac9f076fb47fd5a531a37ba172cfca235bb9dc65a44"
+    },
+    {
+      "path": "engine/scripts/publication_returned_gradient.py",
+      "bytes": 3491,
+      "sha256": "516077683ed9e6b611c66fc0d592603a902eb2a10d76bdff37bb821cea6a3bb8"
+    },
+    {
+      "path": "engine/scripts/publication_statistics.py",
+      "bytes": 7531,
+      "sha256": "105e59162496e4b24df2ae47fc472b44fddd772adad2ef36f8d05a8b232dfc7c"
+    },
+    {
+      "path": "engine/scripts/shared_core.py",
+      "bytes": 4744,
+      "sha256": "e8a08fb96b7c2026c2c0eb9bebd44490d2627a1911f602e7d05919e6534ab975"
+    },
+    {
+      "path": "engine/scripts/shared_statistics.py",
+      "bytes": 6297,
+      "sha256": "86392a38889f6df18a7c2f125d91e51d5ab6193e362d0c2901bdf73a52cb4b03"
+    },
+    {
+      "path": "engine/scripts/torch_graph_likelihood.py",
+      "bytes": 15488,
+      "sha256": "5c5f5360656e3c97b023813ba55bca4c45a8d219524878ee76cc61d1f642051c"
+    },
+    {
+      "path": "engine/scripts/torch_graph_likelihood_buffered.py",
+      "bytes": 8765,
+      "sha256": "5340c14c47234640aa36f0ae62783b22bcc85e3ca8b35efc90f60ff482b4b9ac"
+    },
+    {
+      "path": "engine/scripts/torch_graph_likelihood_fast.py",
+      "bytes": 11874,
+      "sha256": "5105db826418ebec81730c278649e193f586567c751eb7ee746ce33dc46cb529"
+    },
+    {
+      "path": "engine/scripts/torch_graph_likelihood_grouped.py",
+      "bytes": 8230,
+      "sha256": "c62e2059989172ea75d22933b82823cb46edd69dff1d9768a95c8cfaf9f3167c"
+    },
+    {
+      "path": "engine/scripts/torch_graph_likelihood_pipelined.py",
+      "bytes": 10399,
+      "sha256": "0d4766ecd3f53e1db6c0a69db75a82e74892b6c0a2ea5741d85b5de30205f38d"
+    },
+    {
+      "path": "engine/scripts/torch_matrix_prototype.py",
+      "bytes": 26383,
+      "sha256": "3445fdb6cec5e15bcef9e694767c8d091084b43ead8e20c875055d6d02d9dedb"
+    },
+    {
+      "path": "engine/src/gpu_round2/gemm_coalesced_fp64_v1.cu",
+      "bytes": 4021,
+      "sha256": "cae0b3bd1b10353146db9125fde9b746ae81546b120d82dbb09911ab50ef88f9"
+    },
+    {
+      "path": "engine/src/gpu_round2/gemm_fp64_v1.cu",
+      "bytes": 2395,
+      "sha256": "a5c5c42c7e77f590f03f05aacbc34041d3e279d9604dc8cf6b4c084e32903da7"
+    },
+    {
+      "path": "engine/src/gpu_round2/matrix_contract_v1.cu",
+      "bytes": 3207,
+      "sha256": "3379a85da9d254529521381a6c7e8d2a71eea5a4145b8da24c0ddc66f76f45ae"
+    },
+    {
+      "path": "engine/src/gpu_round2/matrix_forward_fusion_v1.cu",
+      "bytes": 4897,
+      "sha256": "94cac4ace2437551a5b53c2ffc8bb9b6ab5942b104cbc219cbc41eb86ec31c13"
+    },
+    {
+      "path": "engine/src/gpu_round2/matrix_forward_structural_zero_v1.cu",
+      "bytes": 5495,
+      "sha256": "0b8318e756e7f073da0ff63c6037d52e5ca43ea44c4406630b3e16117876b8bb"
+    },
+    {
+      "path": "engine/src/gpu_round2/native_objective_v1.cu",
+      "bytes": 2714,
+      "sha256": "6b1d00f23d15395814bd3b94a6d402693a89889131c04d0deeda49c8ec68f699"
+    },
+    {
+      "path": "engine/src/gpu_round2/native_t18_helpers_v1.cu",
+      "bytes": 4209,
+      "sha256": "a208719551e755c66b5b161840bc9413e134fe77b2fa892aafe0bea7ae935903"
+    },
+    {
+      "path": "engine/src/gpu_round2/native_t18_intscale_helpers_v1.cu",
+      "bytes": 4563,
+      "sha256": "a7b6b7106ef22197a12cc1079406265d4be8467f81e54a92ff7f93ef514c12d9"
+    },
+    {
+      "path": "engine/src/gpu_round2/sparse_t18_v1.cu",
+      "bytes": 2568,
+      "sha256": "9ad34f55c1b8888e3c07479dbd26d5324fd79a4b96f8b1710b8f4065767614e8"
+    },
+    {
+      "path": "engine/src/gpu_round2/tight_bound.cpp",
+      "bytes": 5278,
+      "sha256": "0dd435b6434edf4977fb9d42764b0e0dc7d25bd10eb0143bdee4da195dbcc223"
+    },
+    {
+      "path": "engine/src/gpu_round3/request_staging.cpp",
+      "bytes": 2878,
+      "sha256": "7d5fac5a3a5c96280e3a22140ed5ba9d178e6fa4cdf60aa15967f62e725657a8"
+    },
+    {
+      "path": "engine/src/gpu_round4/matrix_numerical_invariant_v1.cu",
+      "bytes": 5675,
+      "sha256": "a72740f4005be0a5344fa397adf67e703f5028d779fbd35ed014af40b0dffe2d"
+    },
+    {
+      "path": "engine/src/gpu_round5/gemm_register_fp64_v1.cu",
+      "bytes": 2723,
+      "sha256": "07175b197f3fba9db4dcd4b16ae9c0dd906998688d48e1f82f2724698515caad"
+    },
+    {
+      "path": "engine/src/gpu_round5/gemm_warp_fp64_v1.cu",
+      "bytes": 2751,
+      "sha256": "93d1fb809d6c12973d4ca31531811c8e7eac6d298208d4f5a6fe56773f62753c"
+    },
+    {
+      "path": "engine/src/gpu_round5/t18_fold_literal_v1.cu",
+      "bytes": 2381,
+      "sha256": "8b1f08f9c863e6218f2479c44638922d2d405cc9f07c858ca994303d55b8f401"
+    },
+    {
+      "path": "engine/src/gpu_round5/t18_fold_pragma_v1.cu",
+      "bytes": 1414,
+      "sha256": "4c52ad99abd9472cbf786e817beced8797d626cf7eb9f4c91bed99f085275267"
+    },
+    {
+      "path": "engine/src/gpu_round6/observed_adjoint_products_v1.cu",
+      "bytes": 3849,
+      "sha256": "342dc42853b21279f685729ee1ea86d3d3fb30bb82c57af0fd53e76f1c3b316d"
+    },
+    {
+      "path": "engine/src/gpu_round6/observed_adjoint_shared_v2.cu",
+      "bytes": 4878,
+      "sha256": "dd50b224ca2566f0222e36f472d507c8ac06372acd6c5c67acf9de302a6eb1a8"
+    },
+    {
+      "path": "engine/src/gpu_round6/observed_output_product_v3.cu",
+      "bytes": 2485,
+      "sha256": "2b9dc7d4ee0c1c8106dbcf96a0fc7396d472018cd6a6ffcd4ca3be7a1d5fc8d9"
+    },
+    {
+      "path": "engine/src/gpu_round6/selected_final_vjp_v1.cu",
+      "bytes": 5380,
+      "sha256": "548825c8e1f8c775c57f4039b9549890429f93c6b30dd9eadb9875155ab63384"
+    },
+    {
+      "path": "engine/src/native/publication_graph_host.cpp",
+      "bytes": 941,
+      "sha256": "2bd109640ec83efb8ab5ad87818716f6e2bfcf951b7de318134ba6c02150f312"
+    },
+    {
+      "path": "engine/src/native/torch_graph_host.cpp",
+      "bytes": 4996,
+      "sha256": "6c5945c9cdffb3c38324dfff7167d07ad5b17df22b3f309da7409f5d7d469905"
+    },
+    {
+      "path": "engine/src/native/torch_graph_host.h",
+      "bytes": 1398,
+      "sha256": "cdd87df994698b2a11667cb1bb06fcd1c95b52e4e0a372824259664bdd3d34ba"
+    },
+    {
+      "path": "engine/src/native/torch_graph_host_grouped.cpp",
+      "bytes": 1320,
+      "sha256": "de8dbec9e2489e297f887d696541d541bf9b47c46a309f3d7a6cacffad230a5e"
+    },
+    {
+      "path": "engine/src/native/torch_graph_host_grouped.h",
+      "bytes": 652,
+      "sha256": "b15eeeed86e594f5acf1d75807c01a154739f853990f0b6e9727ed816d91d48a"
+    },
+    {
+      "path": "engine/src/platform_v1_linux/openblas64_bridge.cpp",
+      "bytes": 1171,
+      "sha256": "93ae6e467963c66175e22d94ab62919b01d8913d911a2682fe0166e2e3fe4f68"
+    },
+    {
+      "path": "engine/src/platform_v1_linux/windows.h",
+      "bytes": 4369,
+      "sha256": "55541d64df7bc1227f5fe552c472f5637beb2f7f47e44974b01a925f496952d2"
+    },
+    {
       "path": "engine_pins.json",
       "bytes": 172,
-      "sha256": "e0f8e3b2eb6acb82e930709bd30bc89c6c3373092647dd5c69f8626d89d406d2"
+      "sha256": "f66b10bdf92de6f3f3bea3fac6a2e8c772f219762284753154f75f95c2f699fe"
     },
     {
       "path": "environment.yml",
@@ -3007,16 +4027,6 @@
       "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
     },
     {
-      "path": "licenses/intel-openmp-2025.0.0-haa95532_1165.json",
-      "bytes": 18196,
-      "sha256": "99002541c19c3ebb473a5394a6adfb65a2176ede8c76fe6eb802de58f6b2d76d"
-    },
-    {
-      "path": "licenses/mkl-2023.1.0-h6a75c08_48682.json",
-      "bytes": 11974,
-      "sha256": "5c4d492c08f9d5ba44cbbbe48fe9cce5c2c1151a9f8f6b9c981089fe440cbdba"
-    },
-    {
       "path": "licenses/recovered-v1/README.txt",
       "bytes": 417,
       "sha256": "7b8fb5b24bc75b86a98aab55783c7a131f506001a672363a2e8b6082c080dd21"
@@ -3040,106 +4050,6 @@
       "path": "licenses/recovered-v1/gcc-runtime/RUNTIME.LIBRARY.EXCEPTION",
       "bytes": 3324,
       "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/bzip2-1.0.8-h2bbff1b_6.json",
-      "bytes": 4846,
-      "sha256": "c364f9e15c3d7408133ab209e5314066ec1feaefd0cf02c6ed04aaf959ab51c5"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/cuda-cupti-12.4.127-0.json",
-      "bytes": 149489,
-      "sha256": "b9b15704e1772f864e097147a44d50cd97ca698717300850782a39d145b7cd7d"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/cuda-nvtx-12.4.127-0.json",
-      "bytes": 7220,
-      "sha256": "08fc458c51d99453482c672c2eec5531dcbb8357ba2ffcd7e366067e559bd5b5"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/intel-openmp-2025.0.0-haa95532_1165.json",
-      "bytes": 18194,
-      "sha256": "733ea42a2891faeb9be3b4aa76804e50a014d3de6d8ad36e83f90bea9ce205ab"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/libexpat-2.8.4-hd7fb8db_0.json",
-      "bytes": 4327,
-      "sha256": "84ec75f30bc8f8b9560d60cbc4ffb6d31e93827866e4ee9e146d7c197b618c5c"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/libffi-3.4.8-h42d73b9_3.json",
-      "bytes": 4932,
-      "sha256": "b68cf849de1222ef6c67817df186fd9c695836e00e0c5e1e24cc2a891ea74230"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10.json",
-      "bytes": 1576,
-      "sha256": "f6d63ba851f70ab0e0fb4c557019dbf723106e719df4db0a111058c85930c83d"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/libzlib-1.3.2-h1c6eee0_0.json",
-      "bytes": 1733,
-      "sha256": "4bbee99b11596ddb49e0ab00cbc7f0a8745af02eb79ef3bfe2757689705e9045"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/mingw-headers-installed.json",
-      "bytes": 817466,
-      "sha256": "b151ebf76a63798662c17c0d5d7e22a28f7c306c72e741515330a82509d35a62"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/mkl-2023.1.0-h6a75c08_48682.json",
-      "bytes": 11972,
-      "sha256": "748d20161ddef944287b0c15b60d3dbd4fa2fd76fd1d3c2918a21c3a5438ca07"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/openssl-3.5.8-hbb43b14_0.json",
-      "bytes": 64439,
-      "sha256": "871e77ae5c7e3d14dd4a23d1efb4758e575f91765467d908ff6266af8a4335e2"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/python-3.11.16-hb00fc5c_0.json",
-      "bytes": 900109,
-      "sha256": "f2e91b3a61f93f5d3bc4594afad4e557d5797f45323a9a26261527eb951e173e"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/sqlite-3.53.4-hee5a0db_0.json",
-      "bytes": 2813,
-      "sha256": "19027ec4b3aa6714df05e7eebd422839147abe289eaabf7b4306f1c8ce3953b2"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/tbb-2021.8.0-h59b6b97_0.json",
-      "bytes": 2101,
-      "sha256": "f5c0360461bcefdbd2a434de38964328b8e035b2a9bcb0b26de6d59d7b319321"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/ucrt-10.0.22621.0-haa95532_0.json",
-      "bytes": 33682,
-      "sha256": "ca7f6ce097b96fd87933fd399cc1920e32f65e90b8b846cdbbb61642582465ed"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/vc-14.3-h2df5915_12.json",
-      "bytes": 980,
-      "sha256": "327bef51b43a475a3fad40cadc02b3c9a83a613f6be10cc61f7a9f2a9fe89d39"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/vc14_runtime-14.44.35208-h4927774_12.json",
-      "bytes": 9062,
-      "sha256": "19434516dc96e26dfd91704401780c900bd7e9aaf7ffeb879fed3f4a83c96bb5"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/vs2015_runtime-14.44.35208-ha6b5a95_12.json",
-      "bytes": 1094,
-      "sha256": "30740199a52e0a26cd8318a5fbf2f3edbc12cba91000c0810f909ebe005a7f72"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/xz-5.8.2-h53af0af_0.json",
-      "bytes": 17349,
-      "sha256": "f8b7b26ccec430af096bae3b486b60510dcfaf68d8c74849220a5ae5d52a22b0"
-    },
-    {
-      "path": "licenses/recovered-v1/installed-package-metadata/zlib-1.3.2-h1c6eee0_0.json",
-      "bytes": 6622,
-      "sha256": "b7675b75b3bbcfd25478ba94df61a41ba905774dceb787cb4578dec7f6ba0c11"
     },
     {
       "path": "licenses/recovered-v1/intel-openmp-2025.0.0/license.txt",
@@ -3353,18 +4263,23 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 885,
-      "sha256": "73f8a4ebdaddad4076237887a932c80473929ba758fad6739fd1cb92a6a49fe6"
+      "bytes": 894,
+      "sha256": "594af93ad4294e95bd0f1cdca2ccfe23a54d79ad77623b4053a08c8f013012c0"
     },
     {
       "path": "release_identity.json",
-      "bytes": 1084,
-      "sha256": "1dbb50da1b394022fea1de1e0a610c69b9f51a5d8457d02325e7e5d438e832f8"
+      "bytes": 1055,
+      "sha256": "7ac1d46486fc82f5bbcb04891e6acd7343980daa5058f285732ca524e931cdd7"
     },
     {
       "path": "scripts/check_distribution_metadata.py",
       "bytes": 1306,
       "sha256": "8a1f3bb498f7753081e67efefef0b3865616fc808497ab5e06898d30e0c76836"
+    },
+    {
+      "path": "scripts/conda_openblas64_bridge.cpp",
+      "bytes": 1160,
+      "sha256": "3d554851bda642e8f8d492f6680619a880c0d63f663458f9c5daf9b89d6e12b1"
     },
     {
       "path": "scripts/fetch_pypi_artifacts.py",
@@ -3393,13 +4308,13 @@
     },
     {
       "path": "scripts/rebuild_linux_native.py",
-      "bytes": 3838,
-      "sha256": "dbc900de8263c1208707872dcb537fc7ed1d88b926da7b6c91ad22cd638c243b"
+      "bytes": 6732,
+      "sha256": "c173f90665261d351566553b5f9e85fca86264b649e210e6af251b80b4ce5945"
     },
     {
       "path": "scripts/release_backend.py",
-      "bytes": 5923,
-      "sha256": "e7ca08e4b1bdd721990611d961120888cb67b8756fa8a72a87f03d21648d6ce9"
+      "bytes": 6458,
+      "sha256": "73f12fa9860ab5c67992c19ef5ec6c6e8b056ff1c911d6bdca22498b843f44a5"
     },
     {
       "path": "scripts/run_raw_cds_demo_linux.sh",
@@ -3543,8 +4458,8 @@
     },
     {
       "path": "src/kaksturbo/_version.py",
-      "bytes": 469,
-      "sha256": "8c37d9a815e63afae3004aaf3dbd88a78b46b3406741cd8b43cbdb85273a5196"
+      "bytes": 465,
+      "sha256": "da0caab61d3c88a2d5fecd1f2fe2d0588113a26cb25ffcc0ac69ef8e530a3d74"
     },
     {
       "path": "src/kaksturbo/_windows_reproduce.py",
@@ -3628,8 +4543,8 @@
     },
     {
       "path": "src/kaksturbo/runtime.py",
-      "bytes": 18165,
-      "sha256": "b95c6d38005e9c34cb992cb2f384a9a9957a3ff88e552280eb3fcd89543e19f9"
+      "bytes": 19690,
+      "sha256": "b648e44e5c33dddeb97aa84ced6c7c6388be151b4ebfe9d61a8a2a4635c47ac9"
     },
     {
       "path": "tests/test_compat_export.py",
@@ -3648,8 +4563,8 @@
     },
     {
       "path": "tests/test_release_contracts.py",
-      "bytes": 1854,
-      "sha256": "a36c560635f5dfa83c16fc93986b1fd27c0e62507dec1ad214c07ff364472df3"
+      "bytes": 1850,
+      "sha256": "fc32d4e8f3d7695981a3555572e428160319a5cb9f488f419e5194b8b6c686bf"
     },
     {
       "path": "tests/test_windows_paths.py",

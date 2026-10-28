@@ -1,0 +1,8 @@
+{
+  "schema": "kaksforge.historical_compiler_identity/1",
+  "scope": "Recorded compiler used to create immutable PTX; compiler is not required or loaded for inference",
+  "files": {
+    "nvrtc64_120_0.dll": "0cc63349fedffeec1660b30955e8028b6e4e4c26cf1e41c56dc4569fd5eca82c",
+    "nvrtc-builtins64_129.dll": "c405226b0b394ed8bdc593bb1419b94a989f93248ed2873e8f2e0e27c1688ca1"
+  }
+}

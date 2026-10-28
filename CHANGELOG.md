@@ -1,5 +1,11 @@
 # Changelog
 
+## Conda source — 1.1.0
+
+- Build the Linux native engine from pinned sources against Conda-managed ILP64 OpenBLAS, with relocatable paths and build-time dependency integrity checks.
+- Preserve the qualified first-party GPU PTX and scientific settings. Linux CPU/GPU regression and the raw-CDS tutorial were validated locally; Bioconda review and publication remain pending.
+- Retain the previously published rc10 PyPI and portable packages. Existing projected-gradient limitations remain documented.
+
 ## Package-index publication — 1.1.0rc10
 
 - Publish Linux manylinux_2_17_x86_64 and Windows x86-64 wheels plus a licensed source archive on PyPI.

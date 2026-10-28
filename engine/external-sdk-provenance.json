@@ -1,0 +1,11 @@
+{
+  "cuda_driver_header": {
+    "historical_path": "envs/cuda-torch/include/cuda.h",
+    "sha256": "e92376169061ab3f7ec1d2a758de3f477ab5f3e6ae3baee075c069f9c1224a91",
+    "scope": "Historical ABI source identity only. Header is not redistributed, read, compiled or required at runtime.",
+    "license_reference": "https://docs.nvidia.com/cuda/archive/12.4.1/eula/index.html"
+  },
+  "driver_external": true,
+  "CUDA_Toolkit_external": true,
+  "numerical_algorithm_changed": false
+}

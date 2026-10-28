@@ -13,6 +13,8 @@
 
 </div>
 
+> This 1.1.0 source tag prepares the Bioconda build. The currently published PyPI wheels and portable downloads remain on the documented release-candidate versions; Bioconda availability is subject to review.
+
 KaKsTurbo estimates nonsynonymous (**Ka**) and synonymous (**Ks**) substitution rates and their ratio from codon-aligned homologous gene pairs. It combines **complete fourteen-model averaging**, **structured FP64 matrix computation**, and **boundary-constrained optimization** with parallel CPU and batched GPU execution. Both backends share the same model definitions and numerical policies.
 
 Each analysis retains candidate-model weights, optimization diagnostics, and explicit reasons for unavailable estimates. **Resumable runs and standardized TSV/JSONL results** support reproducible batch analyses, while the [CDS/PEP workflow](docs/RAW_CDS_TUTORIAL.md) connects raw sequence preparation to Ka/Ks estimation.

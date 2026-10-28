@@ -2,7 +2,7 @@
 from pathlib import Path
 import base64,csv,hashlib,io,json,os,sys,tarfile,zipfile
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='1.1.0rc10'
+VERSION='1.1.0'
 DIST=f'kaksturbo-{VERSION}.dist-info'
 def wheel_tag(platform):return 'manylinux_2_17_x86_64' if platform=='linux_x86_64' else platform
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -40,7 +40,7 @@ def metadata(platform,sdist=False):
  'Requires-Python: >=3.11\nMaintainer: Taishan Li\nMaintainer-email: litaishan@caf.ac.cn\n'
  'License-Expression: GPL-3.0-only\nLicense-File: LICENSE\n'+
  ''.join('License-File: '+n+'\n' for n in sorted(set(license_names)))+
- 'Classifier: Development Status :: 4 - Beta\nClassifier: Programming Language :: Python :: 3\n'
+ 'Classifier: Development Status :: 5 - Production/Stable\nClassifier: Programming Language :: Python :: 3\n'
  'Project-URL: Source, https://github.com/707728642li/KaKsTurbo\n'
  'Project-URL: Issues, https://github.com/707728642li/KaKsTurbo/issues\n'
  'Description-Content-Type: text/markdown\n\n'+(ROOT/('README_PYPI.md' if (ROOT/'README_PYPI.md').is_file() else 'README.md')).read_text(encoding='utf8'))
@@ -51,6 +51,13 @@ def prepare_metadata_for_build_wheel(metadata_directory,config_settings=None):
  return DIST
 def build_wheel(wheel_directory,config_settings=None,metadata_directory=None):
  platform=platform_name(config_settings);runtime,manifest=engine(platform)
+ if platform=='linux_x86_64':
+  required=('build/cpu-backend-v1-reviewed/libkaks_cpu_backend.so',
+            'build/cpu-gradient-v2/libkaks_cpu_gradient.so',
+            'build/gradient-optimizer-schur-v1/libkaks_optimizer.so',
+            'envs-runtime/linux/blas/libkaks_blas64.so')
+  missing=[n for n in required if n not in manifest['files'] or not (runtime/n).is_file()]
+  if missing:raise ValueError('Linux native engine is not built; use the Conda build or an official prebuilt package. Missing: '+', '.join(missing))
  files={}
  for pkg in ('kaksturbo','kaksforge'):
   for p in sorted((ROOT/'src'/pkg).glob('*.py')):files[pkg+'/'+p.name]=p

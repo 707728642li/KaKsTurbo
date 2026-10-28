@@ -10,7 +10,7 @@ KaKsTurbo estimates nonsynonymous and synonymous substitution rates (Ka and Ks),
 
 ## Installation
 
-This is a **release candidate**, version **1.1.0rc10**. Use Python **3.11 or later** on **Linux x86-64 (glibc >=2.17)** or **Windows x86-64**. ARM and macOS are not supported by these native wheels.
+This **1.1.0** source snapshot prepares a Bioconda build. The currently published PyPI wheels remain release candidate **1.1.0rc10**. Use Python **3.11 or later** on **Linux x86-64 (glibc >=2.17)** or **Windows x86-64**. ARM and macOS are not supported by these native wheels.
 
 ```bash
 python -m pip install --only-binary=:all: kaksturbo==1.1.0rc10

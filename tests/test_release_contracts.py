@@ -9,7 +9,7 @@ import kaksturbo,kaksforge
 class Contracts(unittest.TestCase):
  def setUp(self):
   self.temp_root=Path(__file__).resolve().parents[1]/'.test-tmp';self.temp_root.mkdir(exist_ok=True)
- def test_version(self):self.assertEqual(kaksturbo.__version__,"1.1.0rc10")
+ def test_version(self):self.assertEqual(kaksturbo.__version__,"1.1.0")
  def test_legacy_alias(self):self.assertIs(kaksturbo.fit_file,kaksforge.fit_file)
  def test_small_vm_threads(self):
   with patch('kaksturbo.models.os.sched_getaffinity',return_value={0,1},create=True):

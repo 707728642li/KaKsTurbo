@@ -5,14 +5,13 @@
   },
   "planned_repository": "https://github.com/707728642li/KaKsTurbo",
   "license": "GPL-3.0-only",
-  "public_version": "1.1.0rc10",
+  "public_version": "1.1.0",
   "origin_interface": "1.1.0rc6+schur.1",
   "engine_version": "1.1.0rc4+schur.1",
   "pins": {
     "win_amd64": "e055ef1bab36e52bbcc9b14e4fffd5b1c40609e5f7e05910f29d9a343e03fe71",
-    "linux_x86_64": "3eee05fbeb191301f0548e4d5c21660f958c782966d7e3e8dc3d60d316d93f96"
+    "linux_x86_64": "42f4b30343ec6da10f957816099881728be12aa2be1e361e41521aa7d9c897ea"
   },
-  "published": false,
   "scientific_algorithm_changed": false,
   "Windows_BLAS": "OpenBLAS ILP64 from NumPy 2.4.6; MKL removed",
   "CPU_GPU_platforms": [
@@ -21,7 +20,7 @@
   ],
   "cuda_sdk_header_redistributed": false,
   "origin_release": "1.1.0rc9-tutorial1",
-  "release_scope": "Windows long-path IO and launcher fix; unchanged numerical engines",
+  "release_scope": "Conda source build; historical first-party GPU PTX retained; numerical qualification required",
   "native_source_rebuilt": false,
   "glibc_target": "2.17",
   "launcher_rebuilt": true,
